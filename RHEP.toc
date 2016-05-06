@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}Transient Hypogammaglobulinemia of infancy}{2}
+\contentsline {subsection}{\numberline {1.1}Review of etiology and theories: \citeauthor {Ovadia14} \citeyear {Ovadia14}}{2}
+\contentsline {subsection}{\numberline {1.2}B cell features in transient hypogammaglobulinemia of infancy}{3}
+\contentsline {subsubsection}{\numberline {1.2.1}B cells in hypogammaglobulinemia - \citeauthor {Fiorilli86} \citeyear {Fiorilli86}}{3}
+\contentsline {subsubsection}{\numberline {1.2.2}Subsets of transient hypogammaglobulinemia of infancy \citeauthor {Dalal98} \citeyear {Dalal98}}{4}
+\contentsline {section}{\numberline {2}Lineage commitment and methylation status in other cells}{4}
+\contentsline {subsection}{\numberline {2.1}Methylation}{5}
+\contentsline {subsection}{\numberline {2.2}T cells}{5}
+\contentsline {subsubsection}{\numberline {2.2.1}\citeauthor {Begin14}\citeyear {Begin14}: T cell methylation in development}{5}
+\contentsline {subsubsection}{\numberline {2.2.2}\citeauthor {Schmidl09} \citeyear {Schmidl09}: Differentially methylated regions that may be enhancers}{6}
+\contentsline {section}{\numberline {3}B cell development and differentiation}{7}
+\contentsline {subsection}{\numberline {3.1}Stages and markers of B cell differentiation:}{7}
+\contentsline {subsection}{\numberline {3.2}Transcription factors in B cell development}{7}
+\contentsline {subsubsection}{\numberline {3.2.1}Pu.1}{7}
+\contentsline {subsubsection}{\numberline {3.2.2}IKAROS}{8}
+\contentsline {subsubsection}{\numberline {3.2.3}E2A}{8}
+\contentsline {subsubsection}{\numberline {3.2.4}EBF1}{8}
+\contentsline {subsubsection}{\numberline {3.2.5}Pax5}{8}
+\contentsline {subsubsection}{\numberline {3.2.6}FoxO1**}{8}
+\contentsline {subsubsection}{\numberline {3.2.7}c-Myb and Runx}{9}
+\contentsline {subsection}{\numberline {3.3}Transcription factors in B cell differentiation - \citeauthor {Li13} \citeyear {Li13}}{9}
+\contentsline {subsection}{\numberline {3.4}DNA methylation in B cells during maturation and differentiation}{10}
+\contentsline {subsubsection}{\numberline {3.4.1}Why epigenetics?}{10}
+\contentsline {subsubsection}{\numberline {3.4.2}Methylation status in B cells}{10}
+\contentsline {section}{\numberline {4}Proposal}{11}
