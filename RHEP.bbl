@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{25}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -52,6 +52,12 @@ GITLIN, D. and JANEWAY, C.~A. (1956).
 \newblock Agammaglobulinemia, congenital, acquired and transient forms.
 \newblock \emph{Progress in hematology}, 1:\penalty0 318--29.
 
+\bibitem[Rosen and Janeway(1966)]{Rosen66}
+Rosen, F.~S. and Janeway, C.~A. (1966).
+\newblock The gamma globulins: the antibody deficiency syndromes.
+\newblock \emph{New England Journal of Medicine}, 275\penalty0 (13):\penalty0
+  709--715.
+
 \bibitem[Tiller and Buckley(1978)]{Tiller78}
 Tiller, Jr, T.~L. and Buckley, R.~H. (1978).
 \newblock Transient hypogammaglobulinemia of infancy: review of the literature,
@@ -82,12 +88,6 @@ Al-{H}erz, W., Bousfiha, A., Casanova, J.-L., Chapel, H., Conley, M.~E.,
   primary immunodeficiency.
 \newblock \emph{Frontiers in immunology}, 2:\penalty0 54.
 
-\bibitem[Rosen and Janeway(1966)]{Rosen66}
-Rosen, F.~S. and Janeway, C.~A. (1966).
-\newblock The gamma globulins: the antibody deficiency syndromes.
-\newblock \emph{New England Journal of Medicine}, 275\penalty0 (13):\penalty0
-  709--715.
-
 \bibitem[Cooper(2015)]{Cooper15}
 Cooper, M.~D. (2015).
 \newblock The early history of {B} cells.
@@ -97,6 +97,24 @@ Cooper, M.~D. (2015).
 Ovadia, A. and Dalal, I. (2014).
 \newblock Transient hypogammaglobulinemia of infancy.
 \newblock \emph{LymphoSign Journal}, 1\penalty0 (1):\penalty0 1--9.
+
+\bibitem[FUDENBERG and FUDENBERG(1964)]{Fudenberg64}
+FUDENBERG, H.~H. and FUDENBERG, B.~R. (1964).
+\newblock Antibody to hereditary human gamma-globulin ({GM}) factor resulting
+  from maternal-fetal incompatibility.
+\newblock \emph{Science}, 145\penalty0 (3628):\penalty0 170--1.
+
+\bibitem[Nathenson et~al.(1971)Nathenson, Schorr, and Litwin]{Nathenson71}
+Nathenson, G., Schorr, J.~B., and Litwin, S.~D. (1971).
+\newblock Gm factor fetomaternal gamma globulin incompatibility.
+\newblock \emph{Pediatric Research}, 5\penalty0 (1):\penalty0 2--9.
+
+\bibitem[Soothill(1968)]{Soothill68}
+Soothill, J.~F. (1968).
+\newblock Immunoglobulins in first-degree relatives of patients with
+  hypogammaglobulinaemia. transient hypogammaglobulinaemia: a possible
+  manifestation of heterozygocity.
+\newblock \emph{Lancet}, 1\penalty0 (7550):\penalty0 1001--3.
 
 \bibitem[Fiorilli et~al.(1986)Fiorilli, Crescenzi, Carbonari, Tedesco, Russo,
   Gaetano, and Aiuti]{Fiorilli86}
