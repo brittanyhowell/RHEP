@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -18,11 +18,6 @@ Martin, R., Nauta, A.~J., Ben~Amor, K., Knippels, L. M.~J., Knol, J., and
 \newblock Early life: gut microbiota and immune development in infancy.
 \newblock \emph{Beneficial microbes}, 1\penalty0 (4):\penalty0 367--82.
 
-\bibitem[Cooper(2015)]{Cooper15}
-Cooper, M.~D. (2015).
-\newblock The early history of {B} cells.
-\newblock \emph{Nature reviews. Immunology}, 15\penalty0 (3):\penalty0 191--7.
-
 \bibitem[Rechavi et~al.(2015)Rechavi, Lev, Lee, Simon, Yinon, Lipitz,
   Amariglio, Weisz, Notarangelo, and Somech]{Rechavi15}
 Rechavi, E., Lev, A., Lee, Y.~N., Simon, A.~J., Yinon, Y., Lipitz, S.,
@@ -32,18 +27,6 @@ Rechavi, E., Lev, A., Lee, Y.~N., Simon, A.~J., Yinon, Y., Lipitz, S.,
 \newblock \emph{Science translational medicine}, 7\penalty0 (276):\penalty0
   276ra25.
 
-\bibitem[Kohler and Farr(1966)]{Kohler66}
-Kohler, P.~F. and Farr, R.~S. (1966).
-\newblock Elevation of cord over maternal {IgG} immunoglobulin: evidence for an
-  active placental {IgG} transport.
-\newblock \emph{Nature}, 210\penalty0 (5040):\penalty0 1070--1.
-
-\bibitem[Dalal et~al.(1998)Dalal, Reid, Nisbet-Brown, and Roifman]{Dalal98}
-Dalal, I., Reid, B., Nisbet-Brown, E., and Roifman, C.~M. (1998).
-\newblock The outcome of patients with hypogammaglobulinemia in infancy and
-  early childhood.
-\newblock \emph{The Journal of pediatrics}, 133\penalty0 (1):\penalty0 144--6.
-
 \bibitem[Dressler et~al.(1989)Dressler, Peter, M{\"u}ller, and
   Rieger]{Dressler89}
 Dressler, F., Peter, H.~H., M{\"u}ller, W., and Rieger, C.~H. (1989).
@@ -52,16 +35,22 @@ Dressler, F., Peter, H.~H., M{\"u}ller, W., and Rieger, C.~H. (1989).
 \newblock \emph{Acta paediatrica Scandinavica}, 78\penalty0 (5):\penalty0
   767--74.
 
+\bibitem[Al-{H}erz et~al.(2014)Al-{H}erz, Bousfiha, Casanova, Chatila, Conley,
+  Cunningham-{R}undles, Etzioni, Franco, Gaspar, Holland, Klein, Nonoyama,
+  Ochs, Oksenhendler, Picard, Puck, Sullivan, and Tang]{Alherz14}
+Al-{H}erz, W., Bousfiha, A., Casanova, J.-L., Chatila, T., Conley, M.~E.,
+  Cunningham-{R}undles, C., Etzioni, A., Franco, J.~L., Gaspar, H.~B., Holland,
+  S.~M., Klein, C., Nonoyama, S., Ochs, H.~D., Oksenhendler, E., Picard, C.,
+  Puck, J.~M., Sullivan, K., and Tang, M. L.~K. (2014).
+\newblock Primary immunodeficiency diseases: an update on the classification
+  from the international union of immunological societies expert committee for
+  primary immunodeficiency.
+\newblock \emph{Frontiers in immunology}, 5:\penalty0 162.
+
 \bibitem[GITLIN and JANEWAY(1956)]{Gitlin56}
 GITLIN, D. and JANEWAY, C.~A. (1956).
 \newblock Agammaglobulinemia, congenital, acquired and transient forms.
 \newblock \emph{Progress in hematology}, 1:\penalty0 318--29.
-
-\bibitem[Rosen and Janeway(1966)]{Rosen66}
-Rosen, F.~S. and Janeway, C.~A. (1966).
-\newblock The gamma globulins: the antibody deficiency syndromes.
-\newblock \emph{New England Journal of Medicine}, 275\penalty0 (13):\penalty0
-  709--715.
 
 \bibitem[Tiller and Buckley(1978)]{Tiller78}
 Tiller, Jr, T.~L. and Buckley, R.~H. (1978).
@@ -74,6 +63,35 @@ McGeady, S.~J. (1987).
 \newblock Transient hypogammaglobulinemia of infancy: need to reconsider name
   and definition.
 \newblock \emph{The Journal of pediatrics}, 110\penalty0 (1):\penalty0 47--50.
+
+\bibitem[Dalal et~al.(1998)Dalal, Reid, Nisbet-Brown, and Roifman]{Dalal98}
+Dalal, I., Reid, B., Nisbet-Brown, E., and Roifman, C.~M. (1998).
+\newblock The outcome of patients with hypogammaglobulinemia in infancy and
+  early childhood.
+\newblock \emph{The Journal of pediatrics}, 133\penalty0 (1):\penalty0 144--6.
+
+\bibitem[Al-{H}erz et~al.(2011)Al-{H}erz, Bousfiha, Casanova, Chapel, Conley,
+  Cunningham-{R}undles, Etzioni, Fischer, Franco, Geha, Hammarstr{\"o}m,
+  Nonoyama, Notarangelo, Ochs, Puck, Roifman, Seger, and Tang]{Alherz11}
+Al-{H}erz, W., Bousfiha, A., Casanova, J.-L., Chapel, H., Conley, M.~E.,
+  Cunningham-{R}undles, C., Etzioni, A., Fischer, A., Franco, J.~L., Geha,
+  R.~S., Hammarstr{\"o}m, L., Nonoyama, S., Notarangelo, L.~D., Ochs, H.~D.,
+  Puck, J.~M., Roifman, C.~M., Seger, R., and Tang, M. L.~K. (2011).
+\newblock Primary immunodeficiency diseases: an update on the classification
+  from the international union of immunological societies expert committee for
+  primary immunodeficiency.
+\newblock \emph{Frontiers in immunology}, 2:\penalty0 54.
+
+\bibitem[Rosen and Janeway(1966)]{Rosen66}
+Rosen, F.~S. and Janeway, C.~A. (1966).
+\newblock The gamma globulins: the antibody deficiency syndromes.
+\newblock \emph{New England Journal of Medicine}, 275\penalty0 (13):\penalty0
+  709--715.
+
+\bibitem[Cooper(2015)]{Cooper15}
+Cooper, M.~D. (2015).
+\newblock The early history of {B} cells.
+\newblock \emph{Nature reviews. Immunology}, 15\penalty0 (3):\penalty0 191--7.
 
 \bibitem[Ovadia and Dalal(2014)]{Ovadia14}
 Ovadia, A. and Dalal, I. (2014).
