@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RHEP.aux
 The style file: bens2.bst
 Database file #1: ../literature.bib
-You've used 14 entries,
+You've used 18 entries,
             2380 wiz_defined-function locations,
-            670 strings with 7937 characters,
-and the built_in function-call counts, 6269 in all, are:
-= -- 432
-> -- 574
-< -- 5
-+ -- 206
-- -- 178
-* -- 667
-:= -- 1153
-add.period$ -- 42
-call.type$ -- 14
-change.case$ -- 28
-chr.to.int$ -- 14
-cite$ -- 14
-duplicate$ -- 196
-empty$ -- 381
-format.name$ -- 200
-if$ -- 1203
+            703 strings with 8718 characters,
+and the built_in function-call counts, 7794 in all, are:
+= -- 555
+> -- 674
+< -- 8
++ -- 244
+- -- 208
+* -- 812
+:= -- 1419
+add.period$ -- 54
+call.type$ -- 18
+change.case$ -- 36
+chr.to.int$ -- 18
+cite$ -- 18
+duplicate$ -- 252
+empty$ -- 492
+format.name$ -- 238
+if$ -- 1509
 int.to.chr$ -- 1
-int.to.str$ -- 15
-missing$ -- 14
-newline$ -- 78
-num.names$ -- 42
-pop$ -- 56
+int.to.str$ -- 19
+missing$ -- 18
+newline$ -- 98
+num.names$ -- 54
+pop$ -- 72
 preamble$ -- 1
-purify$ -- 14
+purify$ -- 18
 quote$ -- 0
-skip$ -- 122
+skip$ -- 159
 stack$ -- 0
-substring$ -- 259
-swap$ -- 28
+substring$ -- 339
+swap$ -- 36
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 98
+type$ -- 126
 warning$ -- 0
-while$ -- 45
+while$ -- 57
 width$ -- 0
-write$ -- 189
+write$ -- 241
