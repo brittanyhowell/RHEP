@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.2)  22 MAY 2016 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.2)  6 JUN 2016 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -221,18 +221,18 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (./RHEP.aux)
 \openout1 = `RHEP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -268,14 +268,14 @@ LaTeX Font Info:    ... okay on input line 23.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 23.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 23.
+LaTeX Info: Redefining \celsius on input line 22.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 22.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 23.
-Package gensymb Info: Using \Omega for \ohm on input line 23.
+LaTeX Info: Redefining \ohm on input line 22.
+Package gensymb Info: Using \Omega for \ohm on input line 22.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -336,74 +336,83 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 24.
+LaTeX Font Info:    Try loading font information for U+msa on input line 23.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 24.
+LaTeX Font Info:    Try loading font information for U+msb on input line 23.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./RHEP.toc
+)
+<../Figures/Bcelldiff.png, id=1, 1154.8746pt x 245.718pt>
+File: ../Figures/Bcelldiff.png Graphic file (type png)
+
+<use ../Figures/Bcelldiff.png>
+Package pdftex.def Info: ../Figures/Bcelldiff.png used on input line 41.
+(pdftex.def)             Requested size: 477.72212pt x 101.64487pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 41--42
+ [][] 
+ []
+
 [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-\tf@toc=\write3
-\openout3 = `RHEP.toc'.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Figu
+res/Bcelldiff.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
  [2] [3] [4]
-Overfull \hbox (11.22142pt too wide) in paragraph at lines 105--106
+Overfull \hbox (11.22142pt too wide) in paragraph at lines 132--133
 []\OT1/cmr/m/n/12 The IL-4 lo-cus of Th2 cells is also marked with per-mis-sive
  hi-s-tone mod-i-fi-ca-tions (H3K4me3)
  []
 
 [5] [6] [7] [8]
-Overfull \hbox (1.59254pt too wide) in paragraph at lines 223--224
+Overfull \hbox (1.59254pt too wide) in paragraph at lines 250--251
 []\OT1/cmr/m/n/12 DNA hy-pomethy-la-tion seems to be im-por-tant, as B cells ca
 r-ry-ing iden-ti-cal pre-rearranged
  []
 
-[9]
-Overfull \hbox (0.8362pt too wide) in paragraph at lines 232--238
+
+Overfull \hbox (0.8362pt too wide) in paragraph at lines 259--265
 [][] 
  []
 
 
-Overfull \hbox (18.31325pt too wide) in paragraph at lines 245--246
+Overfull \hbox (18.31325pt too wide) in paragraph at lines 272--273
 []\OT1/cmr/m/n/12 Lara-Astiaso et al.$[]$$[]$$[]$ noted that mu-ta-tions in los
 s of chro-matin fac-tors lead to haematopoiesis
  []
 
-[10] [11] (./RHEP.bbl [12]) [13] (./RHEP.aux) ) 
+[9] [10] (./RHEP.bbl [11]) [12] (./RHEP.aux) ) 
 Here is how much of TeX's memory you used:
- 4105 strings out of 493089
- 56682 string characters out of 6134843
- 130775 words of memory out of 5000000
- 7498 multiletter control sequences out of 15000+600000
- 13367 words of font info for 51 fonts, out of 8000000 for 9000
+ 4125 strings out of 493089
+ 57051 string characters out of 6134843
+ 130998 words of memory out of 5000000
+ 7518 multiletter control sequences out of 15000+600000
+ 13666 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,8n,35p,587b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti12.pfb>
-Output written on RHEP.pdf (13 pages, 126759 bytes).
+ 40i,8n,35p,587b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti12.pfb>
+Output written on RHEP.pdf (12 pages, 191645 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
