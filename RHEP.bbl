@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -37,7 +37,7 @@ Dressler, F., Peter, H.~H., M{\"u}ller, W., and Rieger, C.~H. (1989).
 
 \bibitem[Al-{H}erz et~al.(2014)Al-{H}erz, Bousfiha, Casanova, Chatila, Conley,
   Cunningham-{R}undles, Etzioni, Franco, Gaspar, Holland, Klein, Nonoyama,
-  Ochs, Oksenhendler, Picard, Puck, Sullivan, and Tang]{Alherz14}
+  Ochs, Oksenhendler, Picard, Puck, Sullivan, and Tang]{AlHerz14}
 Al-{H}erz, W., Bousfiha, A., Casanova, J.-L., Chatila, T., Conley, M.~E.,
   Cunningham-{R}undles, C., Etzioni, A., Franco, J.~L., Gaspar, H.~B., Holland,
   S.~M., Klein, C., Nonoyama, S., Ochs, H.~D., Oksenhendler, E., Picard, C.,
@@ -64,6 +64,12 @@ Tiller, Jr, T.~L. and Buckley, R.~H. (1978).
   clinical and immunologic features of 11 new cases, and long-term follow-up.
 \newblock \emph{The Journal of pediatrics}, 92\penalty0 (3):\penalty0 347--53.
 
+\bibitem[Buckley(1983)]{Buckley83}
+Buckley, R.~H. (1983).
+\newblock Immunodeficiency.
+\newblock \emph{The Journal of allergy and clinical immunology}, 72\penalty0
+  (6):\penalty0 627--41.
+
 \bibitem[McGeady(1987)]{McGeady87}
 McGeady, S.~J. (1987).
 \newblock Transient hypogammaglobulinemia of infancy: need to reconsider name
@@ -78,7 +84,7 @@ Dalal, I., Reid, B., Nisbet-Brown, E., and Roifman, C.~M. (1998).
 
 \bibitem[Al-{H}erz et~al.(2011)Al-{H}erz, Bousfiha, Casanova, Chapel, Conley,
   Cunningham-{R}undles, Etzioni, Fischer, Franco, Geha, Hammarstr{\"o}m,
-  Nonoyama, Notarangelo, Ochs, Puck, Roifman, Seger, and Tang]{Alherz11}
+  Nonoyama, Notarangelo, Ochs, Puck, Roifman, Seger, and Tang]{AlHerz11}
 Al-{H}erz, W., Bousfiha, A., Casanova, J.-L., Chapel, H., Conley, M.~E.,
   Cunningham-{R}undles, C., Etzioni, A., Fischer, A., Franco, J.~L., Geha,
   R.~S., Hammarstr{\"o}m, L., Nonoyama, S., Notarangelo, L.~D., Ochs, H.~D.,
@@ -88,18 +94,13 @@ Al-{H}erz, W., Bousfiha, A., Casanova, J.-L., Chapel, H., Conley, M.~E.,
   primary immunodeficiency.
 \newblock \emph{Frontiers in immunology}, 2:\penalty0 54.
 
-\bibitem[Cooper(2015)]{Cooper15}
-Cooper, M.~D. (2015).
-\newblock The early history of {B} cells.
-\newblock \emph{Nature reviews. Immunology}, 15\penalty0 (3):\penalty0 191--7.
-
 \bibitem[Ovadia and Dalal(2014)]{Ovadia14}
 Ovadia, A. and Dalal, I. (2014).
 \newblock Transient hypogammaglobulinemia of infancy.
 \newblock \emph{LymphoSign Journal}, 1\penalty0 (1):\penalty0 1--9.
 
-\bibitem[FUDENBERG and FUDENBERG(1964)]{Fudenberg64}
-FUDENBERG, H.~H. and FUDENBERG, B.~R. (1964).
+\bibitem[Fudenberg and Fudenberg(1964)]{Fudenberg64}
+Fudenberg, H.~H. and Fudenberg, B.~R. (1964).
 \newblock Antibody to hereditary human gamma-globulin ({GM}) factor resulting
   from maternal-fetal incompatibility.
 \newblock \emph{Science}, 145\penalty0 (3628):\penalty0 170--1.
@@ -115,6 +116,22 @@ Soothill, J.~F. (1968).
   hypogammaglobulinaemia. transient hypogammaglobulinaemia: a possible
   manifestation of heterozygocity.
 \newblock \emph{Lancet}, 1\penalty0 (7550):\penalty0 1001--3.
+
+\bibitem[Siegel et~al.(1981)Siegel, Issekutz, Schwaber, Rosen, and
+  Geha]{Siegel81}
+Siegel, R.~L., Issekutz, T., Schwaber, J., Rosen, F.~S., and Geha, R.~S.
+  (1981).
+\newblock Deficiency of t helper cells in transient hypogammaglobulinemia of
+  infancy.
+\newblock \emph{The New England journal of medicine}, 305\penalty0
+  (22):\penalty0 1307--13.
+
+\bibitem[Kowalczyk et~al.(1997)Kowalczyk, Mytar, and Zembala]{Kowalczyk97}
+Kowalczyk, D., Mytar, B., and Zembala, M. (1997).
+\newblock Cytokine production in transient hypogammaglobulinemia and isolated
+  {IgA} deficiency.
+\newblock \emph{The Journal of allergy and clinical immunology}, 100\penalty0
+  (4):\penalty0 556--62.
 
 \bibitem[Fiorilli et~al.(1986)Fiorilli, Crescenzi, Carbonari, Tedesco, Russo,
   Gaetano, and Aiuti]{Fiorilli86}

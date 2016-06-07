@@ -1,46 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RHEP.aux
-The style file: bens2.bst
+The style file: BrittSuperScript.bst
 Database file #1: ../literature.bib
-You've used 25 entries,
+You've used 27 entries,
             2380 wiz_defined-function locations,
-            758 strings with 10773 characters,
-and the built_in function-call counts, 11031 in all, are:
-= -- 763
-> -- 999
+            776 strings with 11187 characters,
+and the built_in function-call counts, 11827 in all, are:
+= -- 827
+> -- 1053
 < -- 10
-+ -- 360
-- -- 310
-* -- 1165
-:= -- 2026
-add.period$ -- 75
-call.type$ -- 25
-change.case$ -- 50
-chr.to.int$ -- 25
-cite$ -- 25
-duplicate$ -- 350
-empty$ -- 678
-format.name$ -- 349
-if$ -- 2122
++ -- 380
+- -- 326
+* -- 1247
+:= -- 2164
+add.period$ -- 81
+call.type$ -- 27
+change.case$ -- 54
+chr.to.int$ -- 27
+cite$ -- 27
+duplicate$ -- 378
+empty$ -- 736
+format.name$ -- 367
+if$ -- 2282
 int.to.chr$ -- 1
-int.to.str$ -- 26
-missing$ -- 25
-newline$ -- 133
-num.names$ -- 75
-pop$ -- 100
+int.to.str$ -- 28
+missing$ -- 27
+newline$ -- 143
+num.names$ -- 81
+pop$ -- 108
 preamble$ -- 1
-purify$ -- 25
+purify$ -- 27
 quote$ -- 0
-skip$ -- 218
+skip$ -- 234
 stack$ -- 0
-substring$ -- 459
-swap$ -- 50
+substring$ -- 505
+swap$ -- 54
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 175
+type$ -- 189
 warning$ -- 0
-while$ -- 79
+while$ -- 85
 width$ -- 0
-write$ -- 332
+write$ -- 358
