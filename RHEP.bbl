@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{29}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -27,6 +27,12 @@ Rechavi, E., Lev, A., Lee, Y.~N., Simon, A.~J., Yinon, Y., Lipitz, S.,
 \newblock \emph{Science translational medicine}, 7\penalty0 (276):\penalty0
   276ra25.
 
+\bibitem[Stiehm and Fulginity(1980)]{Stiemh80}
+Stiehm, E.~R. and Fulginity, V.~A. (1980).
+\newblock \emph{Immunologic Disorders in Infants and Children}, chapter The
+  immunodeficiencies of immaturity, pages 219--238.
+\newblock W.B Saunders Company, Philadelphia, second edition.
+
 \bibitem[Dressler et~al.(1989)Dressler, Peter, M{\"u}ller, and
   Rieger]{Dressler89}
 Dressler, F., Peter, H.~H., M{\"u}ller, W., and Rieger, C.~H. (1989).
@@ -47,28 +53,28 @@ Al-{H}erz, W., Bousfiha, A., Casanova, J.-L., Chatila, T., Conley, M.~E.,
   primary immunodeficiency.
 \newblock \emph{Frontiers in immunology}, 5:\penalty0 162.
 
-\bibitem[GITLIN and JANEWAY(1956)]{Gitlin56}
-GITLIN, D. and JANEWAY, C.~A. (1956).
+\bibitem[Gitlin and Janeway(1956)]{Gitlin56}
+Gitlin, D. and Janeway, C.~A. (1956).
 \newblock Agammaglobulinemia, congenital, acquired and transient forms.
 \newblock \emph{Progress in hematology}, 1:\penalty0 318--29.
+
+\bibitem[Al-{H}erz et~al.(2011)Al-{H}erz, Bousfiha, Casanova, Chapel, Conley,
+  Cunningham-{R}undles, Etzioni, Fischer, Franco, Geha, Hammarstr{\"o}m,
+  Nonoyama, Notarangelo, Ochs, Puck, Roifman, Seger, and Tang]{AlHerz11}
+Al-{H}erz, W., Bousfiha, A., Casanova, J.-L., Chapel, H., Conley, M.~E.,
+  Cunningham-{R}undles, C., Etzioni, A., Fischer, A., Franco, J.~L., Geha,
+  R.~S., Hammarstr{\"o}m, L., Nonoyama, S., Notarangelo, L.~D., Ochs, H.~D.,
+  Puck, J.~M., Roifman, C.~M., Seger, R., and Tang, M. L.~K. (2011).
+\newblock Primary immunodeficiency diseases: an update on the classification
+  from the international union of immunological societies expert committee for
+  primary immunodeficiency.
+\newblock \emph{Frontiers in immunology}, 2:\penalty0 54.
 
 \bibitem[Rosen and Janeway(1966)]{Rosen66}
 Rosen, F.~S. and Janeway, C.~A. (1966).
 \newblock The gamma globulins: the antibody deficiency syndromes.
 \newblock \emph{New England Journal of Medicine}, 275\penalty0 (13):\penalty0
   709--715.
-
-\bibitem[Tiller and Buckley(1978)]{Tiller78}
-Tiller, Jr, T.~L. and Buckley, R.~H. (1978).
-\newblock Transient hypogammaglobulinemia of infancy: review of the literature,
-  clinical and immunologic features of 11 new cases, and long-term follow-up.
-\newblock \emph{The Journal of pediatrics}, 92\penalty0 (3):\penalty0 347--53.
-
-\bibitem[Buckley(1983)]{Buckley83}
-Buckley, R.~H. (1983).
-\newblock Immunodeficiency.
-\newblock \emph{The Journal of allergy and clinical immunology}, 72\penalty0
-  (6):\penalty0 627--41.
 
 \bibitem[McGeady(1987)]{McGeady87}
 McGeady, S.~J. (1987).
@@ -82,17 +88,17 @@ Dalal, I., Reid, B., Nisbet-Brown, E., and Roifman, C.~M. (1998).
   early childhood.
 \newblock \emph{The Journal of pediatrics}, 133\penalty0 (1):\penalty0 144--6.
 
-\bibitem[Al-{H}erz et~al.(2011)Al-{H}erz, Bousfiha, Casanova, Chapel, Conley,
-  Cunningham-{R}undles, Etzioni, Fischer, Franco, Geha, Hammarstr{\"o}m,
-  Nonoyama, Notarangelo, Ochs, Puck, Roifman, Seger, and Tang]{AlHerz11}
-Al-{H}erz, W., Bousfiha, A., Casanova, J.-L., Chapel, H., Conley, M.~E.,
-  Cunningham-{R}undles, C., Etzioni, A., Fischer, A., Franco, J.~L., Geha,
-  R.~S., Hammarstr{\"o}m, L., Nonoyama, S., Notarangelo, L.~D., Ochs, H.~D.,
-  Puck, J.~M., Roifman, C.~M., Seger, R., and Tang, M. L.~K. (2011).
-\newblock Primary immunodeficiency diseases: an update on the classification
-  from the international union of immunological societies expert committee for
-  primary immunodeficiency.
-\newblock \emph{Frontiers in immunology}, 2:\penalty0 54.
+\bibitem[Tiller and Buckley(1978)]{Tiller78}
+Tiller, Jr, T.~L. and Buckley, R.~H. (1978).
+\newblock Transient hypogammaglobulinemia of infancy: review of the literature,
+  clinical and immunologic features of 11 new cases, and long-term follow-up.
+\newblock \emph{The Journal of pediatrics}, 92\penalty0 (3):\penalty0 347--53.
+
+\bibitem[Buckley(1983)]{Buckley83}
+Buckley, R.~H. (1983).
+\newblock Immunodeficiency.
+\newblock \emph{The Journal of allergy and clinical immunology}, 72\penalty0
+  (6):\penalty0 627--41.
 
 \bibitem[Fiorilli et~al.(1986)Fiorilli, Crescenzi, Carbonari, Tedesco, Russo,
   Gaetano, and Aiuti]{Fiorilli86}
@@ -122,6 +128,13 @@ Fudenberg, H.~H. and Fudenberg, B.~R. (1964).
 Nathenson, G., Schorr, J.~B., and Litwin, S.~D. (1971).
 \newblock Gm factor fetomaternal gamma globulin incompatibility.
 \newblock \emph{Pediatric Research}, 5\penalty0 (1):\penalty0 2--9.
+
+\bibitem[Willenbockel(1960)]{Willenbockel60}
+Willenbockel, U. (1960).
+\newblock Transitorisch-protrahiertes {A}ntik{\"o}rpermangelsyndrom bei
+  zweieiigen {Z}willingen.
+\newblock \emph{Zeitschrift f{\"u}r Kinderheilkunde}, 84\penalty0 (5):\penalty0
+  477--83.
 
 \bibitem[Soothill(1968)]{Soothill68}
 Soothill, J.~F. (1968).
