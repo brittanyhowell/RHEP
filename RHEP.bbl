@@ -148,53 +148,37 @@ Ovadia, A. and Dalal, I. (2014).
 \newblock Transient hypogammaglobulinemia of infancy.
 \newblock \emph{LymphoSign Journal}, 1\penalty0 (1):\penalty0 1--9.
 
-\bibitem[Kowalczyk et~al.(1997)Kowalczyk, Mytar, and Zembala]{Kowalczyk97}
-Kowalczyk, D., Mytar, B., and Zembala, M. (1997).
-\newblock Cytokine production in transient hypogammaglobulinemia and isolated
-  {IgA} deficiency.
-\newblock \emph{The Journal of allergy and clinical immunology}, 100\penalty0
-  (4):\penalty0 556--62.
-
-\bibitem[Choukrallah and Matthias(2014)]{Choukrallah14}
-Choukrallah, M.~A. and Matthias, P. (2014).
-\newblock The interplay between chromatin and transcription factor networks
-  during {B} cell development: Who pulls the trigger first?
-\newblock \emph{Frontiers in immunology}, 5:\penalty0 156.
-
 \bibitem[B{\'e}gin and Nadeau(2014)]{Begin14}
 B{\'e}gin, P. and Nadeau, K.~C. (2014).
 \newblock Epigenetic regulation of asthma and allergic disease.
 \newblock \emph{Allergy Asthma Clinical Immunology}, 10\penalty0 (1):\penalty0
   27.
 
-\bibitem[Schmidl et~al.(2009)Schmidl, Klug, Boeld, Andreesen, Hoffmann,
-  Edinger, and Rehli]{Schmidl09}
-Schmidl, C., Klug, M., Boeld, T.~J., Andreesen, R., Hoffmann, P., Edinger, M.,
-  and Rehli, M. (2009).
-\newblock Lineage-specific {DNA} methylation in {T} cells correlates with
-  histone methylation and enhancer activity.
-\newblock \emph{Genome research}, 19\penalty0 (7):\penalty0 1165--74.
+\bibitem[Li and Zhang(2014)]{EnLi14}
+Li, E. and Zhang, Y. (2014).
+\newblock {DNA} methylation in mammals.
+\newblock \emph{Cold Spring Harbor perspectives in biology}, 6\penalty0
+  (5):\penalty0 a019133.
 
-\bibitem[Li et~al.(2013)Li, Zan, Xu, and Casali]{Li13}
-Li, G., Zan, H., Xu, Z., and Casali, P. (2013).
-\newblock Epigenetics of the antibody response.
-\newblock \emph{Trends in immunology}, 34\penalty0 (9):\penalty0 460--70.
+\bibitem[Polansky et~al.(2008)Polansky, Kretschmer, Freyer, Floess, Garbe,
+  Baron, Olek, Hamann, von Boehmer, and Huehn]{Polansky08}
+Polansky, J.~K., Kretschmer, K., Freyer, J., Floess, S., Garbe, A., Baron, U.,
+  Olek, S., Hamann, A., von Boehmer, H., and Huehn, J. (2008).
+\newblock Dna methylation controls {F}oxp3 gene expression.
+\newblock \emph{European journal of immunology}, 38\penalty0 (6):\penalty0
+  1654--63.
 
-\bibitem[Lara-Astiaso et~al.(2014)Lara-Astiaso, Weiner, Lorenzo-Vivas,
-  Zaretsky, Jaitin, David, Keren-Shaul, Mildner, Winter, Jung, et~al.]{Lara14}
-Lara-Astiaso, D., Weiner, A., Lorenzo-Vivas, E., Zaretsky, I., Jaitin, D.~A.,
-  David, E., Keren-Shaul, H., Mildner, A., Winter, D., Jung, S., et~al. (2014).
-\newblock Chromatin state dynamics during blood formation.
-\newblock \emph{Science}, 345\penalty0 (6199):\penalty0 943--949.
+\bibitem[Ohkura et~al.(2013)Ohkura, Kitagawa, and Sakaguchi]{Ohkura13}
+Ohkura, N., Kitagawa, Y., and Sakaguchi, S. (2013).
+\newblock Development and maintenance of regulatory {T} cells.
+\newblock \emph{Immunity}, 38\penalty0 (3):\penalty0 414--423.
 
-\bibitem[Tagoh et~al.(2004)Tagoh, Melnik, Lefevre, Chong, Riggs, and
-  Bonifer]{Tagoh04}
-Tagoh, H., Melnik, S., Lefevre, P., Chong, S., Riggs, A.~D., and Bonifer, C.
-  (2004).
-\newblock Dynamic reorganization of chromatin structure and selective {DNA}
-  demethylation prior to stable enhancer complex formation during
-  differentiation of primary hematopoietic cells \textit{in vitro}.
-\newblock \emph{Blood}, 103\penalty0 (8):\penalty0 2950--5.
+\bibitem[Kowalczyk et~al.(1997)Kowalczyk, Mytar, and Zembala]{Kowalczyk97}
+Kowalczyk, D., Mytar, B., and Zembala, M. (1997).
+\newblock Cytokine production in transient hypogammaglobulinemia and isolated
+  {IgA} deficiency.
+\newblock \emph{The Journal of allergy and clinical immunology}, 100\penalty0
+  (4):\penalty0 556--62.
 
 \bibitem[Oakes et~al.(2016)Oakes, Seifert, Assenov, Gu, Przekopowitz, Ruppert,
   Wang, Imbusch, Serva, Koser, Brocks, Lipka, Bogatyrova, Weichenhan, Brors,
@@ -209,13 +193,24 @@ Oakes, C.~C., Seifert, M., Assenov, Y., Gu, L., Przekopowitz, M., Ruppert,
   continuum of disease phenotypes in chronic lymphocytic leukemia.
 \newblock \emph{Nature genetics}, 48\penalty0 (3):\penalty0 253--64.
 
-\bibitem[Kulis et~al.(2015)Kulis, Merkel, Heath, Queir{\'o}s, Schuyler,
-  Castellano, Beekman, Raineri, Esteve, Clot, et~al.]{Kulis15}
-Kulis, M., Merkel, A., Heath, S., Queir{\'o}s, A.~C., Schuyler, R.~P.,
-  Castellano, G., Beekman, R., Raineri, E., Esteve, A., Clot, G., et~al.
-  (2015).
-\newblock Whole-genome fingerprint of the {DNA} methylome during human {B} cell
-  differentiation.
-\newblock \emph{Nature genetics}, 47\penalty0 (7):\penalty0 746--756.
+\bibitem[Li et~al.(2013)Li, Zan, Xu, and Casali]{Li13}
+Li, G., Zan, H., Xu, Z., and Casali, P. (2013).
+\newblock Epigenetics of the antibody response.
+\newblock \emph{Trends in immunology}, 34\penalty0 (9):\penalty0 460--70.
+
+\bibitem[Choukrallah and Matthias(2014)]{Choukrallah14}
+Choukrallah, M.~A. and Matthias, P. (2014).
+\newblock The interplay between chromatin and transcription factor networks
+  during {B} cell development: Who pulls the trigger first?
+\newblock \emph{Frontiers in immunology}, 5:\penalty0 156.
+
+\bibitem[Tagoh et~al.(2004)Tagoh, Melnik, Lefevre, Chong, Riggs, and
+  Bonifer]{Tagoh04}
+Tagoh, H., Melnik, S., Lefevre, P., Chong, S., Riggs, A.~D., and Bonifer, C.
+  (2004).
+\newblock Dynamic reorganization of chromatin structure and selective {DNA}
+  demethylation prior to stable enhancer complex formation during
+  differentiation of primary hematopoietic cells \textit{in vitro}.
+\newblock \emph{Blood}, 103\penalty0 (8):\penalty0 2950--5.
 
 \end{thebibliography}
