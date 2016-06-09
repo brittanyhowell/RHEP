@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -148,6 +148,12 @@ Ovadia, A. and Dalal, I. (2014).
 \newblock Transient hypogammaglobulinemia of infancy.
 \newblock \emph{LymphoSign Journal}, 1\penalty0 (1):\penalty0 1--9.
 
+\bibitem[Zeng(2013)]{Zeng13}
+Zeng, W.-p. (2013).
+\newblock 'all things considered': transcriptional regulation of {T} helper
+  type 2 cell differentiation from precursor to effector activation.
+\newblock \emph{Immunology}, 140\penalty0 (1):\penalty0 31--8.
+
 \bibitem[B{\'e}gin and Nadeau(2014)]{Begin14}
 B{\'e}gin, P. and Nadeau, K.~C. (2014).
 \newblock Epigenetic regulation of asthma and allergic disease.
@@ -193,6 +199,15 @@ Oakes, C.~C., Seifert, M., Assenov, Y., Gu, L., Przekopowitz, M., Ruppert,
   continuum of disease phenotypes in chronic lymphocytic leukemia.
 \newblock \emph{Nature genetics}, 48\penalty0 (3):\penalty0 253--64.
 
+\bibitem[Tagoh et~al.(2004)Tagoh, Melnik, Lefevre, Chong, Riggs, and
+  Bonifer]{Tagoh04}
+Tagoh, H., Melnik, S., Lefevre, P., Chong, S., Riggs, A.~D., and Bonifer, C.
+  (2004).
+\newblock Dynamic reorganization of chromatin structure and selective {DNA}
+  demethylation prior to stable enhancer complex formation during
+  differentiation of primary hematopoietic cells \textit{in vitro}.
+\newblock \emph{Blood}, 103\penalty0 (8):\penalty0 2950--5.
+
 \bibitem[Li et~al.(2013)Li, Zan, Xu, and Casali]{Li13}
 Li, G., Zan, H., Xu, Z., and Casali, P. (2013).
 \newblock Epigenetics of the antibody response.
@@ -203,14 +218,5 @@ Choukrallah, M.~A. and Matthias, P. (2014).
 \newblock The interplay between chromatin and transcription factor networks
   during {B} cell development: Who pulls the trigger first?
 \newblock \emph{Frontiers in immunology}, 5:\penalty0 156.
-
-\bibitem[Tagoh et~al.(2004)Tagoh, Melnik, Lefevre, Chong, Riggs, and
-  Bonifer]{Tagoh04}
-Tagoh, H., Melnik, S., Lefevre, P., Chong, S., Riggs, A.~D., and Bonifer, C.
-  (2004).
-\newblock Dynamic reorganization of chromatin structure and selective {DNA}
-  demethylation prior to stable enhancer complex formation during
-  differentiation of primary hematopoietic cells \textit{in vitro}.
-\newblock \emph{Blood}, 103\penalty0 (8):\penalty0 2950--5.
 
 \end{thebibliography}

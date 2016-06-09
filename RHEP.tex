@@ -7,6 +7,9 @@
 \setlength{\parskip}{6pt} % To make nice looking paragraph spacing
 \usepackage[export]{adjustbox} % For figure frames
 \usepackage[numbers, super, sort&compress]{natbib} % bibliographies
+\usepackage{setspace} % Allows double spacing
+
+\doublespacing % Makes all lines (not figure legends) double spaced
 
 \title{Methylation status of B cells of those afflicted with Transient Hypogammaglobulinemia}
 \date{Research Hypothesis and Experimental Proposal}
@@ -32,68 +35,40 @@
 		Immunoglobulins are a vital component of the adaptive immune system \citep{Simon15}.  
 		The B cells which produce antibodies (active immunoglobulin) in adults are not fully mature in young infants, resulting in a decrease in serum immunoglobulin levels after birth \citep{Martin10,Rechavi15,Stiemh80}. 
 		Physiologic hypogammaglobulinemia refers to the point when serum immunoglobulin reaches its lowest point, commonly at 4-6 months of age \citep{Dressler89}. 
-		In some individuals, immunoglobulin levels are extremely low, due to defects in the immune system \citep{AlHerz14}. 
-		Transient hypogammaglobulinemia (THI) is one such disorder whereby affected persons have a prolongation or exacerbation of regular hypogammaglobulinemia, followed by spontaneous recovery \citep{Stiemh80,Dressler89,AlHerz14,Gitlin56,AlHerz11,Rosen66,McGeady87, Dalal98,Tiller78,Buckley83}.
-		The mechanism causing low serum immunoglobulin in THI patients has not been elucidated. 
-		
+		Transient hypogammaglobulinemia (THI) is a disorder whereby affected persons have a prolongation or exacerbation of regular hypogammaglobulinemia, followed by spontaneous recovery \citep{Stiemh80,Dressler89,AlHerz14,Gitlin56,AlHerz11,Rosen66,McGeady87, Dalal98,Tiller78,Buckley83}.
+		The mechanism causing low serum immunoglobulin in THI patients has not yet been elucidated \citep{AlHerz14}. 
+
 	
-%	\section{THI diagnosis}
-%	
-%		While THI is consistently described as an extension of physiologic hypogammaglobulinemia, the precise antibody levels required for diagnosis are not consistent throughout the literature. 
-%		Antibodies are produced in many classes including IgG, IgM, IgA and IgE \citep{Cooper15}
-%		Most THI definitions require that the concentration of at least one class of antibody be at a serum concentration more than two standard deviations (SD) below the mean for age matched controls \citep{Tiller78,McGeady87,Dressler89,Dalal98}. 
-%		{\Huge May be important, may be able to delete}
-	
-	Recurrent infections: \citep{Rosen66}
-		\subsection{THI Causes}
-			
+		\paragraph{Proposed mechanism} 
+			~\\
 			Immunoglobulin deficiency can result from B cell precursors failing to either mature into B cells or further fail to differentiate into antibody secreting plasma cells \citep{Fiorilli86}. 
-			Studies investigating THI have found that levels of circulating B cells are normal, and subpopulations of B cells are intact, including the level of memory and class-switched B cells \citep{Tiller78,Stiemh80,Siegel81,Buckley83,Fiorilli86,Dressler89}.
+			Studies investigating THI have found that levels of circulating B cells are normal and subpopulations of B cells are intact \citep{Tiller78,Stiemh80,Siegel81,Buckley83,Fiorilli86,Dressler89}.
 			With no obvious B cell deficiency, the cause of THI remains unknown \citep{AlHerz14}. 
-			The following mechanisms have been proposed for THI.
-			\citet{Fudenberg64} proposed that the fetal IgG molecules produced during pregnancy were enough to stimulate an immune response from the mother. 
+			
+			\citet{Fudenberg64} first proposed that the fetal IgG molecules produced during pregnancy were enough to stimulate an immune response from the mother. 
 			The immune response was thought to produce maternal antibodies which caused transient suppression of fetal immunoglobulin production. 
-			\citet{Rosen66} were unable to find agglutinators in four mothers of infants with THI, furthermore \citet{Nathenson71} conducted a prospective study to test the hypothesis and found no supporting evidence.
+			\citet{Rosen66} and \citet{Nathenson71} were unable to find agglutinators in four mothers of infants with THI.
 			\citet{Willenbockel60} observed THI as familial, \citet{Soothill68} further proposed THI as a manifestation of genetic heterozygosity for other immunodeficiency diseases, noting the high number of patients who had immunodeficient relatives.
 			While it remains a possibility as noted by \citet{McGeady87}, no studies have shown supporting evidence \citep{Tiller78,Fiorilli86, Ovadia14}.
-			\citet{Siegel81} hypothesised that a T cell deficiency was the cause after the observation of low T cell numbers in THI patients.
-			Low T cell numbers have not been observed in proceeding studies.
+			\citet{Siegel81} hypothesised that a T cell deficiency was the cause after the observation of low T cell numbers in THI patients, but T cell numbers have been normal in proceeding studies.
 			%
 			% Could easily delete
 			%
-			\citet{McGeady87} mentioned a suggestion that frequent antibiotic treatment could induce hypogammaglobulinemia by diminishing bacteria gut flora. 
-			The explanation was not described in any other THI literature, and was indeed described by \citet{McGeady87} to be probable due to the mostly brief courses of antibiotic treatments given to THI patients.
-			%
-		%	More recent work by \citet{Kowalczyk97} has implicated cytokines in THI pathogenesis. 
-		%	T NF$\alpha/\beta$ and IL-10 have both exhibited enhanced production. 
-		%	The former was shown to suppress IgG production, while the latter induces it. 
-			%
-			In summary, a wealth of theories have been proposed for the symptoms defining THI. 
-			\citet{Dalal98} characterised THI into three classifications and suggested that THI is not a simple disorder, but instead is the manifestation of a heterogeneous group of errors in the immune system.
+			\citet{McGeady87} suggested that frequent antibiotic treatment could induce hypogammaglobulinemia by diminishing bacteria gut flora. 
+			The explanation was not described in any other THI literature, and was indeed described by \citet{McGeady87} to be improbable due to the mostly brief courses of antibiotic treatments given to THI patients.
+			In summary, a wealth of theories have been proposed for mechanism of THI but none have been supported by replicated evidence.
 			
-			
-			
-			
-		\section{Part two: Lineage commitment}
+	\section{Lineage commitment}
 
-
-			Activation and differentiation of T cells is governed greatly by epigenetic changes which insure the phenotype of the T cell.
-			DNA methylation was the first epigenetic mechanism recognised, and the one that is most extensively studied \citep{Begin14}. 
-			Methylation of cytosine residues in genomic DNA is an important epigenetic mark that is essential for normal embryonic development in mammals, gene imprinting and X inactivation \citep{EnLi14}. 
-			%
-			In T regulatory cells (Treg), the methylation status of the Treg-specific demethylated region (TSDR) is imperative in Treg differentiation \citep{Polansky08}.
-			%
-			In the thymus, where T cells mature, Tregs are induced by T cell receptor engagement. 
-			Subsequent demethylation occurs at the TSDR allowing FOXP3 to bind to its own gene to stabilise FOXP3 expression, stabilising differentiation to Treg.
-			FOXP3 is also expressed during the activation of other T cell subsets, but due to the methylation of the TSDR, FOXP3 expression is transient \citep{Ohkura13}.
-			Therefore, demethylation permits FOXP3 binding and thence confirms Treg lineage.
-			
-			
-
-			
-			
-
-	\section{B cell development and differentiation}
+		Activation and differentiation of T cells is governed greatly by epigenetic changes which insure the phenotype of the T cell \citep{Zeng13}.
+		DNA methylation was the first epigenetic mechanism recognised, and the one that is most extensively studied \citep{Begin14}. 
+		In T regulatory cells (Treg), the methylation status of the Treg-specific demethylated region (TSDR) is imperative in Treg differentiation \citep{Polansky08}.
+		In the thymus, where T cells mature, Tregs are induced by T cell receptor engagement. 
+		Subsequent demethylation occurs at the TSDR allowing FOXP3 to bind to its own gene to stabilise FOXP3 expression, stabilising differentiation to Treg.
+		FOXP3 is also expressed during the activation of other T cell subsets, but due to the methylation of the TSDR, FOXP3 expression is transient \citep{Ohkura13}.
+		Therefore, demethylation permits FOXP3 binding and thence confirms Treg lineage.
+		
+	\section{Proposal}
 	
 		The most intriguing feature of THI is its self-limited nature; that gradually recurrent infections subside and serum IgG levels increase with no obvious cause  \citep{Tiller78,Soothill68,Siegel81,McGeady87,Dressler89,Kowalczyk97,Dalal98}. 
 		An investigation into common variable immunodeficiency, a disease related to THI, B cells resembling immature B cells were observed \citep{Fiorilli86}. 
@@ -107,8 +82,8 @@
 		Genes crucial for B cell identity (\textit{Pax5, Spib, Ebf1}) maintain an active epigenetic state \citep{Li13,Choukrallah14}. 
 		Using bisulfite sequencing, the methylation status of loci imperative for B cell development can be established. 
 		
-		\subsubsection{Hypothesis}
-			
+		\paragraph{Hypothesis}
+			~\\
 			At key B cell development loci, THI patients will exhibit more DNA methylation than age matched controls.
 
 
