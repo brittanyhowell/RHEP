@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -160,12 +160,6 @@ B{\'e}gin, P. and Nadeau, K.~C. (2014).
 \newblock \emph{Allergy Asthma Clinical Immunology}, 10\penalty0 (1):\penalty0
   27.
 
-\bibitem[Li and Zhang(2014)]{EnLi14}
-Li, E. and Zhang, Y. (2014).
-\newblock {DNA} methylation in mammals.
-\newblock \emph{Cold Spring Harbor perspectives in biology}, 6\penalty0
-  (5):\penalty0 a019133.
-
 \bibitem[Polansky et~al.(2008)Polansky, Kretschmer, Freyer, Floess, Garbe,
   Baron, Olek, Hamann, von Boehmer, and Huehn]{Polansky08}
 Polansky, J.~K., Kretschmer, K., Freyer, J., Floess, S., Garbe, A., Baron, U.,
@@ -186,6 +180,15 @@ Kowalczyk, D., Mytar, B., and Zembala, M. (1997).
 \newblock \emph{The Journal of allergy and clinical immunology}, 100\penalty0
   (4):\penalty0 556--62.
 
+\bibitem[Kulis et~al.(2015)Kulis, Merkel, Heath, Queir{\'o}s, Schuyler,
+  Castellano, Beekman, Raineri, Esteve, Clot, et~al.]{Kulis15}
+Kulis, M., Merkel, A., Heath, S., Queir{\'o}s, A.~C., Schuyler, R.~P.,
+  Castellano, G., Beekman, R., Raineri, E., Esteve, A., Clot, G., et~al.
+  (2015).
+\newblock Whole-genome fingerprint of the {DNA} methylome during human {B} cell
+  differentiation.
+\newblock \emph{Nature genetics}, 47\penalty0 (7):\penalty0 746--756.
+
 \bibitem[Oakes et~al.(2016)Oakes, Seifert, Assenov, Gu, Przekopowitz, Ruppert,
   Wang, Imbusch, Serva, Koser, Brocks, Lipka, Bogatyrova, Weichenhan, Brors,
   Rassenti, Kipps, Mertens, Zapatka, Lichter, D{\"o}hner, K{\"u}ppers, Zenz,
@@ -198,25 +201,5 @@ Oakes, C.~C., Seifert, M., Assenov, Y., Gu, L., Przekopowitz, M., Ruppert,
 \newblock {DNA} methylation dynamics during {B} cell maturation underlie a
   continuum of disease phenotypes in chronic lymphocytic leukemia.
 \newblock \emph{Nature genetics}, 48\penalty0 (3):\penalty0 253--64.
-
-\bibitem[Tagoh et~al.(2004)Tagoh, Melnik, Lefevre, Chong, Riggs, and
-  Bonifer]{Tagoh04}
-Tagoh, H., Melnik, S., Lefevre, P., Chong, S., Riggs, A.~D., and Bonifer, C.
-  (2004).
-\newblock Dynamic reorganization of chromatin structure and selective {DNA}
-  demethylation prior to stable enhancer complex formation during
-  differentiation of primary hematopoietic cells \textit{in vitro}.
-\newblock \emph{Blood}, 103\penalty0 (8):\penalty0 2950--5.
-
-\bibitem[Li et~al.(2013)Li, Zan, Xu, and Casali]{Li13}
-Li, G., Zan, H., Xu, Z., and Casali, P. (2013).
-\newblock Epigenetics of the antibody response.
-\newblock \emph{Trends in immunology}, 34\penalty0 (9):\penalty0 460--70.
-
-\bibitem[Choukrallah and Matthias(2014)]{Choukrallah14}
-Choukrallah, M.~A. and Matthias, P. (2014).
-\newblock The interplay between chromatin and transcription factor networks
-  during {B} cell development: Who pulls the trigger first?
-\newblock \emph{Frontiers in immunology}, 5:\penalty0 156.
 
 \end{thebibliography}
