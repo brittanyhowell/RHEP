@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.2)  1 JUL 2016 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.2)  3 JUL 2016 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -275,22 +275,41 @@ File: pppdftex.def 2015/05/11 v0.4x Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count111
 \AM@templatesizebox=\box33
 )
-(./RHEP.aux)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip51
+\LTright=\skip52
+\LTpre=\skip53
+\LTpost=\skip54
+\LTchunksize=\count112
+\LTcapwidth=\dimen136
+\LT@head=\box34
+\LT@firsthead=\box35
+\LT@foot=\box36
+\LT@lastfoot=\box37
+\LT@cols=\count113
+\LT@rows=\count114
+\c@LT@tables=\count115
+\c@LT@chunks=\count116
+\LT@p@ftn=\toks27
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) (./RHEP.aux)
 \openout1 = `RHEP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -325,30 +344,30 @@ LaTeX Font Info:    ... okay on input line 36.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 36.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 36.
+LaTeX Info: Redefining \celsius on input line 44.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 44.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 36.
-Package gensymb Info: Using \Omega for \ohm on input line 36.
+LaTeX Info: Redefining \ohm on input line 44.
+Package gensymb Info: Using \Omega for \ohm on input line 44.
 
 Package gensymb Warning: Not defining \micro.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
-\scratchdimen=\dimen136
-\scratchbox=\box34
-\nofMPsegments=\count113
-\nofMParguments=\count114
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count115
-\MPscratchDim=\dimen137
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count117
+\scratchdimen=\dimen137
+\scratchbox=\box38
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen138
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks29
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -393,33 +412,61 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box35
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+\AtBeginShipoutBox=\box39
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./RHEP
-.bbl [2]
-Overfull \vbox (22.51428pt too high) has occurred while \output is active []
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 110.
 
 
-[3] [4] [5] [6])
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 110.
+ [3] [4] [5]
+Overfull \hbox (13.86818pt too wide) in alignment at lines 180--183
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (13.86818pt too wide) in alignment at lines 183--184
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (13.86818pt too wide) in alignment at lines 184--206
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (13.86818pt too wide) in alignment at lines 206--216
+ [] [] [] [] [] [] [] [] 
+ []
+
+[6
+
+] [7] (./RHEP.bbl [8
+
+] [9])
 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
-f, id=26, 614.295pt x 794.97pt>
+f, id=38, 614.295pt x 794.97pt>
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
 
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf used on input line 119.
+Ovadia_and_Dalal_2014.pdf used on input line 222.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
@@ -427,18 +474,18 @@ File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf used on input line 119.
+Ovadia_and_Dalal_2014.pdf used on input line 222.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
-f, id=29, page=1, 614.295pt x 794.97pt>
+f, id=41, page=1, 614.295pt x 794.97pt>
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
 
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf, page 1>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page1 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page1 used on input line 222.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
@@ -446,7 +493,7 @@ File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf, page 1>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page1 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page1 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
@@ -454,7 +501,7 @@ File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf, page 1>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page1 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page1 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
@@ -462,18 +509,18 @@ File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf, page 1>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page1 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page1 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [7]
+ [10]
 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
-f, id=34, page=2, 614.295pt x 794.97pt>
+f, id=45, page=2, 614.295pt x 794.97pt>
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
 
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf, page 2>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page2 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page2 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
@@ -481,7 +528,7 @@ File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf, page 2>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page2 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page2 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
@@ -489,111 +536,75 @@ File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf, page 1>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page1 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [8 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf>]
-<../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
-f, id=116, page=3, 614.295pt x 794.97pt>
-File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf Graphic file (type pdf)
-
-<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 3>
-Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page3 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf Graphic file (type pdf)
-
-<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 3>
-Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page3 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf Graphic file (type pdf)
-
-<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 2>
-Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page2 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [9 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf>]
-<../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
-f, id=124, page=4, 614.295pt x 794.97pt>
-File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf Graphic file (type pdf)
-
-<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 4>
-Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page4 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf Graphic file (type pdf)
-
-<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 4>
-Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page4 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf Graphic file (type pdf)
-
-<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 3>
-Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page3 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [10 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf>]
-<../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
-f, id=150, page=5, 614.295pt x 794.97pt>
-File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf Graphic file (type pdf)
-
-<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 5>
-Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page5 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf Graphic file (type pdf)
-
-<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 5>
-Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page5 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf Graphic file (type pdf)
-
-<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 4>
-Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page4 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page1 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [11 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf>]
 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
-f, id=154, page=6, 614.295pt x 794.97pt>
+f, id=127, page=3, 614.295pt x 794.97pt>
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
 
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 6>
+4.pdf, page 3>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page6 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page3 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
 
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 6>
+4.pdf, page 3>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page6 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page3 used on input line 222.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf Graphic file (type pdf)
+
+<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
+4.pdf, page 2>
+Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
+Ovadia_and_Dalal_2014.pdf, page2 used on input line 222.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [12 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf>]
+<../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
+f, id=135, page=4, 614.295pt x 794.97pt>
+File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf Graphic file (type pdf)
+
+<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
+4.pdf, page 4>
+Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
+Ovadia_and_Dalal_2014.pdf, page4 used on input line 222.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf Graphic file (type pdf)
+
+<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
+4.pdf, page 4>
+Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
+Ovadia_and_Dalal_2014.pdf, page4 used on input line 222.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf Graphic file (type pdf)
+
+<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
+4.pdf, page 3>
+Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
+Ovadia_and_Dalal_2014.pdf, page3 used on input line 222.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [13 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf>]
+<../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
+f, id=163, page=5, 614.295pt x 794.97pt>
+File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf Graphic file (type pdf)
+
+<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
+4.pdf, page 5>
+Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
+Ovadia_and_Dalal_2014.pdf, page5 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
@@ -601,27 +612,27 @@ File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf, page 5>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page5 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page5 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [12 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf Graphic file (type pdf)
+
+<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
+4.pdf, page 4>
+Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
+Ovadia_and_Dalal_2014.pdf, page4 used on input line 222.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [14 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf>]
 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
-f, id=171, page=7, 614.295pt x 794.97pt>
+f, id=167, page=6, 614.295pt x 794.97pt>
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
 
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 7>
+4.pdf, page 6>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page7 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf Graphic file (type pdf)
-
-<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 7>
-Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page7 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page6 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
@@ -629,27 +640,27 @@ File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf, page 6>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page6 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page6 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [13 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf Graphic file (type pdf)
+
+<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
+4.pdf, page 5>
+Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
+Ovadia_and_Dalal_2014.pdf, page5 used on input line 222.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [15 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf>]
 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
-f, id=193, page=8, 614.295pt x 794.97pt>
+f, id=183, page=7, 614.295pt x 794.97pt>
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
 
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 8>
+4.pdf, page 7>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page8 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf Graphic file (type pdf)
-
-<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 8>
-Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page8 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page7 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
@@ -657,27 +668,27 @@ File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf, page 7>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page7 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page7 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [14 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf Graphic file (type pdf)
+
+<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
+4.pdf, page 6>
+Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
+Ovadia_and_Dalal_2014.pdf, page6 used on input line 222.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [16 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf>]
 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
-f, id=201, page=9, 614.295pt x 794.97pt>
+f, id=204, page=8, 614.295pt x 794.97pt>
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
 
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 9>
+4.pdf, page 8>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page9 used on input line 119.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
-14.pdf Graphic file (type pdf)
-
-<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
-4.pdf, page 9>
-Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page9 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page8 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
@@ -685,9 +696,45 @@ File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf, page 8>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page8 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page8 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [15 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf Graphic file (type pdf)
+
+<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
+4.pdf, page 7>
+Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
+Ovadia_and_Dalal_2014.pdf, page7 used on input line 222.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [17 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf>]
+<../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pd
+f, id=212, page=9, 614.295pt x 794.97pt>
+File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf Graphic file (type pdf)
+
+<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
+4.pdf, page 9>
+Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
+Ovadia_and_Dalal_2014.pdf, page9 used on input line 222.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf Graphic file (type pdf)
+
+<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
+4.pdf, page 9>
+Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
+Ovadia_and_Dalal_2014.pdf, page9 used on input line 222.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+14.pdf Graphic file (type pdf)
+
+<use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
+4.pdf, page 8>
+Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
+Ovadia_and_Dalal_2014.pdf, page8 used on input line 222.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [18 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf>]
 File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf Graphic file (type pdf)
@@ -695,9 +742,9 @@ File: ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 <use ../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_201
 4.pdf, page 9>
 Package pdftex.def Info: ../Reading/Transient_hypogammaglobulinemia_of_infancy_
-Ovadia_and_Dalal_2014.pdf, page9 used on input line 119.
+Ovadia_and_Dalal_2014.pdf, page9 used on input line 222.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [16 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
+ [19 <../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_20
 14.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Reading/Whole-genome-fing
@@ -705,14 +752,14 @@ erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=208, 596.2275pt x 785.93625pt>
+-differentiation.pdf, id=220, 596.2275pt x 785.93625pt>
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
 cell-differentiation.pdf>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf used on input line 120.
+lome-during-human-B-cell-differentiation.pdf used on input line 223.
 (pdftex.def)             Requested size: 596.22604pt x 785.93433pt.
 
 
@@ -725,7 +772,7 @@ File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
 cell-differentiation.pdf>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf used on input line 120.
+lome-during-human-B-cell-differentiation.pdf used on input line 223.
 (pdftex.def)             Requested size: 596.22604pt x 785.93433pt.
 
 
@@ -739,14 +786,14 @@ erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=211, page=1, 596.2275pt x 785.93625pt>
+-differentiation.pdf, id=223, page=1, 596.2275pt x 785.93625pt>
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
 cell-differentiation.pdf, page 1>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page1 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page1 used on input line 223.
 (pdftex.def)             Requested size: 596.22604pt x 785.93433pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
@@ -754,7 +801,7 @@ File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
 cell-differentiation.pdf, page 1>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page1 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page1 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
@@ -762,7 +809,7 @@ File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
 cell-differentiation.pdf, page 1>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page1 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page1 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
@@ -770,7 +817,7 @@ File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
 cell-differentiation.pdf, page 1>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page1 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page1 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 
 
@@ -779,14 +826,14 @@ erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=212, page=2, 596.2275pt x 785.93625pt>
+-differentiation.pdf, id=224, page=2, 596.2275pt x 785.93625pt>
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
 cell-differentiation.pdf, page 2>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page2 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page2 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
@@ -794,7 +841,7 @@ File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
 cell-differentiation.pdf, page 2>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page2 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page2 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
@@ -802,106 +849,7 @@ File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
 cell-differentiation.pdf, page 1>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page1 used on input line 120.
-(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
- [17 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
--cell-differentiation.pdf>]
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Reading/Whole-genome-fing
-erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
-clusion: found PDF version <1.6>, but at most version <1.5> allowed
-
-<../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=269, page=3, 596.2275pt x 785.93625pt>
-File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
--cell-differentiation.pdf Graphic file (type pdf)
-
-<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 3>
-Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page3 used on input line 120.
-(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
-File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
--cell-differentiation.pdf Graphic file (type pdf)
-
-<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 3>
-Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page3 used on input line 120.
-(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
-File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
--cell-differentiation.pdf Graphic file (type pdf)
-
-<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 2>
-Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page2 used on input line 120.
-(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
- [18 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
--cell-differentiation.pdf>]
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Reading/Whole-genome-fing
-erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
-clusion: found PDF version <1.6>, but at most version <1.5> allowed
-
-<../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=281, page=4, 596.2275pt x 785.93625pt>
-File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
--cell-differentiation.pdf Graphic file (type pdf)
-
-<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 4>
-Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page4 used on input line 120.
-(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
-File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
--cell-differentiation.pdf Graphic file (type pdf)
-
-<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 4>
-Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page4 used on input line 120.
-(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
-File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
--cell-differentiation.pdf Graphic file (type pdf)
-
-<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 3>
-Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page3 used on input line 120.
-(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
- [19 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
--cell-differentiation.pdf>]
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Reading/Whole-genome-fing
-erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
-clusion: found PDF version <1.6>, but at most version <1.5> allowed
-
-<../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=315, page=5, 596.2275pt x 785.93625pt>
-File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
--cell-differentiation.pdf Graphic file (type pdf)
-
-<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 5>
-Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page5 used on input line 120.
-(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
-File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
--cell-differentiation.pdf Graphic file (type pdf)
-
-<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 5>
-Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page5 used on input line 120.
-(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
-File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
--cell-differentiation.pdf Graphic file (type pdf)
-
-<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 4>
-Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page4 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page1 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
  [20 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf>]
@@ -911,30 +859,30 @@ erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=338, page=6, 596.2275pt x 785.93625pt>
+-differentiation.pdf, id=281, page=3, 596.2275pt x 785.93625pt>
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 6>
+cell-differentiation.pdf, page 3>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page6 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page3 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 6>
+cell-differentiation.pdf, page 3>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page6 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page3 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 5>
+cell-differentiation.pdf, page 2>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page5 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page2 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
  [21 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf>]
@@ -944,30 +892,30 @@ erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=376, page=7, 596.2275pt x 785.93625pt>
+-differentiation.pdf, id=293, page=4, 596.2275pt x 785.93625pt>
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 7>
+cell-differentiation.pdf, page 4>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page7 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page4 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 7>
+cell-differentiation.pdf, page 4>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page7 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page4 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 6>
+cell-differentiation.pdf, page 3>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page6 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page3 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
  [22 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf>]
@@ -977,30 +925,30 @@ erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=416, page=8, 596.2275pt x 785.93625pt>
+-differentiation.pdf, id=326, page=5, 596.2275pt x 785.93625pt>
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 8>
+cell-differentiation.pdf, page 5>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page8 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page5 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 8>
+cell-differentiation.pdf, page 5>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page8 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page5 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 7>
+cell-differentiation.pdf, page 4>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page7 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page4 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
  [23 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf>]
@@ -1010,30 +958,30 @@ erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=432, page=9, 596.2275pt x 785.93625pt>
+-differentiation.pdf, id=350, page=6, 596.2275pt x 785.93625pt>
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 9>
+cell-differentiation.pdf, page 6>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page9 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page6 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 9>
+cell-differentiation.pdf, page 6>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page9 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page6 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 8>
+cell-differentiation.pdf, page 5>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page8 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page5 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
  [24 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf>]
@@ -1043,30 +991,30 @@ erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=443, page=10, 596.2275pt x 785.93625pt>
+-differentiation.pdf, id=387, page=7, 596.2275pt x 785.93625pt>
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 10>
+cell-differentiation.pdf, page 7>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page10 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page7 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 10>
+cell-differentiation.pdf, page 7>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page10 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page7 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 9>
+cell-differentiation.pdf, page 6>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page9 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page6 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
  [25 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf>]
@@ -1076,30 +1024,30 @@ erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=448, page=11, 596.2275pt x 785.93625pt>
+-differentiation.pdf, id=428, page=8, 596.2275pt x 785.93625pt>
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 11>
+cell-differentiation.pdf, page 8>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page11 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page8 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 11>
+cell-differentiation.pdf, page 8>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page11 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page8 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 10>
+cell-differentiation.pdf, page 7>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page10 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page7 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
  [26 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf>]
@@ -1109,30 +1057,30 @@ erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=464, page=12, 596.2275pt x 785.93625pt>
+-differentiation.pdf, id=444, page=9, 596.2275pt x 785.93625pt>
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 12>
+cell-differentiation.pdf, page 9>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page12 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page9 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 12>
+cell-differentiation.pdf, page 9>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page12 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page9 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 11>
+cell-differentiation.pdf, page 8>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page11 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page8 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
  [27 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf>]
@@ -1142,30 +1090,30 @@ erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=468, page=13, 596.2275pt x 785.93625pt>
+-differentiation.pdf, id=455, page=10, 596.2275pt x 785.93625pt>
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 13>
+cell-differentiation.pdf, page 10>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page13 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page10 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 13>
+cell-differentiation.pdf, page 10>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page13 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page10 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 12>
+cell-differentiation.pdf, page 9>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page12 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page9 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
  [28 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf>]
@@ -1175,22 +1123,80 @@ erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
--differentiation.pdf, id=479, page=14, 596.2275pt x 785.93625pt>
+-differentiation.pdf, id=459, page=11, 596.2275pt x 785.93625pt>
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 14>
+cell-differentiation.pdf, page 11>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page14 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page11 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
 
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
-cell-differentiation.pdf, page 14>
+cell-differentiation.pdf, page 11>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page14 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page11 used on input line 223.
+(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
+File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+-cell-differentiation.pdf Graphic file (type pdf)
+
+<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
+cell-differentiation.pdf, page 10>
+Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
+lome-during-human-B-cell-differentiation.pdf, page10 used on input line 223.
+(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
+ [29 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+-cell-differentiation.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Reading/Whole-genome-fing
+erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
+clusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+<../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
+-differentiation.pdf, id=475, page=12, 596.2275pt x 785.93625pt>
+File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+-cell-differentiation.pdf Graphic file (type pdf)
+
+<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
+cell-differentiation.pdf, page 12>
+Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
+lome-during-human-B-cell-differentiation.pdf, page12 used on input line 223.
+(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
+File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+-cell-differentiation.pdf Graphic file (type pdf)
+
+<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
+cell-differentiation.pdf, page 12>
+Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
+lome-during-human-B-cell-differentiation.pdf, page12 used on input line 223.
+(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
+File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+-cell-differentiation.pdf Graphic file (type pdf)
+
+<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
+cell-differentiation.pdf, page 11>
+Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
+lome-during-human-B-cell-differentiation.pdf, page11 used on input line 223.
+(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
+ [30 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+-cell-differentiation.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Reading/Whole-genome-fing
+erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
+clusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+<../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
+-differentiation.pdf, id=479, page=13, 596.2275pt x 785.93625pt>
+File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+-cell-differentiation.pdf Graphic file (type pdf)
+
+<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
+cell-differentiation.pdf, page 13>
+Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
+lome-during-human-B-cell-differentiation.pdf, page13 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
@@ -1198,9 +1204,50 @@ File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
 cell-differentiation.pdf, page 13>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page13 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page13 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
- [29 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+-cell-differentiation.pdf Graphic file (type pdf)
+
+<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
+cell-differentiation.pdf, page 12>
+Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
+lome-during-human-B-cell-differentiation.pdf, page12 used on input line 223.
+(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
+ [31 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+-cell-differentiation.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Reading/Whole-genome-fing
+erprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf): PDF in
+clusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+<../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell
+-differentiation.pdf, id=491, page=14, 596.2275pt x 785.93625pt>
+File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+-cell-differentiation.pdf Graphic file (type pdf)
+
+<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
+cell-differentiation.pdf, page 14>
+Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
+lome-during-human-B-cell-differentiation.pdf, page14 used on input line 223.
+(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
+File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+-cell-differentiation.pdf Graphic file (type pdf)
+
+<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
+cell-differentiation.pdf, page 14>
+Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
+lome-during-human-B-cell-differentiation.pdf, page14 used on input line 223.
+(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
+File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+-cell-differentiation.pdf Graphic file (type pdf)
+
+<use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
+cell-differentiation.pdf, page 13>
+Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
+lome-during-human-B-cell-differentiation.pdf, page13 used on input line 223.
+(pdftex.def)             Requested size: 603.79532pt x 795.912pt.
+ [32 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf>]
 File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf Graphic file (type pdf)
@@ -1208,28 +1255,30 @@ File: ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 <use ../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-
 cell-differentiation.pdf, page 14>
 Package pdftex.def Info: ../Reading/Whole-genome-fingerprint-of-the–DNA-methy
-lome-during-human-B-cell-differentiation.pdf, page14 used on input line 120.
+lome-during-human-B-cell-differentiation.pdf, page14 used on input line 223.
 (pdftex.def)             Requested size: 603.79532pt x 795.912pt.
- [30 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
+ [33 <../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B
 -cell-differentiation.pdf>] (./RHEP.aux) ) 
 Here is how much of TeX's memory you used:
- 5469 strings out of 493089
- 83227 string characters out of 6134843
- 156805 words of memory out of 5000000
- 8833 multiletter control sequences out of 15000+600000
+ 5586 strings out of 493089
+ 84746 string characters out of 6134843
+ 175485 words of memory out of 5000000
+ 8941 multiletter control sequences out of 15000+600000
  12750 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,18n,51p,358b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,18n,51p,370b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmti12.pfb>
-Output written on RHEP.pdf (30 pages, 4631949 bytes).
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb>
+Output written on RHEP.pdf (33 pages, 4667469 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
+ 531 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

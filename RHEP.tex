@@ -8,7 +8,15 @@
 \usepackage[export]{adjustbox} % For figure frames
 \usepackage[numbers, super, sort&compress]{natbib} % bibliographies
 \usepackage{setspace} % Allows double spacing
-\usepackage{pdfpages}
+\usepackage{pdfpages} % Allows including PDFs
+\usepackage{longtable} % Allows longtables
+\usepackage{lscape} % To allow some pages to be in landscape
+
+% Longtable settings
+\setlength\LTleft{0pt} % flush left
+\setlength\LTright{0pt} % flush right
+\setlength{\LTcapwidth}{8in}
+
 
 \doublespacing % Makes all lines (not figure legends) double spaced
 
@@ -87,18 +95,66 @@
 %			If methylation is a cause of delayed maturation, the methylome of THI patients should be distinct to the age-matched controls.
 			
 	\section{Experimental aims}
+		
+		\paragraph{Experimental aim 1:} Using whole genome bisulfite sequencing, determine the regions of the genome which show differences between THI patients and normal individuals. (Include somewhere that I'd like to look at the THI patients over time)
+		
+		\paragraph{Experimental aim 2:} Using ChIP-Seq, determine if the transcription factor families (INSERT FAMILIES HERE) are differentially methylated between THI patients and normal individuals (find some TFs involved in IgG production)
+		
+		\paragraph{Experimental aim 3:} Using RNA-Seq, determine if (INSERT FAMILY) are differentially expressed between THI patients and normal individuals. (find some genes involved in IgG production)
+
+	\section{Data collection and management}
+	
+		\subsection{Collecting samples}
+		
+			\begin{itemize}
+				\item \citet{Ovadia14} will provide samples of tissue from 26 THI patients (Collected between 1976 and 1994). Samples were collected by the group from various hospitals, immunology clinics, and past PID trials. Information about the samples is patchy (see table \ref{table:samples}) 
+				\item Further THI samples will be collected from the WCH Immunology clinic
+				\item A full clinical record will be kept for every sample, they will be monitored for as long as they give consent between initial onset of presentation and normalisation of IgG levels
+				\item given that occurrence is 1 per 10$^6$ births, we can expect to collect X samples over 5 years. More would be possible with the participation of other hospitals around the country. 
+			\end{itemize}
+		
+		\subsection{Matching controls} 
+			
+			\begin{itemize}
+				\item The immune system is dynamic, it is important that, as much as possible, we can find disease related differences rather than developmental changes
+				\item For this reason, the individuals will be matched according to as many criteria as possible. 
+				\item Age will be the most important factor, secondly breastfeeding/bottle feeding, then things like diet, gender, ethnicity and that kind of thing. 
+				\item When collecting the control samples, all individuals will be kept until at least 1 year, then they will vary depending on their matched sample
+				\item In the best case, every THI patient will have a matched control for comparison with the same ethnicity, background, diet and breastfeeding status etc. However depending on the samples we will make concessions to allow analysis. Age will hopefully never have to be messed with.
+			\end{itemize}
+		
+		\subsection{How B cells will be segregated into development stages}
+			
+			\begin{itemize}
+				\item Hey look FACS
+				\item Should refer to someone's cell sorting
+				\item Should include a figure of the different stages
+				\item Use \citeauthor{Kulis15}
+			\end{itemize}
+		
 	
 	\section{Aim 1:}
 		
-		\subsection{Hypothesis}
+		\paragraph{Hypothesis:} DNA of B cells from THI patients will have differentially methylated regions compared to normal individuals.
 		
 		\subsection{Proposed experiment}
+			
+			\begin{itemize}
+				\item Conduct whole genome bisulphite sequencing, 
+				\item Refer to \citeauthor{Kulis15} as much as possible
+			\end{itemize}
 		
 		\subsection{Possible outcomes and interpretations}		
+			
+			\begin{itemize}
+				\item Methylome maps will be produced for every sample. 
+				\item Hence, we will be able to compare across two vectors: normal vs THI and normal as time progresses
+				\item I plan to produce a normal vs THI map for each age, and see the differences ebb as the IgG levels normalise
+			\end{itemize}
 	
 	\section{Aim 2:}
 	
-		\subsection{Hypothesis}
+		\paragraph{Hypothesis}
 		
 		\subsection{Proposed experiment}
 		
@@ -112,14 +168,54 @@
 		
 		\subsection{Possible outcomes and interpretations}				
 	
-	\section{Data collection and management}
+
+\appendix
+	\section{Appendices}
 		
-		\subsection{Collecting samples}
-		
-		\subsection{How B cells will be segregated into development stages}
-		
-		\subsection{Matching controls}
-		
+		\subsection{Sample information}
+
+			
+			\begin{landscape} % Sample table
+				\footnotesize
+				\begin{longtable}[c]{|l | l |l|l|l|l|l|l|}
+					\caption{Clinical details of patients with THI. Abbreviations: m, months; y, years; CVI, common variable immunodeficiency; -, unknown; def, d.} \\ \hline 	
+					Individual & Tissue & Age at test  & Gender  & Ethnicity   & Breastfeeding status & Mode of birth & Family history of PID    \\ \hline \hline
+					\endhead
+					\hline 	\endfoot 
+					\label{table:samples}
+					1  & Whole Blood & 7m, 9m, 11m, 15m             & Female & Caucasian & Breastfed  & Vaginal           & None                 \\
+					1  & Tonsils     & 7m                           &        &           &            &                   &  \\
+					2  & Whole Blood & 8m, 11m, 1y 1m, 1y 3m, 1y 6m & Male   & Caucasian & Breastfed  & Vaginal           & None                 \\
+					2  & Tonsils     & 7m                           & Male   & Caucasian & Breastfed  & Vaginal           & Sister with CVI      \\
+					3  & Whole Blood & 9m, 11m, 1y 3m               & Male   & Jewish    & Bottle fed & Caesarian section & None                 \\
+					3  & Tonsils     & 1y2m                         &        &           &            &                   &  \\
+					4  & Whole Blood & 10m, 1y 1m,  1y 8m           & Male   & Caucasian & Bottle fed & Vaginal           & None                 \\
+					4  & Tonsils     & 1y 11m                       & Male   & Caucasian & Breastfed  & Vaginal           & Brother with CVI     \\
+					5  & Whole Blood & 11m, 1y 3m, 1y 5m, 1y 8m     & Male   & Asian     & Breastfed  & Vaginal           & Brother with CVI     \\
+					6  & Whole Blood & 7m, 9m, 11m, 1y 8m           & Female & Jewish    & Breastfed  & Vaginal           & None                 \\
+					7  & Whole Blood & 9m, 11m, 1y 2m, 1y 6m        & Male   & -         & Breastfed  & -                 & -                    \\
+					8  & Whole Blood & 7m, 9m,                      & Female & -         & Breastfed  & -                 & -                    \\
+					9  & Whole Blood & 7m, 9m, 11m                  & Male   & -         & Breastfed  & -                 & -                    \\
+					10 & Whole Blood & 11m, 1y 2m, 1y 6m            & Male   & -         & Breastfed  & -                 & -                    \\
+					11 & Whole Blood & 11m, 1y 1m, 1y 3m 1y 8m      & Male   & -         & Bottle fed & -                 & -                    \\
+					12 & Whole Blood & 7m, 9m, 11m,                 & Female & Jewish    & Breastfed  & Vaginal           & None                 \\
+					13 & Whole Blood & 9m, 11m, 1y 2m, 1y 6m        & Male   & Jewish    & Bottle fed & Vaginal           & None                 \\
+					14 & Whole Blood & 7m, 9m, 1y 1m                & Female & Caucasian & Bottle fed & Vaginal           & None                 \\
+					15 & Whole Blood & 7m, 11m, 1y 1m               & Male   & Caucasian & Breastfed  &                   & Sister with IgA def. \\
+					16 & Whole Blood & 8m, 1y 1m, 1y 4m, 1y 6m      & Male   & -         & -          & Vaginal           & -                    \\
+					17 & Whole Blood & 9m, 1y 2m, 1y 6m             & Male   & -         & -          & Vaginal           & -                    \\
+					18 & Whole Blood & 7m, 9m, 1y 1m                & Female & -         & -          & Caesarian section & -                    \\
+					19 & Whole Blood & 7m, 9m, 11m                  & Male   & -         & -          & Vaginal           & -                    \\
+					20 & Whole Blood & 11m, 1y 2m, 1y 6m            & Male   & -         & -          & Vaginal           & -                    \\
+					21 & Whole Blood & 11m, 1y 3m, 1y 5m, 1y 8m     & Male   & -         & -          & Caesarian section & -                    \\
+					22 & Whole Blood & 7m, 9m, 11m, 1y 8m           & Female & -         & -          & -                 & None                 \\
+					23 & Whole Blood & 9m, 1y 2m, 1y 6m             & Male   & -         & -          & -                 & None                 \\
+					24 & Whole Blood & 7m, 9m, 1y 1m                & Female & -         & -          & -                 & None                 \\
+					25 & Whole Blood & 7m, 11m,                     & Male   & -         & -          & -                 & Sister with IgA def. \\
+					26 & Whole Blood & 8m, 1y 1m,                   & Male   & -         & -          & -                 & None                 \\
+				\end{longtable}
+			\end{landscape}	
+				
 	\bibliographystyle{BrittSuperScript}
 	\bibliography{../literature}
 	

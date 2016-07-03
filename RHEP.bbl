@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{25}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -173,13 +173,6 @@ Ohkura, N., Kitagawa, Y., and Sakaguchi, S. (2013).
 \newblock Development and maintenance of regulatory {T} cells.
 \newblock \emph{Immunity}, 38\penalty0 (3):\penalty0 414--423.
 
-\bibitem[Kowalczyk et~al.(1997)Kowalczyk, Mytar, and Zembala]{Kowalczyk97}
-Kowalczyk, D., Mytar, B., and Zembala, M. (1997).
-\newblock Cytokine production in transient hypogammaglobulinemia and isolated
-  {IgA} deficiency.
-\newblock \emph{The Journal of allergy and clinical immunology}, 100\penalty0
-  (4):\penalty0 556--62.
-
 \bibitem[Kulis et~al.(2015)Kulis, Merkel, Heath, Queir{\'o}s, Schuyler,
   Castellano, Beekman, Raineri, Esteve, Clot, et~al.]{Kulis15}
 Kulis, M., Merkel, A., Heath, S., Queir{\'o}s, A.~C., Schuyler, R.~P.,
@@ -188,18 +181,5 @@ Kulis, M., Merkel, A., Heath, S., Queir{\'o}s, A.~C., Schuyler, R.~P.,
 \newblock Whole-genome fingerprint of the {DNA} methylome during human {B} cell
   differentiation.
 \newblock \emph{Nature genetics}, 47\penalty0 (7):\penalty0 746--756.
-
-\bibitem[Oakes et~al.(2016)Oakes, Seifert, Assenov, Gu, Przekopowitz, Ruppert,
-  Wang, Imbusch, Serva, Koser, Brocks, Lipka, Bogatyrova, Weichenhan, Brors,
-  Rassenti, Kipps, Mertens, Zapatka, Lichter, D{\"o}hner, K{\"u}ppers, Zenz,
-  Stilgenbauer, Byrd, and Plass]{Oakes16}
-Oakes, C.~C., Seifert, M., Assenov, Y., Gu, L., Przekopowitz, M., Ruppert,
-  A.~S., Wang, Q., Imbusch, C.~D., Serva, A., Koser, S.~D., Brocks, D., Lipka,
-  D.~B., Bogatyrova, O., Weichenhan, D., Brors, B., Rassenti, L., Kipps, T.~J.,
-  Mertens, D., Zapatka, M., Lichter, P., D{\"o}hner, H., K{\"u}ppers, R., Zenz,
-  T., Stilgenbauer, S., Byrd, J.~C., and Plass, C. (2016).
-\newblock {DNA} methylation dynamics during {B} cell maturation underlie a
-  continuum of disease phenotypes in chronic lymphocytic leukemia.
-\newblock \emph{Nature genetics}, 48\penalty0 (3):\penalty0 253--64.
 
 \end{thebibliography}
