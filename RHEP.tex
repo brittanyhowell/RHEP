@@ -56,12 +56,9 @@
 		THI is a disorder where regular hypogammaglobulinemia is prolonged or exacerbated then spontaneously alleviated. \citep{Stiemh80,Dressler89,AlHerz14,Gitlin56,AlHerz11,Rosen66,McGeady87, Dalal98,Tiller78,Buckley83}.
 		The mechanism causing low serum immunoglobulin in THI patients is unknown \citep{AlHerz14}. 
 
-	%%%%%%%%%%%%
-	%%% Add paragraph about B cell development, so the stages we pick have context.
-	%%%%%%%%%%%%
+			
 		\paragraph{Cause of THI} 
 			~\\
-			Immunoglobulin deficiency can result from B cell precursors failing to develop into mature B cells or mature B cells failing to differentiate into antibody secreting plasma cells \citep{Fiorilli86}. 
 			Studies investigating THI have found that levels of circulating B cells are normal and subpopulations of B cells are intact \citep{Tiller78,Stiemh80,Siegel81,Buckley83,Fiorilli86,Dressler89}.
 			With no obvious B cell deficiency, the cause of THI has been speculated extensively, but no proposed cause has been supported by replicated evidence \citep{Fudenberg64,Rosen66,Nathenson71,Willenbockel60,Soothill68,Tiller78,Fiorilli86,Ovadia14,Siegel81,McGeady87}.
 			
@@ -69,6 +66,35 @@
 			\citet{Soothill68} proposed that THI was a manifestation of genetic heterozygosity for other immunodeficiency diseases, noting the high number of patients who had immunodeficient relatives.
 			While it remains a possibility, no proceeding studies have shown supporting evidence \citep{Tiller78,Fiorilli86, Ovadia14}.
 			
+		\paragraph{B cell development}
+			~\\
+			Immunoglobulin deficiency can result from B cell precursors failing to develop into mature B cells or mature B cells failing to differentiate into antibody secreting plasma cells \citep{Fiorilli86}. 
+			All antibodies are produced by mature B cells, developed from haematopoietic stem cells in a pathway shown in figure \ref{fig:BCellDevelopment}.
+			First, the hematopoietic stem cells differentiate into common lymphoid progenitors, which commit to the B cell lineage.
+			B cells gradually rearrange their immunoglobulin genes and differentiate into mature \naive B cells which leave the bone marrow to enter the periphery. 
+			Resting naive B cells transit through lymph nodes where they encounter specific antigen, activating them and inducing the germinal centre reaction. 
+			Further rearrangement of immunoglobulin genes occurs followed by rapid proliferation and differentiation into plasma and memory cells. 
+			Plasma cells produce the antibodies required for humoral immunity. 
+			The isotype (IgM/G/A/E) of the antibodies is determined by the environmental signals present at the activated B cell stage. 
+			
+			
+			\begin{figure}[tb]
+				\centering
+				\includegraphics[width=\linewidth]{../Figures/Bcelldevelopment.png}
+				\caption{B cell development from hematopoietic stem cell to memory and plasma cells. Phases are shown as antigen independent or dependent and location (bone marrow or periphery) is indicated. IGM/G/A/E indicates option of antibody isotype. BCR: B cell receptor.}
+				\label{fig:BCellDevelopment}
+			\end{figure}
+	
+		\paragraph{FACS}
+			~\\
+			Previous investigations into THI have claimed that subpopulations of B cells are the same in THI patients as controls \citep{Tiller78,Stiemh80,Siegel81,Buckley83,Fiorilli86,Dressler89}. 
+			The claim is supported by results of rosette-formation and single or two-colour membrane immunofluorescence studies. 
+			The immunofluorescence studies were very basic, showing IgM and IgD, the combinations of which distinguish mature and immature B cells (see figure \ref{fig:BCellDevelopment}).
+			Techniques have improved immensely, notably the rise of flow cytometry (FACS) which allows the measurement of an increasing number of parameters per cell.
+			FACS works by {\Huge Protocol}. 
+			The claim that subpopulations of B cells are normal in THI patients relies on evidence which distinguishes mature B cells from immature. 
+			FACS has much greater potential to accurately determine the abundance of very specific cell subtypes.
+
 			
 		\subsection{Lineage commitment}
 	
@@ -167,36 +193,44 @@
 				\end{figure}`
 	
 	\section{Aim 1:}
-		
-		\paragraph{Hypothesis:} DNA of B cells from THI patients will have differentially methylated regions compared to normal individuals.
+	
+		\paragraph{Hypothesis} THI samples will be deficient in activated B cells and plasma cells. 
 		
 		\subsection{Proposed experiment}
 			
-			Whole genome bisulfite sequencing (WGBS) should be performed on two sets of biological replicates for seven B cell subpopulations specified in figure \ref{fig:BCellSorting}. 
-			Two rounds of bisulfite conversion should be performed to ensure a conversion rate of over 99\%.
-			2 x 100bp paired-end DNA sequencing will be undertaken using an Illumina HiSeq 2000 platform. 
-			Read mapping will be carried out using the STAR aligner (v2.4.2a) \citep{Dobin13}.
-			
-			From the methylation data, median CpG methylation can be compared between THI and control samples at all seven stages of B cell development. 
-			
+			Conduct FACS using these antibodies. 
+			To show these abundances. 
 		
 		\subsection{Possible outcomes and interpretations}		
-			
-			A global decrease in methylation is expected to be observed, as previously reported
-			 \citep{Kulis15,Lai13,Kulis12,Shaknovich11} 
+		
+			It is possible that THI patients have fewer plasma cells than normal populations. 
+			This would lead to a lesser ability to produce antibodies. 
+			It would not have been previously noted, as the experiments were not around to show it.
+	
+	
+	\section{Aim 2:}
+	
+		\paragraph{Hypothesis:} DNA of B cells from THI patients will have differentially methylated regions compared to normal individuals.
+		
+		\subsection{Proposed experiment}
+		
+		Whole genome bisulfite sequencing (WGBS) should be performed on two sets of biological replicates for seven B cell subpopulations specified in figure \ref{fig:BCellSorting}. 
+		Two rounds of bisulfite conversion should be performed to ensure a conversion rate of over 99\%.
+		2 x 100bp paired-end DNA sequencing will be undertaken using an Illumina HiSeq 2000 platform. 
+		Read mapping will be carried out using the STAR aligner (v2.4.2a) \citep{Dobin13}.
+		
+		From the methylation data, median CpG methylation can be compared between THI and control samples at all seven stages of B cell development. 
+		
+		
+		\subsection{Possible outcomes and interpretations}		
+		
+		A global decrease in methylation is expected to be observed, as previously reported
+		\citep{Kulis15,Lai13,Kulis12,Shaknovich11} 
 			\begin{itemize}
 				\item Methylome maps will be produced for every sample. 
 				\item Hence, we will be able to compare across two vectors: normal vs THI and normal as time progresses
 				\item I plan to produce a normal vs THI map for each age, and see the differences ebb as the IgG levels normalise
 			\end{itemize}
-	
-	\section{Aim 2:}
-	
-		\paragraph{Hypothesis}
-		
-		\subsection{Proposed experiment}
-		
-		\subsection{Possible outcomes and interpretations}		
 		
 	\section{Aim 3:}
 	
