@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{35}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -173,6 +173,47 @@ Ohkura, N., Kitagawa, Y., and Sakaguchi, S. (2013).
 \newblock Development and maintenance of regulatory {T} cells.
 \newblock \emph{Immunity}, 38\penalty0 (3):\penalty0 414--423.
 
+\bibitem[Jakobsson et~al.(2014)Jakobsson, Abrahamsson, Jenmalm, Harris, Quince,
+  Jernberg, Bj{\"o}rkst{\'e}n, Engstrand, and Andersson]{Jakobsson14}
+Jakobsson, H.~E., Abrahamsson, T.~R., Jenmalm, M.~C., Harris, K., Quince, C.,
+  Jernberg, C., Bj{\"o}rkst{\'e}n, B., Engstrand, L., and Andersson, A.~F.
+  (2014).
+\newblock Decreased gut microbiota diversity, delayed {B}acteroidetes
+  colonisation and reduced {T}h1 responses in infants delivered by caesarean
+  section.
+\newblock \emph{Gut}, 63\penalty0 (4):\penalty0 559--66.
+
+\bibitem[Cho and Norman(2013)]{Cho13}
+Cho, C.~E. and Norman, M. (2013).
+\newblock Cesarean section and development of the immune system in the
+  offspring.
+\newblock \emph{American journal of obstetrics and gynecology}, 208\penalty0
+  (4):\penalty0 249--54.
+
+\bibitem[Brandtzaeg(2003)]{Brandtzaeg03}
+Brandtzaeg, P. (2003).
+\newblock Mucosal immunity: integration between mother and the breast-fed
+  infant.
+\newblock \emph{Vaccine}, 21\penalty0 (24):\penalty0 3382--8.
+
+\bibitem[Rogier et~al.(2014)Rogier, Frantz, Bruno, Wedlund, Cohen, Stromberg,
+  and Kaetzel]{Rogier14}
+Rogier, E.~W., Frantz, A.~L., Bruno, M.~E., Wedlund, L., Cohen, D.~A.,
+  Stromberg, A.~J., and Kaetzel, C.~S. (2014).
+\newblock Lessons from mother: {L}ong-term impact of antibodies in breast milk
+  on the gut microbiota and intestinal immune system of breastfed offspring.
+\newblock \emph{Gut Microbes}, 5\penalty0 (5):\penalty0 663--8.
+
+\bibitem[G{\'o}mez-Gallego et~al.(2014)G{\'o}mez-Gallego, Frias,
+  P{\'e}rez-Mart{\'\i}nez, Bernal, Periago, Salminen, Ros, and
+  Collado]{Gomez14}
+G{\'o}mez-Gallego, C., Frias, R., P{\'e}rez-Mart{\'\i}nez, G., Bernal, M.~J.,
+  Periago, M.~J., Salminen, S., Ros, G., and Collado, M.~C. (2014).
+\newblock Polyamine supplementation in infant formula: Influence on lymphocyte
+  populations and immune system-related gene expression in a {Balb/cOlaHsd}
+  mouse model.
+\newblock \emph{Food Research International}, 59:\penalty0 8--15.
+
 \bibitem[Kulis et~al.(2015)Kulis, Merkel, Heath, Queir{\'o}s, Schuyler,
   Castellano, Beekman, Raineri, Esteve, Clot, et~al.]{Kulis15}
 Kulis, M., Merkel, A., Heath, S., Queir{\'o}s, A.~C., Schuyler, R.~P.,
@@ -181,5 +222,65 @@ Kulis, M., Merkel, A., Heath, S., Queir{\'o}s, A.~C., Schuyler, R.~P.,
 \newblock Whole-genome fingerprint of the {DNA} methylome during human {B} cell
   differentiation.
 \newblock \emph{Nature genetics}, 47\penalty0 (7):\penalty0 746--756.
+
+\bibitem[Oakes et~al.(2016)Oakes, Seifert, Assenov, Gu, Przekopowitz, Ruppert,
+  Wang, Imbusch, Serva, Koser, Brocks, Lipka, Bogatyrova, Weichenhan, Brors,
+  Rassenti, Kipps, Mertens, Zapatka, Lichter, D{\"o}hner, K{\"u}ppers, Zenz,
+  Stilgenbauer, Byrd, and Plass]{Oakes16}
+Oakes, C.~C., Seifert, M., Assenov, Y., Gu, L., Przekopowitz, M., Ruppert,
+  A.~S., Wang, Q., Imbusch, C.~D., Serva, A., Koser, S.~D., Brocks, D., Lipka,
+  D.~B., Bogatyrova, O., Weichenhan, D., Brors, B., Rassenti, L., Kipps, T.~J.,
+  Mertens, D., Zapatka, M., Lichter, P., D{\"o}hner, H., K{\"u}ppers, R., Zenz,
+  T., Stilgenbauer, S., Byrd, J.~C., and Plass, C. (2016).
+\newblock {DNA} methylation dynamics during {B} cell maturation underlie a
+  continuum of disease phenotypes in chronic lymphocytic leukemia.
+\newblock \emph{Nature genetics}, 48\penalty0 (3):\penalty0 253--64.
+
+\bibitem[Dobin et~al.(2013)Dobin, Davis, Schlesinger, Drenkow, Zaleski, Jha,
+  Batut, Chaisson, and Gingeras]{Dobin13}
+Dobin, A., Davis, C.~A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S.,
+  Batut, P., Chaisson, M., and Gingeras, T.~R. (2013).
+\newblock {STAR}: ultrafast universal {RNA}-seq aligner.
+\newblock \emph{Bioinformatics}, 29\penalty0 (1):\penalty0 15--21.
+
+\bibitem[Lai et~al.(2013)Lai, Mav, Shah, Grimm, Phadke, Hatzi, Melnick,
+  Geigerman, Sobol, Jaye, et~al.]{Lai13}
+Lai, A.~Y., Mav, D., Shah, R., Grimm, S.~A., Phadke, D., Hatzi, K., Melnick,
+  A., Geigerman, C., Sobol, S.~E., Jaye, D.~L., et~al. (2013).
+\newblock {DNA} methylation profiling in human {B} cells reveals immune
+  regulatory elements and epigenetic plasticity at alu elements during {B}-cell
+  activation.
+\newblock \emph{Genome research}, 23\penalty0 (12):\penalty0 2030--2041.
+
+\bibitem[Kulis et~al.(2012)Kulis, Heath, Bibikova, Queir{\'o}s, Navarro, Clot,
+  Mart{\'\i}nez-Trillos, Castellano, Brun-Heath, Pinyol, Barber{\'a}n-Soler,
+  Papasaikas, Jares, Be{\`a}, Rico, Ecker, Rubio, Royo, Ho, Klotzle,
+  Hern{\'a}ndez, Conde, L{\'o}pez-Guerra, Colomer, Villamor, Aymerich, Rozman,
+  Bayes, Gut, Gelp{\'\i}, Orozco, Fan, Quesada, Puente, Pisano, Valencia,
+  L{\'o}pez-Guillermo, Gut, L{\'o}pez-Ot{\'\i}n, Campo, and
+  Mart{\'\i}n-Subero]{Kulis12}
+Kulis, M., Heath, S., Bibikova, M., Queir{\'o}s, A.~C., Navarro, A., Clot, G.,
+  Mart{\'\i}nez-Trillos, A., Castellano, G., Brun-Heath, I., Pinyol, M.,
+  Barber{\'a}n-Soler, S., Papasaikas, P., Jares, P., Be{\`a}, S., Rico, D.,
+  Ecker, S., Rubio, M., Royo, R., Ho, V., Klotzle, B., Hern{\'a}ndez, L.,
+  Conde, L., L{\'o}pez-Guerra, M., Colomer, D., Villamor, N., Aymerich, M.,
+  Rozman, M., Bayes, M., Gut, M., Gelp{\'\i}, J.~L., Orozco, M., Fan, J.-B.,
+  Quesada, V., Puente, X.~S., Pisano, D.~G., Valencia, A., L{\'o}pez-Guillermo,
+  A., Gut, I., L{\'o}pez-Ot{\'\i}n, C., Campo, E., and Mart{\'\i}n-Subero,
+  J.~I. (2012).
+\newblock Epigenomic analysis detects widespread gene-body {DNA}
+  hypomethylation in chronic lymphocytic leukemia.
+\newblock \emph{Nature genetics}, 44\penalty0 (11):\penalty0 1236--42.
+
+\bibitem[Shaknovich et~al.(2011)Shaknovich, Cerchietti, Tsikitas, Kormaksson,
+  De, Figueroa, Ballon, Yang, Weinhold, Reimers, Clozel, Luttrop, Ekstrom,
+  Frank, Vasanthakumar, Godley, Michor, Elemento, and Melnick]{Shaknovich11}
+Shaknovich, R., Cerchietti, L., Tsikitas, L., Kormaksson, M., De, S., Figueroa,
+  M.~E., Ballon, G., Yang, S.~N., Weinhold, N., Reimers, M., Clozel, T.,
+  Luttrop, K., Ekstrom, T.~J., Frank, J., Vasanthakumar, A., Godley, L.~A.,
+  Michor, F., Elemento, O., and Melnick, A. (2011).
+\newblock {DNA} methyltransferase 1 and {DNA} methylation patterning contribute
+  to germinal center {B}-cell differentiation.
+\newblock \emph{Blood}, 118\penalty0 (13):\penalty0 3559--69.
 
 \end{thebibliography}
