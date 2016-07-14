@@ -1,4 +1,4 @@
-\begin{thebibliography}{35}
+\begin{thebibliography}{52}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -100,15 +100,6 @@ Buckley, R.~H. (1983).
 \newblock \emph{The Journal of allergy and clinical immunology}, 72\penalty0
   (6):\penalty0 627--41.
 
-\bibitem[Fiorilli et~al.(1986)Fiorilli, Crescenzi, Carbonari, Tedesco, Russo,
-  Gaetano, and Aiuti]{Fiorilli86}
-Fiorilli, M., Crescenzi, M., Carbonari, M., Tedesco, L., Russo, G., Gaetano,
-  C., and Aiuti, F. (1986).
-\newblock Phenotypically immature igg-bearing b cells in patients with
-  hypogammaglobulinemia.
-\newblock \emph{Journal of clinical immunology}, 6\penalty0 (1):\penalty0
-  21--5.
-
 \bibitem[Siegel et~al.(1981)Siegel, Issekutz, Schwaber, Rosen, and
   Geha]{Siegel81}
 Siegel, R.~L., Issekutz, T., Schwaber, J., Rosen, F.~S., and Geha, R.~S.
@@ -117,6 +108,15 @@ Siegel, R.~L., Issekutz, T., Schwaber, J., Rosen, F.~S., and Geha, R.~S.
   infancy.
 \newblock \emph{The New England journal of medicine}, 305\penalty0
   (22):\penalty0 1307--13.
+
+\bibitem[Fiorilli et~al.(1986)Fiorilli, Crescenzi, Carbonari, Tedesco, Russo,
+  Gaetano, and Aiuti]{Fiorilli86}
+Fiorilli, M., Crescenzi, M., Carbonari, M., Tedesco, L., Russo, G., Gaetano,
+  C., and Aiuti, F. (1986).
+\newblock Phenotypically immature igg-bearing b cells in patients with
+  hypogammaglobulinemia.
+\newblock \emph{Journal of clinical immunology}, 6\penalty0 (1):\penalty0
+  21--5.
 
 \bibitem[Fudenberg and Fudenberg(1964)]{Fudenberg64}
 Fudenberg, H.~H. and Fudenberg, B.~R. (1964).
@@ -147,6 +147,132 @@ Soothill, J.~F. (1968).
 Ovadia, A. and Dalal, I. (2014).
 \newblock Transient hypogammaglobulinemia of infancy.
 \newblock \emph{LymphoSign Journal}, 1\penalty0 (1):\penalty0 1--9.
+
+\bibitem[Gao et~al.(2009)Gao, Lukin, Ram{\'\i}rez, Fields, Lopez, and
+  Hagman]{Gao09}
+Gao, H., Lukin, K., Ram{\'\i}rez, J., Fields, S., Lopez, D., and Hagman, J.
+  (2009).
+\newblock Opposing effects of {SWI/SNF} and {Mi-2/NuRD} chromatin remodeling
+  complexes on epigenetic reprogramming by {EBF} and {Pax5}.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 106\penalty0 (27):\penalty0 11258--63.
+
+\bibitem[Maier et~al.(2004)Maier, Ostraat, Gao, Fields, Shinton, Medina, Ikawa,
+  Murre, Singh, Hardy, and Hagman]{Maier04}
+Maier, H., Ostraat, R., Gao, H., Fields, S., Shinton, S.~A., Medina, K.~L.,
+  Ikawa, T., Murre, C., Singh, H., Hardy, R.~R., and Hagman, J. (2004).
+\newblock Early {B} cell factor cooperates with {Runx1} and mediates epigenetic
+  changes associated with mb-1 transcription.
+\newblock \emph{Nature immunology}, 5\penalty0 (10):\penalty0 1069--77.
+
+\bibitem[Walter et~al.(2008)Walter, Bonifer, and Tagoh]{Walter08}
+Walter, K., Bonifer, C., and Tagoh, H. (2008).
+\newblock Stem cell-specific epigenetic priming and {B} cell-specific
+  transcriptional activation at the mouse {Cd19} locus.
+\newblock \emph{Blood}, 112\penalty0 (5):\penalty0 1673--82.
+
+\bibitem[Decker et~al.(2009)Decker, Pasca~di Magliano, McManus, Sun, Bonifer,
+  Tagoh, and Busslinger]{Decker09}
+Decker, T., Pasca~di Magliano, M., McManus, S., Sun, Q., Bonifer, C., Tagoh,
+  H., and Busslinger, M. (2009).
+\newblock Stepwise activation of enhancer and promoter regions of the {B} cell
+  commitment gene {Pax5} in early lymphopoiesis.
+\newblock \emph{Immunity}, 30\penalty0 (4):\penalty0 508--20.
+
+\bibitem[Lin et~al.(2010)Lin, Jhunjhunwala, Benner, Heinz, Welinder, Mansson,
+  Sigvardsson, Hagman, Espinoza, Dutkowski, Ideker, Glass, and Murre]{Lin10}
+Lin, Y.~C., Jhunjhunwala, S., Benner, C., Heinz, S., Welinder, E., Mansson, R.,
+  Sigvardsson, M., Hagman, J., Espinoza, C.~A., Dutkowski, J., Ideker, T.,
+  Glass, C.~K., and Murre, C. (2010).
+\newblock A global network of transcription factors, involving {E2A}, {EBF1}
+  and {Foxo}1, that orchestrates {B} cell fate.
+\newblock \emph{Nature immunology}, 11s\penalty0 (7):\penalty0 635--43.
+
+\bibitem[McManus et~al.(2011)McManus, Ebert, Salvagiotto, Medvedovic, Sun,
+  Tamir, Jaritz, Tagoh, and Busslinger]{McManus11}
+McManus, S., Ebert, A., Salvagiotto, G., Medvedovic, J., Sun, Q., Tamir, I.,
+  Jaritz, M., Tagoh, H., and Busslinger, M. (2011).
+\newblock The transcription factor {Pax}5 regulates its target genes by
+  recruiting chromatin-modifying proteins in committed {B} cells.
+\newblock \emph{The EMBO journal}, 30\penalty0 (12):\penalty0 2388--404.
+
+\bibitem[Treiber et~al.(2010)Treiber, Mandel, Pott, Gy{\"o}ry, Firner, Liu, and
+  Grosschedl]{Treiber10}
+Treiber, T., Mandel, E.~M., Pott, S., Gy{\"o}ry, I., Firner, S., Liu, E.~T.,
+  and Grosschedl, R. (2010).
+\newblock Early {B} cell factor 1 regulates {B} cell gene networks by
+  activation, repression, and transcription-independent poising of chromatin.
+\newblock \emph{Immunity}, 32\penalty0 (5):\penalty0 714--725.
+
+\bibitem[Zandi et~al.(2008)Zandi, Mansson, Tsapogas, Zetterblad, Bryder, and
+  Sigvardsson]{Zandi00}
+Zandi, S., Mansson, R., Tsapogas, P., Zetterblad, J., Bryder, D., and
+  Sigvardsson, M. (2008).
+\newblock {EBF1} is essential for {B}-lineage priming and establishment of a
+  transcription factor network in common lymphoid progenitors.
+\newblock \emph{Journal of immunology}, 181\penalty0 (5):\penalty0 3364--72.
+
+\bibitem[Choukrallah and Matthias(2014)]{Choukrallah14}
+Choukrallah, M.~A. and Matthias, P. (2014).
+\newblock The interplay between chromatin and transcription factor networks
+  during {B} cell development: Who pulls the trigger first?
+\newblock \emph{Frontiers in immunology}, 5:\penalty0 156.
+
+\bibitem[Saeys et~al.(2016)Saeys, Gassen, and Lambrecht]{Saeys16}
+Saeys, Y., Gassen, S.~V., and Lambrecht, B.~N. (2016).
+\newblock Computational flow cytometry: helping to make sense of
+  high-dimensional immunology data.
+\newblock \emph{Nature reviews. Immunology}, 16\penalty0 (7):\penalty0 449--62.
+
+\bibitem[Aghaeepour et~al.(2013)Aghaeepour, Finak, {FlowCAP Consortium}, {DREAM
+  Consortium}, Hoos, Mosmann, Brinkman, Gottardo, and
+  Scheuermann]{Aghaeepour13}
+Aghaeepour, N., Finak, G., {FlowCAP Consortium}, {DREAM Consortium}, Hoos, H.,
+  Mosmann, T.~R., Brinkman, R., Gottardo, R., and Scheuermann, R.~H. (2013).
+\newblock Critical assessment of automated flow cytometry data analysis
+  techniques.
+\newblock \emph{Nature methods}, 10\penalty0 (3):\penalty0 228--38.
+
+\bibitem[Cunningham-Rundles(2012)]{Cunningham-Rundles12}
+Cunningham-Rundles, C. (2012).
+\newblock The many faces of common variable immunodeficiency.
+\newblock \emph{Hematology / the Education Program of the American Society of
+  Hematology. American Society of Hematology. Education Program},
+  2012:\penalty0 301--5.
+
+\bibitem[Tallmadge et~al.(2015)Tallmadge, Shen, Tseng, Miller, Barry, and
+  Felippe]{Tallmadge15}
+Tallmadge, R.~L., Shen, L., Tseng, C.~T., Miller, S.~C., Barry, J., and
+  Felippe, M. J.~B. (2015).
+\newblock Bone marrow transcriptome and epigenome profiles of equine common
+  variable immunodeficiency patients unveil block of {B} lymphocyte
+  differentiation.
+\newblock \emph{Clinical immunology}, 160\penalty0 (2):\penalty0 261--76.
+
+\bibitem[Schebesta et~al.(2007)Schebesta, McManus, Salvagiotto, Delogu,
+  Busslinger, and Busslinger]{Schebesta07}
+Schebesta, A., McManus, S., Salvagiotto, G., Delogu, A., Busslinger, G.~A., and
+  Busslinger, M. (2007).
+\newblock Transcription factor {Pax5} activates the chromatin of key genes
+  involved in {B} cell signaling, adhesion, migration, and immune function.
+\newblock \emph{Immunity}, 27\penalty0 (1):\penalty0 49--63.
+
+\bibitem[Delogu et~al.(2006)Delogu, Schebesta, Sun, Aschenbrenner, Perlot, and
+  Busslinger]{Delogu06}
+Delogu, A., Schebesta, A., Sun, Q., Aschenbrenner, K., Perlot, T., and
+  Busslinger, M. (2006).
+\newblock Gene repression by {Pax5} in {B} cells is essential for blood cell
+  homeostasis and is reversed in plasma cells.
+\newblock \emph{Immunity}, 24\penalty0 (3):\penalty0 269--81.
+
+\bibitem[Roessler et~al.(2007)Roessler, Gy{\"o}ry, Imhof, Spivakov, Williams,
+  Busslinger, Fisher, and Grosschedl]{Roessler07}
+Roessler, S., Gy{\"o}ry, I., Imhof, S., Spivakov, M., Williams, R.~R.,
+  Busslinger, M., Fisher, A.~G., and Grosschedl, R. (2007).
+\newblock Distinct promoters mediate the regulation of {Ebf1} gene expression
+  by interleukin-7 and {Pax5}.
+\newblock \emph{Molecular and cellular biology}, 27\penalty0 (2):\penalty0
+  579--94.
 
 \bibitem[Zeng(2013)]{Zeng13}
 Zeng, W.-p. (2013).
@@ -242,6 +368,11 @@ Dobin, A., Davis, C.~A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S.,
   Batut, P., Chaisson, M., and Gingeras, T.~R. (2013).
 \newblock {STAR}: ultrafast universal {RNA}-seq aligner.
 \newblock \emph{Bioinformatics}, 29\penalty0 (1):\penalty0 15--21.
+
+\bibitem[{ENCODE Project Consortium}(2012)]{ENCODE-Project-Consortium12}
+{ENCODE Project Consortium} (2012).
+\newblock An integrated encyclopedia of {DNA} elements in the human genome.
+\newblock \emph{Nature}, 489\penalty0 (7414):\penalty0 57--74.
 
 \bibitem[Lai et~al.(2013)Lai, Mav, Shah, Grimm, Phadke, Hatzi, Melnick,
   Geigerman, Sobol, Jaye, et~al.]{Lai13}

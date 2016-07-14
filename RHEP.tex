@@ -20,7 +20,7 @@
 
 \doublespacing % Makes all lines (not figure legends) double spaced
 
-\title{Methylation status of B cells in Transient Hypogammaglobulinemia of Infancy}
+\title{Transcriptome and epigenome profile of B cells in patients with Transient Hypogammaglobulinemia of Infancy}
 \date{}
 \author{Brittany Howell}
 
@@ -84,20 +84,50 @@
 				\caption{B cell development from hematopoietic stem cell to memory and plasma cells. Phases are shown as antigen independent or dependent and location (bone marrow or periphery) is indicated. IGM/G/A/E indicates option of antibody isotype. BCR: B cell receptor.}
 				\label{fig:BCellDevelopment}
 			\end{figure}
-	
+			
+			B lymphocyte differentiation is tightly regulated by transcription factors (TFs) functioning in a complex network of auto-regulation, cross regulation, and positive and negative feedback loops.
+			The transcriptional regulation of B cell development is not a single hierarchical cascade, many transcription factors work cooperatively to direct the regulation and expression of genes and other TFs (figure \ref{fig:TFBcell}). 
+			Transcription factors prominent in early stages of B cell specification and commitment include E2A, Ebf1, Pax5 and FoxO1. 
+			They influence B cell development by promoting changes in chromatin remodelling, facilitating DNA methylation or demethylation and interacting with other factors \citep{Gao09,Maier04,Walter08,Decker09,Lin10,McManus11,Treiber10,Zandi00}. 
+			Ikaros, PU.1, E2A and FoxO1 are also involved in lineage fate determination, but are not restricted to the B cell lineage.
+			Loss of function studies involving the aforementioned TFs show some defect in B cell lineage commitment, resulting in a loss of a B cell subset or the entire B cell lineage \citep{Choukrallah14}.
+
+			
+			\begin{figure}
+				\centering
+				\includegraphics[width = 0.4\linewidth]{../Figures/BcellTF.png}
+				\caption{Schematic representation of interactions between early B cell transcription factors. Adapted from \citet{Choukrallah14}.}
+				\label{fig:TFBcell}
+			\end{figure}
+			
 		\paragraph{FACS}
 			~\\
 			Previous investigations into THI have claimed that subpopulations of B cells are the same in THI patients as controls \citep{Tiller78,Stiemh80,Siegel81,Buckley83,Fiorilli86,Dressler89}. 
-			The claim is supported by results of rosette-formation and single or two-colour membrane immunofluorescence studies. 
-			The immunofluorescence studies were very basic, showing IgM and IgD, the combinations of which distinguish mature and immature B cells (see figure \ref{fig:BCellDevelopment}).
-			Techniques have improved immensely, notably the rise of flow cytometry (FACS) which allows the measurement of an increasing number of parameters per cell.
-			FACS works by {\Huge Protocol}. 
-			The claim that subpopulations of B cells are normal in THI patients relies on evidence which distinguishes mature B cells from immature. 
-			FACS has much greater potential to accurately determine the abundance of very specific cell subtypes.
+			The claim is supported by rosette-formation and single or two-colour membrane immunofluorescence studies. 
+			The immunofluorescence studies distinguished only between mature and immature B cells, using the observed combinations of surface IgM and IgG. 
+			Analysis techniques have improved immensely since 1989, when the most recent study took place.
+			Flow cytometry (FACS) in particular has developed extensively, allowing the measurement of an increasing number of parameters per cell \citep{Saeys16}.
+			In a FACS analysis, cells are stained with fluorochrome-conjugated antibodies that bind to cell surface markers or intracellular targets. 
+			Cells are then placed into a flow cytometer which passes cells individually through lasers.
+			The light emitted by the lasers excites the fluorochromes on the cell which produces a signal proportional to the concentration of the target \citep{Aghaeepour13}.
+			18-parameter flow cytometry is now routinely used, 30-parameter flow cytometers are becoming commercially available, and 50-parameter flow cytometry is predicted to be available soon \citep{Saeys16}.
+			The number of parameters measurable per cell has increased dramatically since 1989, and thence, the potential to distinguish B cell subpopulations is now immensely greater.
 
 			
 		\subsection{Lineage commitment}
-	
+	% Talk about CVID developmenetal delay
+			Common variable immunodeficiency (CVID) is a late-onset primary immunodeficiency characterised by dysfunction or loss of B lymphocytes, blockage of B cell development at pro-B cell stage and decreased immunoglobulin production. 
+			Diagnosis most often occurs between the ages of 20 and 40 years, with patients presenting with recurring bacterial infection \citep{Cunningham-Rundles12}.
+			RNA-Seq analysis identified 103 genes which were differentially expressed between healthy controls and CVID patients \citep{Tallmadge15}.
+			The most severely down-regulated gene was the transcription factor Pax5.
+			Pax5 is essential to commit a cell to the B cell identity through activation of 170 B cell specific genes and repression of at least 110 lineage inappropriate genes \citep{Schebesta07,Delogu06,Roessler07}.
+			\citet{Tallmadge15} hypothesised that Pax5 is silenced by aberrant epigenetic mechanisms in lymphocyte progenitors. 
+			Epigenome analysis of the revealed that the Pax5 enhancer was hypermethylated.
+			Silencing induced by enhancer methylation would result in a decline in B lymphopoiesis in the bone marrow, followed by a depletion of B cells.
+			An epigenetic mechanism also substantiates the late-onset nature of CVID. 
+			
+			
+			
 			Activation and differentiation of T cells is governed greatly by epigenetic changes which affirm the lineage \citep{Zeng13}.
 			DNA methylation was both the first epigenetic mechanism recognised, and the one most extensively studied \citep{Begin14}. 
 			In T regulatory cells (Treg), the methylation status of the Treg-specific demethylated region (TSDR) is imperative in Treg differentiation \citep{Polansky08}.
@@ -127,7 +157,7 @@
 		\paragraph{Experimental aim 1:} Using FACS, describe the B cell subpopulations in THI patients and normal individuals throughout early development.
 		
 		
-		\paragraph{Experimental aim 2:} Using whole genome bisulphite sequencing and ChIP Seq, identify regions of the genome which are differentially methylated in THI samples and controls.
+		\paragraph{Experimental aim 2:} Using whole genome bisulphite sequencing, identify regions of the genome which are differentially methylated in THI samples and controls.
 		
 		\paragraph{Experimental aim 3:} Using RNA-Seq, identify differentially expressed regions in THI samples.
 
@@ -137,10 +167,12 @@
 			
 			% Add topic sentence
 			Peripheral blood B cells will be obtained from the buffy coat (figure \ref{fig:BuffyCoat}) of the THI samples, and controls. 
-			Plasma cells, germinal centre B cells and \naive B cells will be isolated from processed tonsil samples
+			Plasma cells, germinal centre B cells and \naive B cells will be isolated from processed tonsil samples. 
+			Progenitor cells, pre-BI cells, pre-BII cells, immature B cells and plasma cells will be isolated from bone marrow aspirations
 			Members from the Pediatric Department at Wolfson Medical centre have kindly agreed to provide whole blood and tonsil samples they have collected from 26 THI patients (see table \ref{table:samples}).
-			Further peripheral blood and tonsil samples will be obtained from the Women's and Children's Hospital Immunodeficiency clinic. 
+			Further peripheral blood, bone marrow and tonsil samples will be obtained from the Women's and Children's Hospital Immunodeficiency clinic. 
 			Blood will be taken from THI patients between initial presentation and normalisation of IgG levels.
+			Bone marrow will be taken first upon initial presentation, then in six monthly intervals following, until normalisation of IgG levels
 			Control samples will come from donations by healthy subjects. 
 			A full clinical record will be kept for every control and experimental sample collected to allow the best possible matching of THI patients with healthy controls. 
 		
@@ -165,8 +197,8 @@
 		\subsection{Segregation of B cells}
 			
 			The maturation of B cells is a continuous process. 
-			It is therefore important to ensure that changes which are observed between experimental and control samples are due to true THI effects, not normal B cell maturation changes.
-			To reduce the variation between compared cells, the B cells will be segregated by developmental stage. 
+			It is therefore important to ensure that any changes which are observed between experimental and control samples are due to true THI effects, not normal B cell maturation changes.
+			To reduce the variation between compared cells, the B cells will be segregated into developmental stages. 
 			Preparation and segregation of B cells will be undertaken using FACS as in \citet{Kulis15} and \citet{Oakes16}.
 			Subpopulations obtained will include \naive B cells from peripheral blood and tonsils, germinal center B cells and plasma cells from tonsils, and memory B cells from peripheral blood samples (figure \ref{fig:BCellSorting}). 
 			There are always limitations when applying discrete developmental stages to continuous processes.
@@ -210,27 +242,68 @@
 	
 	\section{Aim 2:}
 	
-		\paragraph{Hypothesis:} DNA of B cells from THI patients will have differentially methylated regions compared to normal individuals.
+		\paragraph{Hypothesis:} DNA of B cells from THI patients will have regions which are differentially methylated to normal individuals.
 		
 		\subsection{Proposed experiment}
 		
-		Whole genome bisulfite sequencing (WGBS) should be performed on two sets of biological replicates for seven B cell subpopulations specified in figure \ref{fig:BCellSorting}. 
-		Two rounds of bisulfite conversion should be performed to ensure a conversion rate of over 99\%.
-		2 x 100bp paired-end DNA sequencing will be undertaken using an Illumina HiSeq 2000 platform. 
-		Read mapping will be carried out using the STAR aligner (v2.4.2a) \citep{Dobin13}.
+			To investigate global methylation of THI and control samples, we will produce full methylomes of the B cell lineages in figure \ref{fig:BCellSorting}. 
+			Whole genome bisulfite sequencing will be used such that we can obtain base-pair resolution of all methylated cytosines within the genome. 
+			To perform the analysis, we will use two sets of biological replicates for each of the {\Huge Number} of samples. 
+			Samples will undergo two rounds of bisulfite conversion to ensure a cytosine to thymine conversion rate of over 99\%.
+			Treated samples will then be sequenced on an Illumina HiSeq 2000 platform and mapped to the genome using the STAR algorithm (v2.4.2a) \citep{Dobin13}.
+			
+			We will then use ChIP-seq data from the ENCODE project \citep{ENCODE-Project-Consortium12} to analyse methylation status in the context of transcription factor binding sites.
+			The relative enrichment of each TFBS in any differentially methylated regions will be calculated in comparison to background reads. 
+			A Fisher's exact test will be used to assign an odds ratio and \textit{P} value to each comparison. 
+			Of particular focus will be the genes which are specific to B lymphopoiesis such as those in figure \ref{fig:TFBcell}.
+
+		\subsection{Possible outcomes and interpretations}
 		
-		From the methylation data, median CpG methylation can be compared between THI and control samples at all seven stages of B cell development. 
-		
-		
-		\subsection{Possible outcomes and interpretations}		
-		
-		A global decrease in methylation is expected to be observed, as previously reported
-		\citep{Kulis15,Lai13,Kulis12,Shaknovich11} 
-			\begin{itemize}
-				\item Methylome maps will be produced for every sample. 
-				\item Hence, we will be able to compare across two vectors: normal vs THI and normal as time progresses
-				\item I plan to produce a normal vs THI map for each age, and see the differences ebb as the IgG levels normalise
-			\end{itemize}
+			There are enumerable ways to present the methylation data, it is important to choose a layout which conveys the changes between THI samples and controls, while acknowledging any development related changes.
+			One method is to produce unbiased DNA methylation maps of the sorted cell populations as in figure \ref{fig:MethMap} produced by \citet{Kulis15}. 
+			The map clearly shows the gradual change in methylation exhibited by the cell subsets. 
+			Alternatively, the data could be displayed as in figure \ref{fig:TheoMethMap}, with one map per B cell subset, comparing THI with controls in each figure. 
+			An approach which has direct comparison with THI and control samples may make seeing changes easier. 
+			A slightly different presentation could be in the form of figure \ref{fig:PlotMeth}, which groups samples by cell subset and allows easy comparison between THI and control samples.
+			The most important factor in choosing a method of data presentation, is to find a method which allows real differences to be seen. 
+			Due to the dynamic nature of the immune system, it will be a challenge to ensure that only correctly matched samples are compared, but it is imperative for accurate analysis. 
+			
+			\begin{figure}[tb]
+				\centering
+				\makebox[\textwidth][c]{
+				\begin{subfigure}[b]{0.65\textwidth}
+					\flushleft
+					\includegraphics[width=1\linewidth]{../Figures/methylomeMap}
+					\caption{Methylome map produced by \citet{Kulis15}. }
+					\label{fig:MethMap}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.5\textwidth}
+					\includegraphics[width=1\linewidth]{../Figures/MethMapSingle}
+					\caption{Theoretical methylome map}
+					\label{fig:TheoMethMap}
+					\includegraphics[width=\linewidth]{../Figures/MedCpGMeth}
+					\caption{Theoretical methylation plot}
+					\label{fig:PlotMeth}
+				\end{subfigure}}
+				\caption{A: Cytosine methylation status is shown for six stages of B cell development. Concentric circles are labelled with appropriate stage. B: Theoretical presentation of methylome data. A map would be produced for each of the 10 B cell subpopulations. C: Theoretical presentation of median methylation data. Each column represents the developmentally similar group of samples labelled.}
+			\end{figure}
+			
+			
+			
+			It is expected that in both THI and control samples in all age groups, global methylation decreases as the B cells mature, as previously observed \citep{Kulis15,Lai13,Kulis12,Shaknovich11}. 
+			The ChIP Seq data will allow us to produce a heatmap such as that in figure \ref{fig:TFBSheatmap} which displays the correlations between transcription factor binding sites and differentially methylated regions. 
+			In the THI samples, we expect to find that regions related to B cell maturation will be hypermethylated compared to background levels. 
+			An example of a possible region is Pax5. {\Huge Finish section here}
+			In this cool paper, methylation of Pax5 was found to be cause arrest of B cell maturation at pro-B cell stage. 
+			
+			
+			
+			\begin{figure}[tb]
+				\centering
+				\includegraphics[width=.8\linewidth]{../Figures/TFbsKulis}
+				\caption{Association of differentially methylated regions (DMRs) and transcription factor binding sites (TFBSs). From \citet{Kulis15}.}
+				\label{fig:TFBSheatmap}
+			\end{figure}
 		
 	\section{Aim 3:}
 	
