@@ -1,4 +1,4 @@
-\begin{thebibliography}{57}
+\begin{thebibliography}{60}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -265,12 +265,51 @@ Aghaeepour, N., Finak, G., {FlowCAP Consortium}, {DREAM Consortium}, Hoos, H.,
   techniques.
 \newblock \emph{Nature methods}, 10\penalty0 (3):\penalty0 228--38.
 
-\bibitem[Cunningham-Rundles(2012)]{Cunningham-Rundles12}
-Cunningham-Rundles, C. (2012).
-\newblock The many faces of common variable immunodeficiency.
-\newblock \emph{Hematology / the Education Program of the American Society of
-  Hematology. American Society of Hematology. Education Program},
-  2012:\penalty0 301--5.
+\bibitem[Lara-Astiaso et~al.(2014)Lara-Astiaso, Weiner, Lorenzo-Vivas,
+  Zaretsky, Jaitin, David, Keren-Shaul, Mildner, Winter, Jung, et~al.]{Lara14}
+Lara-Astiaso, D., Weiner, A., Lorenzo-Vivas, E., Zaretsky, I., Jaitin, D.~A.,
+  David, E., Keren-Shaul, H., Mildner, A., Winter, D., Jung, S., et~al. (2014).
+\newblock Chromatin state dynamics during blood formation.
+\newblock \emph{Science}, 345\penalty0 (6199):\penalty0 943--949.
+
+\bibitem[Zan and Casali(2015)]{Zan15}
+Zan, H. and Casali, P. (2015).
+\newblock Epigenetics of peripheral {B}-cell differentiation and the antibody
+  response.
+\newblock \emph{Frontiers in immunology}, 6:\penalty0 631.
+
+\bibitem[Mercer et~al.(2011)Mercer, Lin, Benner, Jhunjhunwala, Dutkowski,
+  Flores, Sigvardsson, Ideker, Glass, and Murre]{Mercer11}
+Mercer, E.~M., Lin, Y.~C., Benner, C., Jhunjhunwala, S., Dutkowski, J., Flores,
+  M., Sigvardsson, M., Ideker, T., Glass, C.~K., and Murre, C. (2011).
+\newblock Multilineage priming of enhancer repertoires precedes commitment to
+  the {B} and myeloid cell lineages in hematopoietic progenitors.
+\newblock \emph{Immunity}, 35\penalty0 (3):\penalty0 413--25.
+
+\bibitem[B{\'e}gin and Nadeau(2014)]{Begin14}
+B{\'e}gin, P. and Nadeau, K.~C. (2014).
+\newblock Epigenetic regulation of asthma and allergic disease.
+\newblock \emph{Allergy Asthma Clinical Immunology}, 10\penalty0 (1):\penalty0
+  27.
+
+\bibitem[Zeng(2013)]{Zeng13}
+Zeng, W.-p. (2013).
+\newblock 'all things considered': transcriptional regulation of {T} helper
+  type 2 cell differentiation from precursor to effector activation.
+\newblock \emph{Immunology}, 140\penalty0 (1):\penalty0 31--8.
+
+\bibitem[Polansky et~al.(2008)Polansky, Kretschmer, Freyer, Floess, Garbe,
+  Baron, Olek, Hamann, von Boehmer, and Huehn]{Polansky08}
+Polansky, J.~K., Kretschmer, K., Freyer, J., Floess, S., Garbe, A., Baron, U.,
+  Olek, S., Hamann, A., von Boehmer, H., and Huehn, J. (2008).
+\newblock Dna methylation controls {F}oxp3 gene expression.
+\newblock \emph{European journal of immunology}, 38\penalty0 (6):\penalty0
+  1654--63.
+
+\bibitem[Ohkura et~al.(2013)Ohkura, Kitagawa, and Sakaguchi]{Ohkura13}
+Ohkura, N., Kitagawa, Y., and Sakaguchi, S. (2013).
+\newblock Development and maintenance of regulatory {T} cells.
+\newblock \emph{Immunity}, 38\penalty0 (3):\penalty0 414--423.
 
 \bibitem[Tallmadge et~al.(2015)Tallmadge, Shen, Tseng, Miller, Barry, and
   Felippe]{Tallmadge15}
@@ -280,6 +319,13 @@ Tallmadge, R.~L., Shen, L., Tseng, C.~T., Miller, S.~C., Barry, J., and
   variable immunodeficiency patients unveil block of {B} lymphocyte
   differentiation.
 \newblock \emph{Clinical immunology}, 160\penalty0 (2):\penalty0 261--76.
+
+\bibitem[Cunningham-Rundles(2012)]{Cunningham-Rundles12}
+Cunningham-Rundles, C. (2012).
+\newblock The many faces of common variable immunodeficiency.
+\newblock \emph{Hematology / the Education Program of the American Society of
+  Hematology. American Society of Hematology. Education Program},
+  2012:\penalty0 301--5.
 
 \bibitem[Schebesta et~al.(2007)Schebesta, McManus, Salvagiotto, Delogu,
   Busslinger, and Busslinger]{Schebesta07}
@@ -305,31 +351,6 @@ Roessler, S., Gy{\"o}ry, I., Imhof, S., Spivakov, M., Williams, R.~R.,
   by interleukin-7 and {Pax5}.
 \newblock \emph{Molecular and cellular biology}, 27\penalty0 (2):\penalty0
   579--94.
-
-\bibitem[Zeng(2013)]{Zeng13}
-Zeng, W.-p. (2013).
-\newblock 'all things considered': transcriptional regulation of {T} helper
-  type 2 cell differentiation from precursor to effector activation.
-\newblock \emph{Immunology}, 140\penalty0 (1):\penalty0 31--8.
-
-\bibitem[B{\'e}gin and Nadeau(2014)]{Begin14}
-B{\'e}gin, P. and Nadeau, K.~C. (2014).
-\newblock Epigenetic regulation of asthma and allergic disease.
-\newblock \emph{Allergy Asthma Clinical Immunology}, 10\penalty0 (1):\penalty0
-  27.
-
-\bibitem[Polansky et~al.(2008)Polansky, Kretschmer, Freyer, Floess, Garbe,
-  Baron, Olek, Hamann, von Boehmer, and Huehn]{Polansky08}
-Polansky, J.~K., Kretschmer, K., Freyer, J., Floess, S., Garbe, A., Baron, U.,
-  Olek, S., Hamann, A., von Boehmer, H., and Huehn, J. (2008).
-\newblock Dna methylation controls {F}oxp3 gene expression.
-\newblock \emph{European journal of immunology}, 38\penalty0 (6):\penalty0
-  1654--63.
-
-\bibitem[Ohkura et~al.(2013)Ohkura, Kitagawa, and Sakaguchi]{Ohkura13}
-Ohkura, N., Kitagawa, Y., and Sakaguchi, S. (2013).
-\newblock Development and maintenance of regulatory {T} cells.
-\newblock \emph{Immunity}, 38\penalty0 (3):\penalty0 414--423.
 
 \bibitem[Jakobsson et~al.(2014)Jakobsson, Abrahamsson, Jenmalm, Harris, Quince,
   Jernberg, Bj{\"o}rkst{\'e}n, Engstrand, and Andersson]{Jakobsson14}
