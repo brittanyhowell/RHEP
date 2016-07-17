@@ -20,7 +20,7 @@
 
 \doublespacing % Makes all lines (not figure legends) double spaced
 
-\title{Transcriptome and epigenome profile of B cells in patients with Transient Hypogammaglobulinemia of Infancy}
+\title{\vspace{-2cm} Transcriptome and epigenome profile of B cells in patients with Transient Hypogammaglobulinemia of Infancy}
 \date{}
 \author{Brittany Howell}
 
@@ -46,14 +46,17 @@
 	
 	\paragraph{Hypothesis}
 	~\\
-	B cells from Transient Hypogammaglobulinemia of Infancy (THI) patients exhibit more DNA methylation, indicating incomplete B cell differentiation, than individuals without THI.
+	Patients with Transient Hypogammaglobulinemia of Infancy (THI) will exhibit delayed loss of methylation in B cell lymphopoiesis genes, resulting in a deficiency of mature B cell subpopulations.
 	
 	\section{Background}
-	
-		Immunoglobulins are a vital component of the adaptive immune system \citep{Simon15}.  
-		The B cells which produce antibodies (active immunoglobulin) in adults are not fully mature in young infants, hence serum immunoglobulin levels decrease after birth \citep{Martin10,Rechavi15,Stiemh80}. 
-		Physiologic hypogammaglobulinemia refers to the point when serum immunoglobulin reaches its lowest level, commonly at 4 to 6 months of age \citep{Dressler89}. 
-		THI is a disorder where regular hypogammaglobulinemia is prolonged or exacerbated then spontaneously alleviated. \citep{Stiemh80,Dressler89,AlHerz14,Gitlin56,AlHerz11,Rosen66,McGeady87, Dalal98,Tiller78,Buckley83}.
+		
+		Antibodies are a vital component of the adaptive immune system \citep{Simon15}. 
+		The production of antibodies occurs when \naive B cells are activated in response to foreign antigens (figure \ref{fig:BCellDevelopment}).
+		During gestation, maternal antibodies (mAbs) are passed to the foetus through the placenta \citep{Hasselquist09}.
+		At birth, B cells do not fully mature, so as mAbs are degraded, serum antibody concentration decreases \citep{Martin10,Rechavi15}. 
+		Physiologic hypogammaglobulinemia refers to the point when serum antibody concentration reaches its lowest level.
+		In normal infants, the hypogammaglobulinemia subsides as the B cells are able to mature into antibody producing cells, commonly at 4 to 6 months of age \citep{Dressler89}. 
+		Transient Hypogammaglobulinemia of infancy (THI) is a disorder where regular hypogammaglobulinemia is prolonged or exacerbated then spontaneously alleviated. \citep{Dressler89,AlHerz14,Gitlin56,AlHerz11,Rosen66,McGeady87,Stiemh80, Dalal98,Tiller78,Buckley83}.
 		The mechanism causing low serum immunoglobulin in THI patients is unknown \citep{AlHerz14}. 
 
 			
@@ -61,10 +64,10 @@
 			~\\
 			Studies investigating THI have found that levels of circulating B cells are normal and subpopulations of B cells are intact \citep{Tiller78,Stiemh80,Siegel81,Buckley83,Fiorilli86,Dressler89}.
 			With no obvious B cell deficiency, the cause of THI has been speculated extensively, but no proposed cause has been supported by replicated evidence \citep{Fudenberg64,Rosen66,Nathenson71,Willenbockel60,Soothill68,Tiller78,Fiorilli86,Ovadia14,Siegel81,McGeady87}.
-			
 			In regards to genetic inheritance, THI was initially thought to be familial \citep{Willenbockel60}. 
 			\citet{Soothill68} proposed that THI was a manifestation of genetic heterozygosity for other immunodeficiency diseases, noting the high number of patients who had immunodeficient relatives.
 			While it remains a possibility, no proceeding studies have shown supporting evidence \citep{Tiller78,Fiorilli86, Ovadia14}.
+			With no obvious deficiencies or genetic links, THI is most often speculated to be caused by some kind of delay in B cell maturation or activation \citep{McGeady87,Stiemh80,Walker94,Rosen84}. 
 			
 		\paragraph{B cell development}
 			~\\
@@ -99,6 +102,16 @@
 				\caption{Schematic representation of interactions between early B cell transcription factors. Adapted from \citet{Choukrallah14}.}
 				\label{fig:TFBcell}
 			\end{figure}
+			
+			For the first few months of life, two distinct types of B cells are produced. 
+			The aforementioned B cells are conventional B cells, B2 cells, which are the predominant subclass for most of life \citep{Simon15}. 
+			For the first few months of life however, B1 cells comprise up to 40\% of peripheral blood B cells \citep{Griffin11}. 
+			B1 cells spontaneously secrete low-affinity IgM with a limited range of antigen specificities offering a first line of defence with more similarity to an innate response.
+			The low diversity exhibited by B1 cells is attributed to occurrence of fewer somatic mutations \citep{Montecino-Rodriguez12}.
+			B1 cells have predominant importance in the first few months of life, so it is important to consider them in context of THI. 
+			However, THI is characterised by a lower than normal serum IgG level, IgG is produced predominantly by conventional B2 cells, so while B1 cells may interact with the B cell response, they will not form the focus of this investigation.
+			
+			
 			
 		\paragraph{FACS}
 			~\\
@@ -308,72 +321,40 @@
 	\section{Aim 3:}
 	
 		\subsection{Hypothesis}
-		
+			
+			Samples from THI patients will show decreased expression for B cell commitment associated genes compared to controls.
+					
 		\subsection{Proposed experiment}
+			
+			To investigate expression changes across the genome of THI samples, we will conduct RNA-Seq analysis on each of the B cell subsets in figure \ref{fig:BCellSorting}. 
+
+			RNA-Seq libraries will be generated using the TruSeq Stranded Total RNA kit (Illumina). 
+			Sequenced reads will be aligned to the genome using the STAR algorithm (v2.4.2a)\citep{Dobin13} and RPKM values will be calculated for each gene.
+			qPCR analysis of gene expression will then be undertaken. 
+			RNA will be reverse transcribed into cDNA and analysed using the Universal Probe Library System. 
+			Target gene expression will be presented relative to average expression for the housekeeping genes \textit{GAPDH}, \textit{ACTB} and \textit{HPRT1}.
+			
 		
 		\subsection{Possible outcomes and interpretations}				
-	
-
-\appendix
-	\section{Appendices}
-		
-		\subsection{Sample information}
-
 			
+			A graph such as that produced by \citet{Tallmadge15} (figure \ref{fig:TallTFexp}) will be produced to show the difference in expression of each implicated TF in each stage of B cell development.
 			
+				
 			
-			
-			\begin{landscape} % Sample table
-				\footnotesize
-				\begin{longtable}[c]{|l | l |p{4cm}|l|l|l|l|l|}
-					\caption{Clinical details of patients with THI. Abbreviations: m, months; y, years; CVI, common variable immunodeficiency; -, unknown; def, d.} \\ \hline 	
-					Individual & Tissue & Age at test  & Gender  & Ethnicity   & Breastfeeding status & Mode of birth & Family history of PID    \\ \hline \hline
-					\endfirsthead
-					\hline
-					Individual & Tissue & Age at test  & Gender  & Ethnicity   & Breastfeeding status & Mode of birth & Family history of PID    \\ \hline \hline
-					\endhead
-					\hline 	\endfoot 
-					\label{table:samples}
-					1  & Whole Blood & 7m, 11m, 1y 7m, 2y 1m                                    & Female & Caucasian & Breastfed  & Vaginal           & None                 \\
-					   & Tonsils     & 2y 1m                                                    &        &           &            &                   &  \\ \hline
-					2  & Whole Blood & 8m, 11m, 1y 3m, 1y 6m, 1y 8m, 2y 1m, 2y 4m, 2y 6m, 2y 8m & Male   & Caucasian & Breastfed  & Vaginal           & None                 \\
-					   & Tonsils     & 2y 6m                                                    &        &           &            &                   &  \\ \hline
-					3  & Whole Blood & 9m, 1y 3m, 1y 9m, 2y 6m, 2y 9m, 3y 2m, 3y 6m             & Male   & Jewish    & Bottle fed & Caesarian section & None                 \\
-					   & Tonsils     & 3y 2m                                                    &        &           &            &                   &  \\ \hline
-					4  & Whole Blood & 10m, 1y 1m, 1y 8m                                        & Male   & Caucasian & Bottle fed & Vaginal           & None                 \\ \hline
-					5  & Whole Blood & 9m, 11m, 1y 3m, 1y 5m, 1y 8m                             & Male   & Asian     & Breastfed  & Vaginal           & Brother with CVI     \\ \hline
-					6  & Whole Blood & 7m, 9m, 11m, 1y 8m                                       & Female & Jewish    & Breastfed  & Vaginal           & None                 \\ \hline
-					7  & Whole Blood & 9m, 11m, 1y 2m, 1y 6m                                    & Male   & -         & Breastfed  & -                 & -                    \\ \hline
-					8  & Whole Blood & 7m, 9m,                                                  & Female & -         & Breastfed  & -                 & -                    \\ \hline
-					9  & Whole Blood & 7m, 9m, 11m, 1y 3m 1y 8m                                 & Male   & -         & Breastfed  & -                 & -                    \\ \hline
-					10 & Whole Blood & 7m, 9m, 11m, 1y 2m, 1y 6m                                & Male   & -         & Breastfed  & -                 & -                    \\ \hline
-					11 & Whole Blood & 9m, 11m, 1y 1m, 1y 3m 1y 8m                              & Male   & -         & Bottle fed & -                 & -                    \\ \hline
-					12 & Whole Blood & 7m, 11m, 1y 2m, 1y 11m, 2y 6m, 2y 9m, 3y 4m, 3y 7m, 4y   & Female & Jewish    & Breastfed  & Vaginal           & None                 \\
-					   & Tonsils     & 2y 11m                                                   &        &           &            &                   &  \\ \hline
-					13 & Whole Blood & 9m, 11m, 1y 2m, 1y 6m, 2y 4m, 2y 8m                      & Male   & Jewish    & Bottle fed & Vaginal           & None                 \\ \hline
-					14 & Whole Blood & 9m, 1y 1m, 1y 7m, 2y 2m, 2y 9m, 3y 2m                    & Female & Caucasian & Bottle fed & Vaginal           & None                 \\
-					   & Tonsils     & 3y 2m                                                    &        &           &            &                   &  \\ \hline
-					15 & Whole Blood & 7m, 11m, 1y 1m                                           & Male   & Caucasian & Breastfed  &                   & Sister with IgA def. \\ \hline
-					16 & Whole Blood & 8m, 1y 1m, 1y 4m, 1y 6m                                  & Male   & -         & -          & Vaginal           & -                    \\ \hline
-					17 & Whole Blood & 9m, 1y 2m, 1y 6m                                         & Male   & -         & -          & Vaginal           & -                    \\ \hline
-					18 & Whole Blood & 7m, 9m, 1y 1m                                            & Female & -         & -          & Caesarian section & -                    \\ \hline
-					19 & Whole Blood & 7m, 9m, 11m, 1y 2m, 1y 6m                                & Male   & -         & -          & Vaginal           & -                    \\ \hline
-					20 & Whole Blood & 9m, 11m, 1y 2m, 1y 6m                                    & Male   & -         & -          & Vaginal           & -                    \\ \hline
-					21 & Whole Blood & 11m, 1y 3m, 1y 5m, 1y 8m                                 & Male   & -         & -          & Caesarian section & -                    \\ \hline
-					22 & Whole Blood & 7m, 9m, 11m, 1y 8m                                       & Female & -         & -          & -                 & None                 \\ \hline
-					23 & Whole Blood & 9m, 1y 2m, 1y 6m                                         & Male   & -         & -          & -                 & None                 \\ \hline
-					24 & Whole Blood & 7m, 9m, 1y 1m, 1y 6m, 1y 11m, 2y 1m                      & Female & -         & -          & -                 & None                 \\
-					   & Tonsils     & 2y 4m                                                    &        &           &            &                   &  \\ \hline
-					25 & Whole Blood & 7m, 11m, 1y 3m, 1y 5m, 1y 8m                             & Male   & -         & -          & -                 & Sister with IgA def. \\ \hline
-					26 & Whole Blood & 8m, 1y 1m,                                               & Male   & -         & -          & -                 & None
-				\end{longtable}
-			\end{landscape}	
+			\begin{figure}
+				\centering
+				\includegraphics[width=\linewidth]{../Figures/TallmadgeTFexp}
+				\caption{Expression of B lymphocyte-specific genes during development from hematopoietic stem cells to plasma cells. From \citet{Tallmadge15}. Gene expression presented in counts per million reads (CPM)}
+				\label{fig:TallTFexp}
+			\end{figure}
+					
+%\include{samplesTable.tex}
 				
 	\bibliographystyle{BrittSuperScript}
 	\bibliography{../literature}
 	
-	\includepdf[pages=-]{../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pdf}
-	\includepdf[pages=-]{../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf}
+%	\includepdf[pages=-]{../Reading/Transient_hypogammaglobulinemia_of_infancy_Ovadia_and_Dalal_2014.pdf}
+%	\includepdf[pages=-]{../Reading/Whole-genome-fingerprint-of-the–DNA-methylome-during-human-B-cell-differentiation.pdf}
 	
 	
 	

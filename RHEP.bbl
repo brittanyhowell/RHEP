@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{57}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -10,6 +10,13 @@ Simon, A.~K., Hollander, G.~A., and McMichael, A. (2015).
 \newblock Evolution of the immune system in humans from infancy to old age.
 \newblock \emph{Proceedings. Biological sciences / The Royal Society},
   282\penalty0 (1821):\penalty0 20143085.
+
+\bibitem[Hasselquist and Nilsson(2009)]{Hasselquist09}
+Hasselquist, D. and Nilsson, J.-A. (2009).
+\newblock Maternal transfer of antibodies in vertebrates: trans-generational
+  effects on offspring immunity.
+\newblock \emph{Philosophical transactions of the Royal Society of London.
+  Series B, Biological sciences}, 364\penalty0 (1513):\penalty0 51--60.
 
 \bibitem[Martin et~al.(2010)Martin, Nauta, Ben~Amor, Knippels, Knol, and
   Garssen]{Martin10}
@@ -26,12 +33,6 @@ Rechavi, E., Lev, A., Lee, Y.~N., Simon, A.~J., Yinon, Y., Lipitz, S.,
   repertoire during human fetal development.
 \newblock \emph{Science translational medicine}, 7\penalty0 (276):\penalty0
   276ra25.
-
-\bibitem[Stiehm and Fulginity(1980)]{Stiemh80}
-Stiehm, E.~R. and Fulginity, V.~A. (1980).
-\newblock \emph{Immunologic Disorders in Infants and Children}, chapter The
-  immunodeficiencies of immaturity, pages 219--238.
-\newblock W.B Saunders Company, Philadelphia, second edition.
 
 \bibitem[Dressler et~al.(1989)Dressler, Peter, M{\"u}ller, and
   Rieger]{Dressler89}
@@ -81,6 +82,12 @@ McGeady, S.~J. (1987).
 \newblock Transient hypogammaglobulinemia of infancy: need to reconsider name
   and definition.
 \newblock \emph{The Journal of pediatrics}, 110\penalty0 (1):\penalty0 47--50.
+
+\bibitem[Stiehm and Fulginity(1980)]{Stiemh80}
+Stiehm, E.~R. and Fulginity, V.~A. (1980).
+\newblock \emph{Immunologic Disorders in Infants and Children}, chapter The
+  immunodeficiencies of immaturity, pages 219--238.
+\newblock W.B Saunders Company, Philadelphia, second edition.
 
 \bibitem[Dalal et~al.(1998)Dalal, Reid, Nisbet-Brown, and Roifman]{Dalal98}
 Dalal, I., Reid, B., Nisbet-Brown, E., and Roifman, C.~M. (1998).
@@ -147,6 +154,19 @@ Soothill, J.~F. (1968).
 Ovadia, A. and Dalal, I. (2014).
 \newblock Transient hypogammaglobulinemia of infancy.
 \newblock \emph{LymphoSign Journal}, 1\penalty0 (1):\penalty0 1--9.
+
+\bibitem[Walker et~al.(1994)Walker, Kemp, Hill, and Shelton]{Walker94}
+Walker, A.~M., Kemp, A.~S., Hill, D.~J., and Shelton, M.~J. (1994).
+\newblock Features of transient hypogammaglobulinaemia in infants screened for
+  immunological abnormalities.
+\newblock \emph{Archives of disease in childhood}, 70\penalty0 (3):\penalty0
+  183--6.
+
+\bibitem[Rosen et~al.(1984)Rosen, Cooper, and Wedgwood]{Rosen84}
+Rosen, F.~S., Cooper, M.~D., and Wedgwood, R.~J. (1984).
+\newblock The primary immunodeficiencies (1).
+\newblock \emph{The New England journal of medicine}, 311\penalty0
+  (4):\penalty0 235--42.
 
 \bibitem[Gao et~al.(2009)Gao, Lukin, Ram{\'\i}rez, Fields, Lopez, and
   Hagman]{Gao09}
@@ -217,6 +237,18 @@ Choukrallah, M.~A. and Matthias, P. (2014).
 \newblock The interplay between chromatin and transcription factor networks
   during {B} cell development: Who pulls the trigger first?
 \newblock \emph{Frontiers in immunology}, 5:\penalty0 156.
+
+\bibitem[Griffin et~al.(2011)Griffin, Holodick, and Rothstein]{Griffin11}
+Griffin, D.~O., Holodick, N.~E., and Rothstein, T.~L. (2011).
+\newblock Human {B}1 cells in umbilical cord and adult peripheral blood express
+  the novel phenotype {CD20}+ {CD27}+ {CD43}+ {CD70}-.
+\newblock \emph{The Journal of experimental medicine}, 208\penalty0
+  (1):\penalty0 67--80.
+
+\bibitem[Montecino-Rodriguez and Dorshkind(2012)]{Montecino-Rodriguez12}
+Montecino-Rodriguez, E. and Dorshkind, K. (2012).
+\newblock B-1 {B} cell development in the fetus and adult.
+\newblock \emph{Immunity}, 36\penalty0 (1):\penalty0 13--21.
 
 \bibitem[Saeys et~al.(2016)Saeys, Gassen, and Lambrecht]{Saeys16}
 Saeys, Y., Gassen, S.~V., and Lambrecht, B.~N. (2016).

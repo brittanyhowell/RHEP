@@ -4,45 +4,45 @@ The top-level auxiliary file: RHEP.aux
 The style file: BrittSuperScript.bst
 Database file #1: ../literature.bib
 Warning--can't use both author and editor fields in Stiemh80
-You've used 52 entries,
+You've used 57 entries,
             2380 wiz_defined-function locations,
-            969 strings with 19598 characters,
-and the built_in function-call counts, 24151 in all, are:
-= -- 1612
-> -- 2288
-< -- 19
-+ -- 820
-- -- 716
-* -- 2609
-:= -- 4447
-add.period$ -- 156
-call.type$ -- 52
-change.case$ -- 104
-chr.to.int$ -- 52
-cite$ -- 53
-duplicate$ -- 739
-empty$ -- 1450
-format.name$ -- 786
-if$ -- 4647
+            1008 strings with 20668 characters,
+and the built_in function-call counts, 25916 in all, are:
+= -- 1765
+> -- 2387
+< -- 21
++ -- 858
+- -- 744
+* -- 2777
+:= -- 4747
+add.period$ -- 171
+call.type$ -- 57
+change.case$ -- 114
+chr.to.int$ -- 57
+cite$ -- 58
+duplicate$ -- 809
+empty$ -- 1586
+format.name$ -- 823
+if$ -- 5009
 int.to.chr$ -- 1
-int.to.str$ -- 53
-missing$ -- 53
-newline$ -- 268
-num.names$ -- 156
-pop$ -- 212
+int.to.str$ -- 58
+missing$ -- 58
+newline$ -- 293
+num.names$ -- 171
+pop$ -- 232
 preamble$ -- 1
-purify$ -- 52
+purify$ -- 57
 quote$ -- 0
-skip$ -- 453
+skip$ -- 497
 stack$ -- 0
-substring$ -- 1027
-swap$ -- 115
+substring$ -- 1115
+swap$ -- 125
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 361
+type$ -- 396
 warning$ -- 1
-while$ -- 161
+while$ -- 176
 width$ -- 0
-write$ -- 685
+write$ -- 750
 (There was 1 warning)
