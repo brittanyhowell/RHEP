@@ -12,10 +12,17 @@
 \usepackage{lscape} % To allow some pages to be in landscape
 \usepackage{float, subfloat} % For H flag and subfloats
 \usepackage{caption, subcaption} % for ABCD Subcaptions
+\usepackage[framemethod=tikz]{mdframed} % Allows coloured boxes
+
 % Longtable settings
 \setlength\LTleft{0pt} % flush left
 \setlength\LTright{0pt} % flush right
 \setlength{\LTcapwidth}{8in}
+
+% mdframed settings
+\newmdenv[innerlinewidth=1.5pt, roundcorner=4pt,linecolor=mycolor,innerleftmargin=20pt,
+innerrightmargin=20pt,innertopmargin=20pt,innerbottommargin=20pt,leftmargin =30, rightmargin=30]{mybox}
+\definecolor{mycolor}{rgb}{0.122, 0.435, 0.698}
 
 
 \doublespacing % Makes all lines (not figure legends) double spaced
@@ -29,6 +36,7 @@
 \newcommand{\IFNG}{IFN-$\gamma$ }
 \newcommand{\NFKB}{NF-$\kappa$B }
 \newcommand{\naive}{na\"{i}ve }
+\newcommand{\Naive}{Na\"{i}ve }
 
 \newcommand{\Th}{T$_\textrm{H}$ }
 \newcommand{\ThO}{T$_\textrm{H}1$} 
@@ -103,13 +111,13 @@
 				\label{fig:TFBcell}
 			\end{figure}
 			
-			For the first few months of life, two distinct types of B cells are produced. 
-			The aforementioned B cells are conventional B cells, B2 cells, which are the predominant subclass for most of life \citep{Simon15}. 
-			For the first few months of life however, B1 cells comprise up to 40\% of peripheral blood B cells \citep{Griffin11}. 
-			B1 cells spontaneously secrete low-affinity IgM with a limited range of antigen specificities offering a first line of defence with more similarity to an innate response.
-			The low diversity exhibited by B1 cells is attributed to occurrence of fewer somatic mutations \citep{Montecino-Rodriguez12}.
-			B1 cells have predominant importance in the first few months of life, so it is important to consider them in context of THI. 
-			However, THI is characterised by a lower than normal serum IgG level, IgG is produced predominantly by conventional B2 cells, so while B1 cells may interact with the B cell response, they will not form the focus of this investigation.
+%			For the first few months of life, two distinct types of B cells are produced. 
+%			The aforementioned B cells are conventional B cells, B2 cells, which are the predominant subclass for most of life \citep{Simon15}. 
+%			For the first few months of life however, B1 cells comprise up to 40\% of peripheral blood B cells \citep{Griffin11}. 
+%			B1 cells spontaneously secrete low-affinity IgM with a limited range of antigen specificities offering a first line of defence with more similarity to an innate response.
+%			The low diversity exhibited by B1 cells is attributed to occurrence of fewer somatic mutations \citep{Montecino-Rodriguez12}.
+%			B1 cells have predominant importance in the first few months of life, so it is important to consider them in context of THI. 
+%			However, THI is characterised by a lower than normal serum IgG level, IgG is produced predominantly by conventional B2 cells, so while B1 cells may interact with the B cell response, they will not form the focus of this investigation.
 			
 			
 			
@@ -131,13 +139,14 @@
 			
 			Epigenetic modifications act in concert with transcription factors to confer the phenotype of many cell subsets of the immune system \citep{Lara14,Zan15,Mercer11}. 
 			A prominent example is the activation and differentiation of the many T cell subsets \citep{Begin14, Zeng13}. 
-			Confirmation of the T regulatory cell lineage relies on the methylation status of the Treg-specific demethylated region (TSDR) is imperative in Treg differentiation \citep{Polansky08}.
-			{\Large Add a sentence about how TSDR is FOXP3 gene}
-			When the T cell is stimulated by binding at the T cell receptor, demethylation occurs at the TSDR.
-			Foxp3, a protein expressed during T cell activation, is able to bind to the TSDR when methylated. 
-			The binding stimulates the expression of Foxp3 and hence steers differentiation to the Treg lineage.
-			If the TSDR is methylated, as in non Treg subsets, Foxp3 cannot bind and hence its expression is transient \citep{Ohkura13}. 
-			Therefore, demethylation permits FOXP3 binding and thence confirms Treg lineage.
+			Confirmation of the T regulatory cell (Treg) lineage relies on stable expression of FOXP3.
+			A substantial amount of evidence suggests that FOXP3 expression itself is not sufficient to establish and maintain the Treg phenotype.
+			In fact, FOXP3 expression occurs in all T cell subsets upon activation \citep{Ohkura13,Polansky08}.
+			The distinguishing factor between Tregs and other subsets is the methylation status of the FOXP3 gene, otherwise known as the Treg-specific demethylated region (TSDR) \cite{Shimazu16}.
+			When the T cell receptor is engaged in Tregs, demethylation occurs at the TSDR. 
+			FOXP3 can then bind to its own gene stabilising expression and hence reinforcing commitment to the Treg lineage.
+			Contrastingly, in other subsets the TSDR remains methylated and so FOXP3 expression is transient \citep{Ohkura13}.
+			Hence methylation status of key genes can permit lineage commitment. 
 			
 			Aberrant epigenetics have recently been implicated as the cause of common variable immunodeficiency (CVID), a disease similar to THI \citep{Tallmadge15}.
 			CVID is a late-onset primary immunodeficiency characterised by dysfunction or loss of B lymphocytes, blockage of B cell development at pro-B cell stage and decreased immunoglobulin production. 
@@ -152,39 +161,37 @@
 			The prolonged antibody deficiency exhibited in THI patients could be the result of dysfunctional B cells. 
 			An epigenetic cause such as methylation 
 	
-%	\section{Proposal}
-%
-%		
-%			The most intriguing feature of THI is its self-limited nature: recurrent infections gradually subside and serum IgG levels increase with no obvious cause  \citep{Tiller78,Soothill68,Siegel81,McGeady87,Dressler89,Kowalczyk97,Dalal98}. 
-%			Furthermore, the lack of evidence supporting a genetic basis suggests that the cause of THI is not within the genome \citep{Tiller78,Fiorilli86,Ovadia14}.
-%			
-%		
-%			In common variable immunodeficiency, a disease related to THI, some B cells resemble immature B cells producing very little IgG \citep{Fiorilli86}. 
-%			Incomplete maturation results in limited IgG production, so it is possible that the delayed onset of IgG synthesis in THI is also due to incomplete B cell maturation.
-%			Development and differentiation are greatly influenced by epigenetic changes; latent maturity could be caused by inappropriate methylation of B cell development or differentiation genes. 
-%	
-%			To study incomplete lineage commitment B cells will be sampled from THI patients and age-matched controls then characterised using whole-genome bisulfite sequencing.
-%			As in \citet{Kulis15} DNA methylation maps will be generated for sorted human B cell populations: uncommitted haematopoietic progenitor cells, pre-BII cells, plasma cells from bone marrow, germinal center B cells, \naive B cells from peripheral blood and memory B cells from peripheral blood.
-%			Global demethylation normally occurs as B cells mature \citep{Oakes16}. 
-%			If methylation is a cause of delayed maturation, the methylome of THI patients should be distinct to the age-matched controls.
+	
+		
+	\section{Summary and experimental aims}
+
+		\begin{mybox}
 			
-	\section{Experimental aims}
+			\begin{itemize}
+
+				\item THI is a self-limited disorder characterised by prolonged deficient levels of serum antibody IgG which gradually subside with no obvious stimulus \citep{Tiller78,Soothill68,Siegel81,McGeady87,Dressler89,Kowalczyk97,Dalal98,AlHerz14,Gitlin56,AlHerz11,Rosen66,Stiemh80,Buckley83}.
+				\item Furthermore, the lack of evidence supporting a genetic basis suggests that the cause of THI is not within the genome \citep{Tiller78,Fiorilli86,Ovadia14}.
+				\item \citet{Tallmadge15} showed that in CVID, aberrant methylation of key B cell maturation region, Pax5, was the cause of late onset dysfunctional B lymphopoiesis.
+				\item It is possible that the limited IgG production exhibited in THI is caused by delayed B cell maturation as a result of inappropriate methylation.
+				
+			\end{itemize}
+
+		\end{mybox}
+
+			
+		\subsection{Experimental aims}
 		
-		\paragraph{Experimental aim 1:} Using FACS, describe the B cell subpopulations in THI patients and normal individuals throughout early development.
-		
-		
-		\paragraph{Experimental aim 2:} Using whole genome bisulphite sequencing, identify regions of the genome which are differentially methylated in THI samples and controls.
-		
-		\paragraph{Experimental aim 3:} Using RNA-Seq, identify differentially expressed regions in THI samples.
+			\paragraph{Aim 1:} Using FACS, describe the B cell subpopulations in THI patients and normal individuals throughout early development.
+			
+			\paragraph{Aim 2:} Using whole genome bisulphite sequencing, identify regions of the genome which are differentially methylated in THI samples and controls.
+			
+			\paragraph{Aim 3:} Using RNA-Seq, identify differentially expressed regions in THI samples.
 
 	\section{Data collection and management}
 	
 		\subsection{Collecting samples}
 			
 			% Add topic sentence
-			Peripheral blood B cells will be obtained from the buffy coat (figure \ref{fig:BuffyCoat}) of the THI samples, and controls. 
-			Plasma cells, germinal centre B cells and \naive B cells will be isolated from processed tonsil samples. 
-			Progenitor cells, pre-BI cells, pre-BII cells, immature B cells and plasma cells will be isolated from bone marrow aspirations
 			Members from the Pediatric Department at Wolfson Medical centre have kindly agreed to provide whole blood and tonsil samples they have collected from 26 THI patients (see table \ref{table:samples}).
 			Further peripheral blood, bone marrow and tonsil samples will be obtained from the Women's and Children's Hospital Immunodeficiency clinic. 
 			Blood will be taken from THI patients between initial presentation and normalisation of IgG levels.
@@ -196,7 +203,7 @@
 			
 				To determine B cell maturation changes caused by THI, it is imperative to compare samples that are at the closest possible environmental stage.
 				Maturation of B cells integrates numerous internal and environmental signals, so controlling for developmental stage has significant challenges. 
-				Where possible, THI samples will be matched to control samples. 
+				Where possible, THI samples will be fully matched to control samples. 
 				The most important criteria to match will be age, as it is the most prominent indicator of immune system development. 
 				Secondly, the method of both birth (vaginal or caesarian) and feeding (bottle or breastfed) will be considered, as both have large influence over the immune system \citep{Jakobsson14,Cho13,Brandtzaeg03,Rogier14,Gomez14}.
 				Further factors such as gender and ethnicity will be matched if possible. 
@@ -208,53 +215,53 @@
 				Additionally, the control samples will be taken from participants' donations which may not match the clinical history of the THI samples.
 				Even if it is possible to match samples according to stringent criteria, there are a myriad more external factors that will affect the dynamic nature of the immune system.
 				 
-				
-		
-		\subsection{Segregation of B cells}
-			
-			The maturation of B cells is a continuous process. 
-			It is therefore important to ensure that any changes which are observed between experimental and control samples are due to true THI effects, not normal B cell maturation changes.
-			To reduce the variation between compared cells, the B cells will be segregated into developmental stages. 
-			Preparation and segregation of B cells will be undertaken using FACS as in \citet{Kulis15} and \citet{Oakes16}.
-			Subpopulations obtained will include \naive B cells from peripheral blood and tonsils, germinal center B cells and plasma cells from tonsils, and memory B cells from peripheral blood samples (figure \ref{fig:BCellSorting}). 
-			There are always limitations when applying discrete developmental stages to continuous processes.
-			However, segregating B cells into such specific subtypes significantly reduces the chance of detecting a differences which are due to developmental stage. 
-			
-			
-			
-				\begin{figure}[tb]
-					\centering
-					\begin{subfigure}[b]{.7\textwidth}
-						\flushleft
-						\includegraphics[width=\textwidth]{../Figures/BcellSorting4}
-						\includegraphics[width=.78\textwidth]{../Figures/BcellSorting3}
-						\caption{B cell populations}
-						\label{fig:BCellSorting}
-					\end{subfigure}
-					\begin{subfigure}[b]{0.29\textwidth}
-						\centering
-						\includegraphics[width=\textwidth]{../Figures/BuffyCoat}
-						\caption{Buffy coat}
-						\label{fig:BuffyCoat}
-					\end{subfigure}
-					\caption{\ref{fig:BCellSorting}: Description of the FACS sorting markers used to segregate B cell populations. \ref{fig:BuffyCoat}: The buffy coat is the fraction of an anticoagulated blood sample which contains leukocytes and platelets.}
-				\end{figure}`
 	
 	\section{Aim 1:}
 	
 		\paragraph{Hypothesis} THI samples will be deficient in activated B cells and plasma cells. 
 		
 		\subsection{Proposed experiment}
-			
-			Conduct FACS using these antibodies. 
-			To show these abundances. 
+		
+				\subsection{Segregation of B cells}
+				
+				To analyse the distribution of B cell subpopulations, we will segregate the B cells using flow cytometry as in \citet{Kulis15} and \citet{Oakes16}.
+				B cells will be isolated from bone marrow, peripheral blood and tonsil samples. 
+				B cell populations sorted will include progenitor, pre-BI, pre-BII, immature and plasma cells isolated from bone marrow, \naive and memory B cells sorted from peripheral blood and plasma cells, germinal centre and \naive B cells isolated from tonsils. 
+				FACS will be used for all three tissues to sort populations using the surface markers in figure \ref{fig:BCellSorting}.
+				
+				\begin{figure}[tb]
+					\centering
+				%	\begin{subfigure}{.9\textwidth}
+
+						\includegraphics[width=.9\linewidth]{../Figures/BcellSorting}
+						\caption{B cell populations}
+						\label{fig:BCellSorting}
+				%	\end{subfigure}
+				%	\begin{subfigure}{0.29\textwidth}
+				%		\centering
+				%		\includegraphics[width=\textwidth]{../Figures/BuffyCoat}
+				%		\caption{Buffy coat}
+				%		\label{fig:BuffyCoat}
+				%	\end{subfigure}}
+					\caption{Description of the FACS sorting markers used to segregate B cell populations.} %\ref{fig:BuffyCoat}: The buffy coat is the fraction of an anticoagulated blood sample which contains leukocytes and platelets.}
+				\end{figure}`
+
 		
 		\subsection{Possible outcomes and interpretations}		
 		
-			It is possible that THI patients have fewer plasma cells than normal populations. 
-			This would lead to a lesser ability to produce antibodies. 
-			It would not have been previously noted, as the experiments were not around to show it.
-	
+		
+			Segregating samples into B cell subpopulations serves two purposes. 
+			Firstly, sorting allows greater confidence in any observed differences.
+			We are attempting to find developmental differences between THI and normal patients. 
+			It is imperative that any changes observed are explained by THI rather than normal B cell maturation changes.
+			After sorting, we can compare THI and control cells that at the same maturation stage. 
+			%Therefore the developmental variation between compared cells will be reduced allowing more confidence that observed changes are due to THI.
+			While there are always limitations when applying discrete stages to continuous processes, segregating B cells into such specific subtypes significantly reduces the chance of detecting differences which are due to developmental stage. 
+			Secondly, as the cells will be separated based on maturity, we are able to compare the prevalence of each cell subtype. 
+			If there is a block in the B cell development pathway, as in \citet{Tallmadge15}, we will see lower numbers of mature B cells in THI samples compared to controls.
+			Alternatively, the distribution of B cell subpopulations could be intact, as previously claimed \citep{Tiller78,Stiemh80,Siegel81,Buckley83,Fiorilli86,Dressler89}.
+			A lack of deficient subpopulations indicates that the problem is not in the development of the B cell lineage but instead in IgG production by plasma cells. 
+			
 	
 	\section{Aim 2:}
 	
@@ -264,7 +271,7 @@
 		
 			To investigate global methylation of THI and control samples, we will produce full methylomes of the B cell lineages in figure \ref{fig:BCellSorting}. 
 			Whole genome bisulfite sequencing will be used such that we can obtain base-pair resolution of all methylated cytosines within the genome. 
-			To perform the analysis, we will use two sets of biological replicates for each of the {\Huge Number} of samples. 
+			To perform the analysis, we will use two sets of biological replicates for each of the samples. 
 			Samples will undergo two rounds of bisulfite conversion to ensure a cytosine to thymine conversion rate of over 99\%.
 			Treated samples will then be sequenced on an Illumina HiSeq 2000 platform and mapped to the genome using the STAR algorithm (v2.4.2a) \citep{Dobin13}.
 			
@@ -273,46 +280,47 @@
 			A Fisher's exact test will be used to assign an odds ratio and \textit{P} value to each comparison. 
 			Of particular focus will be the genes which are specific to B lymphopoiesis such as those in figure \ref{fig:TFBcell}.
 
+\begin{figure}[tb]
+	\centering
+	\makebox[\textwidth][c]{
+		\begin{subfigure}[b]{0.65\textwidth}
+			%					\flushleft
+			\includegraphics[width=1\linewidth]{../Figures/methylomeMap}
+			\caption{Methylome map produced by \citet{Kulis15}. }
+			\label{fig:MethMap}
+		\end{subfigure}
+		\begin{subfigure}[b]{0.5\textwidth}
+			%					\includegraphics[width=1\linewidth]{../Figures/MethMapSingle}
+			%					\caption{Theoretical methylome map}
+			%					\label{fig:TheoMethMap}
+			\includegraphics[width=\linewidth]{../Figures/MedCpGMeth}
+			\caption{Theoretical methylation plot}
+			\label{fig:PlotMeth}
+		\end{subfigure}}
+		\caption{Methylation analysis. A: Cytosine methylation status is shown for six stages of B cell development. Concentric circles are labelled with developmental stage.  B: Theoretical presentation of median methylation data. Each column represents the developmentally similar group of samples labelled.}
+		\label{fig:TheoPlots}
+	\end{figure}
+			
+			The high degree of variation between each individual in the development of the immune system at such a young age provides a limitation to our analysis.
+			To ensure changes are due to THI and not normal development, plots such as those in figure \ref{fig:TheoPlots} need to keep not only developmental stage separate, but other factors such as age and gender as well. 
+			As well as plotting each paired sample separately, we would need to combine samples, as in figure \ref{fig:PlotMeth}, to visualise significant changes between THI and normal individuals.
+			So even with excellently matched individuals, we may have to compare dissimilar samples.  
+
 		\subsection{Possible outcomes and interpretations}
-		
-			There are enumerable ways to present the methylation data, it is important to choose a layout which conveys the changes between THI samples and controls, while acknowledging any development related changes.
-			One method is to produce unbiased DNA methylation maps of the sorted cell populations as in figure \ref{fig:MethMap} produced by \citet{Kulis15}. 
+
+			The methylation data will allow us to produce unbiased DNA methylation maps of each of the sorted cell populations as in figure \ref{fig:MethMap}.
 			The map clearly shows the gradual change in methylation exhibited by the cell subsets. 
-			Alternatively, the data could be displayed as in figure \ref{fig:TheoMethMap}, with one map per B cell subset, comparing THI with controls in each figure. 
-			An approach which has direct comparison with THI and control samples may make seeing changes easier. 
-			A slightly different presentation could be in the form of figure \ref{fig:PlotMeth}, which groups samples by cell subset and allows easy comparison between THI and control samples.
-			The most important factor in choosing a method of data presentation, is to find a method which allows real differences to be seen. 
-			Due to the dynamic nature of the immune system, it will be a challenge to ensure that only correctly matched samples are compared, but it is imperative for accurate analysis. 
-			
-			\begin{figure}[tb]
-				\centering
-				\makebox[\textwidth][c]{
-				\begin{subfigure}[b]{0.65\textwidth}
-					\flushleft
-					\includegraphics[width=1\linewidth]{../Figures/methylomeMap}
-					\caption{Methylome map produced by \citet{Kulis15}. }
-					\label{fig:MethMap}
-				\end{subfigure}
-				\begin{subfigure}[b]{0.5\textwidth}
-					\includegraphics[width=1\linewidth]{../Figures/MethMapSingle}
-					\caption{Theoretical methylome map}
-					\label{fig:TheoMethMap}
-					\includegraphics[width=\linewidth]{../Figures/MedCpGMeth}
-					\caption{Theoretical methylation plot}
-					\label{fig:PlotMeth}
-				\end{subfigure}}
-				\caption{A: Cytosine methylation status is shown for six stages of B cell development. Concentric circles are labelled with appropriate stage. B: Theoretical presentation of methylome data. A map would be produced for each of the 10 B cell subpopulations. C: Theoretical presentation of median methylation data. Each column represents the developmentally similar group of samples labelled.}
-			\end{figure}
-			
-			
-			
 			It is expected that in both THI and control samples in all age groups, global methylation decreases as the B cells mature, as previously observed \citep{Kulis15,Lai13,Kulis12,Shaknovich11}. 
-			The ChIP Seq data will allow us to produce a heatmap such as that in figure \ref{fig:TFBSheatmap} which displays the correlations between transcription factor binding sites and differentially methylated regions. 
-			In the THI samples, we expect to find that regions related to B cell maturation will be hypermethylated compared to background levels. 
-			An example of a possible region is Pax5. {\Huge Finish section here}
-			In this cool paper, methylation of Pax5 was found to be cause arrest of B cell maturation at pro-B cell stage. 
+			If THI causes aberrant methylation, it would manifest as lines in the methylation map that are not in the control samples. 
+			Furthermore, with multiple samples from the same THI patients, we expect that regions which show hypermethylation will eventually lose their methylation and begin to resemble the controls as serum IgG concentration increases.
 			
-			
+			The ChIP-Seq data provides a more detailed view of key regions such as transcription factor binding sites (TFBSs).
+			We will produce a heatmap such as that in figure \ref{fig:TFBSheatmap} which displays the correlations between TFBSs and differentially methylated regions. 
+			In the THI samples, we expect to find that regions related to B cell maturation or IgG production will be hypermethylated compared to background levels. 
+			The location of differentially methylated regions (DMR) will indicate any potential causes of THI.
+			If a region associated with B cell maturation, such as Pax5, is found to be differentially methylated it indicates that THI could be a result of a developmental block like that seen in CVID \citep{Tallmadge15}.
+			Alternatively if there is a DMR associated with gene rearrangement, THI could be caused by a lack of B cell diversity.
+			Any DMRs identified will be further investigated with expression analysis.
 			
 			\begin{figure}[tb]
 				\centering
@@ -337,12 +345,19 @@
 			RNA will be reverse transcribed into cDNA and analysed using the Universal Probe Library System. 
 			Target gene expression will be presented relative to average expression for the housekeeping genes \textit{GAPDH}, \textit{ACTB} and \textit{HPRT1}.
 			
-		
 		\subsection{Possible outcomes and interpretations}				
 			
-			A graph such as that produced by \citet{Tallmadge15} (figure \ref{fig:TallTFexp}) will be produced to show the difference in expression of each implicated TF in each stage of B cell development.
+			Expression analysis will allow us to both further investigate any DMRs found in methylation analysis and find other genes which are differentially expressed. 
+			Heatmaps will be generated to display the genes which change expression between THI and control samples. 
+			Genes which show significant difference will be presented as in figure \ref{fig:TallTFexp}.
 			
-				
+			Primarily, we expect to see differentially expressed regions associated with IgG production. 
+			For example, if the Fox01 region shows significantly decreased expression, we can expect a developmental block at the pro-B cell stage \citep{Choukrallah14}, leading to a lack of antibody producing mature B cells.
+			
+			Furthermore, we expect genes which show hypermethylation in methylation analysis to have lower expression in THI samples than controls. 
+			Similarly, any hypomethylated genes are expected to have higher expression in THI samples.
+			If we see expression changes in regions that are not differentially methylated, the implicated region could possibly be affected by a different epigenetic mechanism such as a chromatin modification.
+			Any changes that aren't correlated with methylation changes should be further investigated as potential causes of THI.
 			
 			\begin{figure}
 				\centering
@@ -350,7 +365,62 @@
 				\caption{Expression of B lymphocyte-specific genes during development from hematopoietic stem cells to plasma cells. From \citet{Tallmadge15}. Gene expression presented in counts per million reads (CPM)}
 				\label{fig:TallTFexp}
 			\end{figure}
+			
+			
+					\appendix
+					\section{Appendices}
 					
+					\subsection{Sample information}
+					
+					
+					
+					
+					
+					\begin{landscape} % Sample table
+						\footnotesize
+						\begin{longtable}[c]{|l | l |p{4cm}|l|l|l|l|l|}
+							\caption{Clinical details of patients with THI. Abbreviations: m, months; y, years; CVI, common variable immunodeficiency; -, unknown; def, d.} \\ \hline 	
+							Individual & Tissue & Age at test  & Gender  & Ethnicity   & Breastfeeding status & Mode of birth & Family history of PID    \\ \hline \hline
+							\endfirsthead
+							\hline
+							Individual & Tissue & Age at test  & Gender  & Ethnicity   & Breastfeeding status & Mode of birth & Family history of PID    \\ \hline \hline
+							\endhead
+							\hline 	\endfoot 
+							\label{table:samples}
+							1  & Whole Blood & 7m, 11m, 1y 7m, 2y 1m                                    & Female & Caucasian & Breastfed  & Vaginal           & None                 \\
+							& Tonsils     & 2y 1m                                                    &        &           &            &                   &  \\ \hline
+							2  & Whole Blood & 8m, 11m, 1y 3m, 1y 6m, 1y 8m, 2y 1m, 2y 4m, 2y 6m, 2y 8m & Male   & Caucasian & Breastfed  & Vaginal           & None                 \\
+							& Tonsils     & 2y 6m                                                    &        &           &            &                   &  \\ \hline
+							3  & Whole Blood & 9m, 1y 3m, 1y 9m, 2y 6m, 2y 9m, 3y 2m, 3y 6m             & Male   & Jewish    & Bottle fed & Caesarian section & None                 \\
+							& Tonsils     & 3y 2m                                                    &        &           &            &                   &  \\ \hline
+							4  & Whole Blood & 10m, 1y 1m, 1y 8m                                        & Male   & Caucasian & Bottle fed & Vaginal           & None                 \\ \hline
+							5  & Whole Blood & 9m, 11m, 1y 3m, 1y 5m, 1y 8m                             & Male   & Asian     & Breastfed  & Vaginal           & Brother with CVI     \\ \hline
+							6  & Whole Blood & 7m, 9m, 11m, 1y 8m                                       & Female & Jewish    & Breastfed  & Vaginal           & None                 \\ \hline
+							7  & Whole Blood & 9m, 11m, 1y 2m, 1y 6m                                    & Male   & -         & Breastfed  & -                 & -                    \\ \hline
+							8  & Whole Blood & 7m, 9m,                                                  & Female & -         & Breastfed  & -                 & -                    \\ \hline
+							9  & Whole Blood & 7m, 9m, 11m, 1y 3m 1y 8m                                 & Male   & -         & Breastfed  & -                 & -                    \\ \hline
+							10 & Whole Blood & 7m, 9m, 11m, 1y 2m, 1y 6m                                & Male   & -         & Breastfed  & -                 & -                    \\ \hline
+							11 & Whole Blood & 9m, 11m, 1y 1m, 1y 3m 1y 8m                              & Male   & -         & Bottle fed & -                 & -                    \\ \hline
+							12 & Whole Blood & 7m, 11m, 1y 2m, 1y 11m, 2y 6m, 2y 9m, 3y 4m, 3y 7m, 4y   & Female & Jewish    & Breastfed  & Vaginal           & None                 \\
+							& Tonsils     & 2y 11m                                                   &        &           &            &                   &  \\ \hline
+							13 & Whole Blood & 9m, 11m, 1y 2m, 1y 6m, 2y 4m, 2y 8m                      & Male   & Jewish    & Bottle fed & Vaginal           & None                 \\ \hline
+							14 & Whole Blood & 9m, 1y 1m, 1y 7m, 2y 2m, 2y 9m, 3y 2m                    & Female & Caucasian & Bottle fed & Vaginal           & None                 \\
+							& Tonsils     & 3y 2m                                                    &        &           &            &                   &  \\ \hline
+							15 & Whole Blood & 7m, 11m, 1y 1m                                           & Male   & Caucasian & Breastfed  &                   & Sister with IgA def. \\ \hline
+							16 & Whole Blood & 8m, 1y 1m, 1y 4m, 1y 6m                                  & Male   & -         & -          & Vaginal           & -                    \\ \hline
+							17 & Whole Blood & 9m, 1y 2m, 1y 6m                                         & Male   & -         & -          & Vaginal           & -                    \\ \hline
+							18 & Whole Blood & 7m, 9m, 1y 1m                                            & Female & -         & -          & Caesarian section & -                    \\ \hline
+							19 & Whole Blood & 7m, 9m, 11m, 1y 2m, 1y 6m                                & Male   & -         & -          & Vaginal           & -                    \\ \hline
+							20 & Whole Blood & 9m, 11m, 1y 2m, 1y 6m                                    & Male   & -         & -          & Vaginal           & -                    \\ \hline
+							21 & Whole Blood & 11m, 1y 3m, 1y 5m, 1y 8m                                 & Male   & -         & -          & Caesarian section & -                    \\ \hline
+							22 & Whole Blood & 7m, 9m, 11m, 1y 8m                                       & Female & -         & -          & -                 & None                 \\ \hline
+							23 & Whole Blood & 9m, 1y 2m, 1y 6m                                         & Male   & -         & -          & -                 & None                 \\ \hline
+							24 & Whole Blood & 7m, 9m, 1y 1m, 1y 6m, 1y 11m, 2y 1m                      & Female & -         & -          & -                 & None                 \\
+							& Tonsils     & 2y 4m                                                    &        &           &            &                   &  \\ \hline
+							25 & Whole Blood & 7m, 11m, 1y 3m, 1y 5m, 1y 8m                             & Male   & -         & -          & -                 & Sister with IgA def. \\ \hline
+							26 & Whole Blood & 8m, 1y 1m,                                               & Male   & -         & -          & -                 & None
+						\end{longtable}
+					\end{landscape}	
 %\include{samplesTable.tex}
 				
 	\bibliographystyle{BrittSuperScript}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{60}
+\begin{thebibliography}{62}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -147,7 +147,7 @@ Willenbockel, U. (1960).
 Soothill, J.~F. (1968).
 \newblock Immunoglobulins in first-degree relatives of patients with
   hypogammaglobulinaemia. transient hypogammaglobulinaemia: a possible
-  manifestation of heterozygocity.
+  manifestation of heterozygosity.
 \newblock \emph{Lancet}, 1\penalty0 (7550):\penalty0 1001--3.
 
 \bibitem[Ovadia and Dalal(2014)]{Ovadia14}
@@ -298,6 +298,11 @@ Zeng, W.-p. (2013).
   type 2 cell differentiation from precursor to effector activation.
 \newblock \emph{Immunology}, 140\penalty0 (1):\penalty0 31--8.
 
+\bibitem[Ohkura et~al.(2013)Ohkura, Kitagawa, and Sakaguchi]{Ohkura13}
+Ohkura, N., Kitagawa, Y., and Sakaguchi, S. (2013).
+\newblock Development and maintenance of regulatory {T} cells.
+\newblock \emph{Immunity}, 38\penalty0 (3):\penalty0 414--423.
+
 \bibitem[Polansky et~al.(2008)Polansky, Kretschmer, Freyer, Floess, Garbe,
   Baron, Olek, Hamann, von Boehmer, and Huehn]{Polansky08}
 Polansky, J.~K., Kretschmer, K., Freyer, J., Floess, S., Garbe, A., Baron, U.,
@@ -306,10 +311,15 @@ Polansky, J.~K., Kretschmer, K., Freyer, J., Floess, S., Garbe, A., Baron, U.,
 \newblock \emph{European journal of immunology}, 38\penalty0 (6):\penalty0
   1654--63.
 
-\bibitem[Ohkura et~al.(2013)Ohkura, Kitagawa, and Sakaguchi]{Ohkura13}
-Ohkura, N., Kitagawa, Y., and Sakaguchi, S. (2013).
-\newblock Development and maintenance of regulatory {T} cells.
-\newblock \emph{Immunity}, 38\penalty0 (3):\penalty0 414--423.
+\bibitem[Shimazu et~al.(2016)Shimazu, Shimazu, Hishizawa, Hamaguchi, Nagai,
+  Sugino, Fujii, Kawahara, Kadowaki, Nishikawa, Sakaguchi, and
+  Takaori-Kondo]{Shimazu16}
+Shimazu, Y., Shimazu, Y., Hishizawa, M., Hamaguchi, M., Nagai, Y., Sugino, N.,
+  Fujii, S., Kawahara, M., Kadowaki, N., Nishikawa, H., Sakaguchi, S., and
+  Takaori-Kondo, A. (2016).
+\newblock Hypomethylation of the {T}reg-specific demethylated region in {FOXP3}
+  is a hallmark of the regulatory {T}-cell subtype in adult {T}-cell leukemia.
+\newblock \emph{Cancer immunology research}, 4\penalty0 (2):\penalty0 136--45.
 
 \bibitem[Tallmadge et~al.(2015)Tallmadge, Shen, Tseng, Miller, Barry, and
   Felippe]{Tallmadge15}
@@ -351,6 +361,13 @@ Roessler, S., Gy{\"o}ry, I., Imhof, S., Spivakov, M., Williams, R.~R.,
   by interleukin-7 and {Pax5}.
 \newblock \emph{Molecular and cellular biology}, 27\penalty0 (2):\penalty0
   579--94.
+
+\bibitem[Kowalczyk et~al.(1997)Kowalczyk, Mytar, and Zembala]{Kowalczyk97}
+Kowalczyk, D., Mytar, B., and Zembala, M. (1997).
+\newblock Cytokine production in transient hypogammaglobulinemia and isolated
+  {IgA} deficiency.
+\newblock \emph{The Journal of allergy and clinical immunology}, 100\penalty0
+  (4):\penalty0 556--62.
 
 \bibitem[Jakobsson et~al.(2014)Jakobsson, Abrahamsson, Jenmalm, Harris, Quince,
   Jernberg, Bj{\"o}rkst{\'e}n, Engstrand, and Andersson]{Jakobsson14}
