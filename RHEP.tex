@@ -238,7 +238,7 @@ innerrightmargin=20pt,innertopmargin=20pt,innerbottommargin=20pt,leftmargin =30,
 		\subsection{Proposed experiment}
 		
 			To investigate global DNA methylation of THI and control samples, we will produce full methylomes of the B cell lineages in figure \ref{fig:BCellSorting}. 
-			Whole genome bisulfite sequencing will be used such that we can obtain base-pair resolution of all methylated cytosines within the genome \citep{Kulis15,Oakes16}. 
+			Whole genome bisulfite sequencing (WGBS) will be used such that we can obtain base-pair resolution of all methylated cytosines within the genome \citep{Kulis15,Oakes16}. 
 			To perform the analysis, we will use two sets of biological replicates for each of the samples. 
 			Samples will undergo two rounds of bisulfite conversion to ensure a cytosine to thymine conversion rate of over 99\%.
 			Treated samples will then be sequenced on an Illumina HiSeq 2000 platform and mapped to the genome using the STAR algorithm (v2.4.2a) \citep{Dobin13}.
@@ -248,41 +248,24 @@ innerrightmargin=20pt,innertopmargin=20pt,innerbottommargin=20pt,leftmargin =30,
 			A Fisher's exact test will be used to assign an odds ratio and \textit{P} value to each comparison. 
 			Of particular focus will be the genes which are specific to B lymphopoiesis such as those in figure \ref{fig:TFBcell}.
 
-\begin{figure}[tb]
-	\centering
-	\makebox[\textwidth][c]{
-		\begin{subfigure}[b]{0.65\textwidth}
+	\begin{figure}[tb]
+		\centering
 			%					\flushleft
-			\includegraphics[width=1\linewidth]{../Figures/methylomeMap}
+			\includegraphics[width=.65\linewidth]{../Figures/methylomeMap}
 			\caption{Methylome map produced by \citet{Kulis15}. }
 			\label{fig:MethMap}
-		\end{subfigure}
-		\begin{subfigure}[b]{0.5\textwidth}
-			%					\includegraphics[width=1\linewidth]{../Figures/MethMapSingle}
-			%					\caption{Theoretical methylome map}
-			%					\label{fig:TheoMethMap}
-			\includegraphics[width=\linewidth]{../Figures/MedCpGMeth}
-			\caption{Theoretical methylation plot}
-			\label{fig:PlotMeth}
-		\end{subfigure}}
-		\caption{Methylation analysis. A: Cytosine methylation status is shown for six stages of B cell development. Concentric circles are labelled with developmental stage.  B: Theoretical presentation of median methylation data. Each column represents the developmentally similar group of samples labelled.}
-		\label{fig:TheoPlots}
+
+		\caption{Cytosine methylation status is shown for six stages of B cell development. Concentric circles are labelled with developmental stage.}
 	\end{figure}
 			
-			
-			%%%%%%%%%CAN DELETE
-			{\scriptsize The high degree of variation between each individual in the development of the immune system at such a young age provides a limitation to our analysis.
-			To ensure changes are due to THI and not normal development, plots such as those in figure \ref{fig:TheoPlots} need to keep not only developmental stage separate, but other factors such as age and gender as well. 
-			As well as plotting each paired sample separately, we then need to combine samples, as in figure \ref{fig:PlotMeth}, to visualise significant changes between THI and normal individuals.
-			So even with excellently matched individuals, we may have to compare dissimilar samples.  }
-
+		
 		\subsection{Possible outcomes and interpretations}
 
 			The methylation data will allow us to produce unbiased DNA methylation maps of each of the sorted cell populations as in figure \ref{fig:MethMap}.
 			The map clearly shows the gradual change in methylation exhibited by the cell subsets. 
 			It is expected that in both THI and control samples in all age groups, global methylation decreases as the B cells mature, as previously observed \citep{Kulis15,Lai13,Kulis12,Shaknovich11}. 
-			If THI causes aberrant methylation, it would manifest as lines in the methylation map that are not in the control samples. 
-			Furthermore, with multiple samples at different ages from the same THI patients, we expect that regions which show hypermethylation will eventually lose their methylation and begin to resemble the controls as serum IgG concentration increases.
+			If THI causes delayed loss of methylation, it would be clearly shown in methylation maps.
+			by comparing the same individuals at different ages, we expect that regions which show hypermethylation will gradually lose their methylation and begin to resemble the controls.
 			
 			The ChIP-Seq data provides a more detailed view of key regions such as transcription factor binding sites (TFBSs).
 			We will produce a heatmap such as that in figure \ref{fig:TFBSheatmap} which displays the correlations between TFBSs and differentially methylated regions. 
@@ -316,8 +299,7 @@ innerrightmargin=20pt,innertopmargin=20pt,innerbottommargin=20pt,leftmargin =30,
 		\subsection{Possible outcomes and interpretations}				
 			
 			Expression analysis will allow us to  further investigate any DMRs found in methylation analysis as well as find other genes which are differentially expressed. 
-			Heatmaps will be generated to display the genes which change expression between THI and control samples. 
-			Genes which show significant difference will be presented as in figure \ref{fig:TallTFexp}.
+			Heatmaps will be generated to display the genes which change expression between THI and control samples.
 			
 			Primarily, we expect to see differentially expressed regions associated with IgG production. 
 			For example, as Rag1/2 controls gene rearrangement a lowered expression would make sense in terms of lowered antibody production \citep{Choukrallah14}.
@@ -327,18 +309,18 @@ innerrightmargin=20pt,innertopmargin=20pt,innerbottommargin=20pt,leftmargin =30,
 			If we see expression changes in regions that are not differentially methylated, the implicated region could possibly be affected by a different epigenetic mechanism such as a chromatin modification.
 			Any changes that aren't correlated with methylation changes should be further investigated as potential causes of THI.
 			
-			\begin{figure}
-				\centering
-				\includegraphics[width=\linewidth]{../Figures/TallmadgeTFexp}
-				\caption{Expression of B lymphocyte-specific genes during development from hematopoietic stem cells to plasma cells. From \citet{Tallmadge15}. Gene expression presented in counts per million reads (CPM)}
-				\label{fig:TallTFexp}
-			\end{figure}
+
 			
-			
-					\appendix
-					\section{Appendices}
-					
-					\subsection{Sample information}
+	\section{Conclusion}
+	
+		It is feasible that THI is caused by a delay in maturation as a result of aberrant methylation. 
+		Through the use of FACS, WGBS and RNA-Seq, we will test if methylation is causing a block in B lymphopoiesis. 
+		Should the results show that methylation is not involved in THI, the FACS and expression data will provide avenues for further research.
+		
+	\appendix
+	\section{Appendices}
+	
+	\subsection{Sample information}
 
 %					\begin{landscape} % Sample table
 %						\footnotesize
