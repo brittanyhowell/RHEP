@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.2)  18 JUL 2016 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.2)  20 JUL 2016 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1002,79 +1002,73 @@ Package pdftex.def Info: ../Figures/Bcelldevelopment.png used on input line 94.
 File: ../Figures/BcellTF.png Graphic file (type png)
 
 <use ../Figures/BcellTF.png>
-Package pdftex.def Info: ../Figures/BcellTF.png used on input line 109.
+Package pdftex.def Info: ../Figures/BcellTF.png used on input line 107.
 (pdftex.def)             Requested size: 191.08592pt x 273.29054pt.
- [3 <../Figures/Bcelldevelopment.png>] [4 <../Figures/BcellTF.png>] [5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 172.
+ [3 <../Figures/Bcelldevelopment.png>] [4 <../Figures/BcellTF.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 155.
 
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 172.
- [6] [7]
-<../Figures/BcellSorting.png, id=38, 873.5034pt x 535.2798pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 155.
+
+[5] [6] [7] <../Figures/BcellSorting.png, id=38, 873.5034pt x 535.2798pt>
 File: ../Figures/BcellSorting.png Graphic file (type png)
 
 <use ../Figures/BcellSorting.png>
-Package pdftex.def Info: ../Figures/BcellSorting.png used on input line 236.
+Package pdftex.def Info: ../Figures/BcellSorting.png used on input line 212.
 (pdftex.def)             Requested size: 429.94699pt x 263.46555pt.
- [8] [9 <../Figures/BcellSorting.png>]
+ [8 <../Figures/BcellSorting.png>] [9]
 <../Figures/methylomeMap.png, id=46, 438.63875pt x 325.215pt>
 File: ../Figures/methylomeMap.png Graphic file (type png)
 
 <use ../Figures/methylomeMap.png>
-Package pdftex.def Info: ../Figures/methylomeMap.png used on input line 299.
+Package pdftex.def Info: ../Figures/methylomeMap.png used on input line 267.
 (pdftex.def)             Requested size: 310.51645pt x 230.22441pt.
 
 <../Figures/MedCpGMeth.png, id=47, 483.7272pt x 267.8808pt>
 File: ../Figures/MedCpGMeth.png Graphic file (type png)
 
 <use ../Figures/MedCpGMeth.png>
-Package pdftex.def Info: ../Figures/MedCpGMeth.png used on input line 299.
+Package pdftex.def Info: ../Figures/MedCpGMeth.png used on input line 267.
 (pdftex.def)             Requested size: 238.86105pt x 132.27644pt.
- [10] [11 <../Figures/methylomeMap.png> <../Figures/MedCpGMeth.png>]
-<../Figures/TFbsKulis.png, id=58, 695.59875pt x 575.14874pt>
+ [10 <../Figures/methylomeMap.png> <../Figures/MedCpGMeth.png>] <../Figures/TFb
+sKulis.png, id=55, 695.59875pt x 575.14874pt>
 File: ../Figures/TFbsKulis.png Graphic file (type png)
 
 <use ../Figures/TFbsKulis.png>
-Package pdftex.def Info: ../Figures/TFbsKulis.png used on input line 327.
+Package pdftex.def Info: ../Figures/TFbsKulis.png used on input line 297.
 (pdftex.def)             Requested size: 382.17915pt x 315.9993pt.
- [12 <../Figures/TFbsKulis.png>] [13]
-<../Figures/TallmadgeTFexp.png, id=67, 1141.26375pt x 829.0975pt>
+ [11] [12 <../Figures/TFbsKulis.png>]
+<../Figures/TallmadgeTFexp.png, id=63, 1141.26375pt x 829.0975pt>
 File: ../Figures/TallmadgeTFexp.png Graphic file (type png)
 
 <use ../Figures/TallmadgeTFexp.png>
-Package pdftex.def Info: ../Figures/TallmadgeTFexp.png used on input line 364.
+Package pdftex.def Info: ../Figures/TallmadgeTFexp.png used on input line 332.
 (pdftex.def)             Requested size: 477.72212pt x 347.05469pt.
- [14 <../Figures/TallmadgeTFexp.png>]
-[15] [16
-
-] [17] [18] (./RHEP.bbl [19
-
-] [20] [21] [22] [23] [24] [25] [26])
-[27] (./RHEP.aux) ) 
+ (./RHEP.bbl [13] [14 <../Figures/TallmadgeTFexp.png>] [15] [16] [17] [18] [19]
+ [20] [21] [22]) [23] (./RHEP.aux) ) 
 Here is how much of TeX's memory you used:
- 23292 strings out of 493089
- 450112 string characters out of 6134843
- 518220 words of memory out of 5000000
- 26384 multiletter control sequences out of 15000+600000
+ 23295 strings out of 493089
+ 450178 string characters out of 6134843
+ 491266 words of memory out of 5000000
+ 26387 multiletter control sequences out of 15000+600000
  14298 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,92p,10393b,1029s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-12.pfb>
-Output written on RHEP.pdf (27 pages, 1250928 bytes).
+ 72i,11n,92p,10393b,1058s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti12.pfb>
+Output written on RHEP.pdf (23 pages, 1244652 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 124 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

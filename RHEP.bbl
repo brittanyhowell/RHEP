@@ -1,4 +1,4 @@
-\begin{thebibliography}{62}
+\begin{thebibliography}{63}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -125,17 +125,6 @@ Fiorilli, M., Crescenzi, M., Carbonari, M., Tedesco, L., Russo, G., Gaetano,
 \newblock \emph{Journal of clinical immunology}, 6\penalty0 (1):\penalty0
   21--5.
 
-\bibitem[Fudenberg and Fudenberg(1964)]{Fudenberg64}
-Fudenberg, H.~H. and Fudenberg, B.~R. (1964).
-\newblock Antibody to hereditary human gamma-globulin ({GM}) factor resulting
-  from maternal-fetal incompatibility.
-\newblock \emph{Science}, 145\penalty0 (3628):\penalty0 170--1.
-
-\bibitem[Nathenson et~al.(1971)Nathenson, Schorr, and Litwin]{Nathenson71}
-Nathenson, G., Schorr, J.~B., and Litwin, S.~D. (1971).
-\newblock Gm factor fetomaternal gamma globulin incompatibility.
-\newblock \emph{Pediatric Research}, 5\penalty0 (1):\penalty0 2--9.
-
 \bibitem[Willenbockel(1960)]{Willenbockel60}
 Willenbockel, U. (1960).
 \newblock Transitorisch-protrahiertes {A}ntik{\"o}rpermangelsyndrom bei
@@ -155,6 +144,17 @@ Ovadia, A. and Dalal, I. (2014).
 \newblock Transient hypogammaglobulinemia of infancy.
 \newblock \emph{LymphoSign Journal}, 1\penalty0 (1):\penalty0 1--9.
 
+\bibitem[Fudenberg and Fudenberg(1964)]{Fudenberg64}
+Fudenberg, H.~H. and Fudenberg, B.~R. (1964).
+\newblock Antibody to hereditary human gamma-globulin ({GM}) factor resulting
+  from maternal-fetal incompatibility.
+\newblock \emph{Science}, 145\penalty0 (3628):\penalty0 170--1.
+
+\bibitem[Nathenson et~al.(1971)Nathenson, Schorr, and Litwin]{Nathenson71}
+Nathenson, G., Schorr, J.~B., and Litwin, S.~D. (1971).
+\newblock Gm factor fetomaternal gamma globulin incompatibility.
+\newblock \emph{Pediatric Research}, 5\penalty0 (1):\penalty0 2--9.
+
 \bibitem[Walker et~al.(1994)Walker, Kemp, Hill, and Shelton]{Walker94}
 Walker, A.~M., Kemp, A.~S., Hill, D.~J., and Shelton, M.~J. (1994).
 \newblock Features of transient hypogammaglobulinaemia in infants screened for
@@ -167,6 +167,80 @@ Rosen, F.~S., Cooper, M.~D., and Wedgwood, R.~J. (1984).
 \newblock The primary immunodeficiencies (1).
 \newblock \emph{The New England journal of medicine}, 311\penalty0
   (4):\penalty0 235--42.
+
+\bibitem[Cooper(2015)]{Cooper15}
+Cooper, M.~D. (2015).
+\newblock The early history of {B} cells.
+\newblock \emph{Nature reviews. Immunology}, 15\penalty0 (3):\penalty0 191--7.
+
+\bibitem[Pieper et~al.(2013)Pieper, Grimbacher, and Eibel]{Pieper13}
+Pieper, K., Grimbacher, B., and Eibel, H. (2013).
+\newblock B-cell biology and development.
+\newblock \emph{The Journal of allergy and clinical immunology}, 131\penalty0
+  (4):\penalty0 959--71.
+
+\bibitem[Choukrallah and Matthias(2014)]{Choukrallah14}
+Choukrallah, M.~A. and Matthias, P. (2014).
+\newblock The interplay between chromatin and transcription factor networks
+  during {B} cell development: Who pulls the trigger first?
+\newblock \emph{Frontiers in immunology}, 5:\penalty0 156.
+
+\bibitem[Polansky et~al.(2008)Polansky, Kretschmer, Freyer, Floess, Garbe,
+  Baron, Olek, Hamann, von Boehmer, and Huehn]{Polansky08}
+Polansky, J.~K., Kretschmer, K., Freyer, J., Floess, S., Garbe, A., Baron, U.,
+  Olek, S., Hamann, A., von Boehmer, H., and Huehn, J. (2008).
+\newblock Dna methylation controls {F}oxp3 gene expression.
+\newblock \emph{European journal of immunology}, 38\penalty0 (6):\penalty0
+  1654--63.
+
+\bibitem[Oakes et~al.(2016)Oakes, Seifert, Assenov, Gu, Przekopowitz, Ruppert,
+  Wang, Imbusch, Serva, Koser, Brocks, Lipka, Bogatyrova, Weichenhan, Brors,
+  Rassenti, Kipps, Mertens, Zapatka, Lichter, D{\"o}hner, K{\"u}ppers, Zenz,
+  Stilgenbauer, Byrd, and Plass]{Oakes16}
+Oakes, C.~C., Seifert, M., Assenov, Y., Gu, L., Przekopowitz, M., Ruppert,
+  A.~S., Wang, Q., Imbusch, C.~D., Serva, A., Koser, S.~D., Brocks, D., Lipka,
+  D.~B., Bogatyrova, O., Weichenhan, D., Brors, B., Rassenti, L., Kipps, T.~J.,
+  Mertens, D., Zapatka, M., Lichter, P., D{\"o}hner, H., K{\"u}ppers, R., Zenz,
+  T., Stilgenbauer, S., Byrd, J.~C., and Plass, C. (2016).
+\newblock {DNA} methylation dynamics during {B} cell maturation underlie a
+  continuum of disease phenotypes in chronic lymphocytic leukemia.
+\newblock \emph{Nature genetics}, 48\penalty0 (3):\penalty0 253--64.
+
+\bibitem[Zan and Casali(2015)]{Zan15}
+Zan, H. and Casali, P. (2015).
+\newblock Epigenetics of peripheral {B}-cell differentiation and the antibody
+  response.
+\newblock \emph{Frontiers in immunology}, 6:\penalty0 631.
+
+\bibitem[Li et~al.(2013)Li, Zan, Xu, and Casali]{Li13}
+Li, G., Zan, H., Xu, Z., and Casali, P. (2013).
+\newblock Epigenetics of the antibody response.
+\newblock \emph{Trends in immunology}, 34\penalty0 (9):\penalty0 460--70.
+
+\bibitem[Mercer et~al.(2011)Mercer, Lin, Benner, Jhunjhunwala, Dutkowski,
+  Flores, Sigvardsson, Ideker, Glass, and Murre]{Mercer11}
+Mercer, E.~M., Lin, Y.~C., Benner, C., Jhunjhunwala, S., Dutkowski, J., Flores,
+  M., Sigvardsson, M., Ideker, T., Glass, C.~K., and Murre, C. (2011).
+\newblock Multilineage priming of enhancer repertoires precedes commitment to
+  the {B} and myeloid cell lineages in hematopoietic progenitors.
+\newblock \emph{Immunity}, 35\penalty0 (3):\penalty0 413--25.
+
+\bibitem[Kulis et~al.(2015)Kulis, Merkel, Heath, Queir{\'o}s, Schuyler,
+  Castellano, Beekman, Raineri, Esteve, Clot, et~al.]{Kulis15}
+Kulis, M., Merkel, A., Heath, S., Queir{\'o}s, A.~C., Schuyler, R.~P.,
+  Castellano, G., Beekman, R., Raineri, E., Esteve, A., Clot, G., et~al.
+  (2015).
+\newblock Whole-genome fingerprint of the {DNA} methylome during human {B} cell
+  differentiation.
+\newblock \emph{Nature genetics}, 47\penalty0 (7):\penalty0 746--756.
+
+\bibitem[McManus et~al.(2011)McManus, Ebert, Salvagiotto, Medvedovic, Sun,
+  Tamir, Jaritz, Tagoh, and Busslinger]{McManus11}
+McManus, S., Ebert, A., Salvagiotto, G., Medvedovic, J., Sun, Q., Tamir, I.,
+  Jaritz, M., Tagoh, H., and Busslinger, M. (2011).
+\newblock The transcription factor {Pax}5 regulates its target genes by
+  recruiting chromatin-modifying proteins in committed {B} cells.
+\newblock \emph{The EMBO journal}, 30\penalty0 (12):\penalty0 2388--404.
 
 \bibitem[Gao et~al.(2009)Gao, Lukin, Ram{\'\i}rez, Fields, Lopez, and
   Hagman]{Gao09}
@@ -208,14 +282,6 @@ Lin, Y.~C., Jhunjhunwala, S., Benner, C., Heinz, S., Welinder, E., Mansson, R.,
   and {Foxo}1, that orchestrates {B} cell fate.
 \newblock \emph{Nature immunology}, 11s\penalty0 (7):\penalty0 635--43.
 
-\bibitem[McManus et~al.(2011)McManus, Ebert, Salvagiotto, Medvedovic, Sun,
-  Tamir, Jaritz, Tagoh, and Busslinger]{McManus11}
-McManus, S., Ebert, A., Salvagiotto, G., Medvedovic, J., Sun, Q., Tamir, I.,
-  Jaritz, M., Tagoh, H., and Busslinger, M. (2011).
-\newblock The transcription factor {Pax}5 regulates its target genes by
-  recruiting chromatin-modifying proteins in committed {B} cells.
-\newblock \emph{The EMBO journal}, 30\penalty0 (12):\penalty0 2388--404.
-
 \bibitem[Treiber et~al.(2010)Treiber, Mandel, Pott, Gy{\"o}ry, Firner, Liu, and
   Grosschedl]{Treiber10}
 Treiber, T., Mandel, E.~M., Pott, S., Gy{\"o}ry, I., Firner, S., Liu, E.~T.,
@@ -231,24 +297,6 @@ Zandi, S., Mansson, R., Tsapogas, P., Zetterblad, J., Bryder, D., and
 \newblock {EBF1} is essential for {B}-lineage priming and establishment of a
   transcription factor network in common lymphoid progenitors.
 \newblock \emph{Journal of immunology}, 181\penalty0 (5):\penalty0 3364--72.
-
-\bibitem[Choukrallah and Matthias(2014)]{Choukrallah14}
-Choukrallah, M.~A. and Matthias, P. (2014).
-\newblock The interplay between chromatin and transcription factor networks
-  during {B} cell development: Who pulls the trigger first?
-\newblock \emph{Frontiers in immunology}, 5:\penalty0 156.
-
-\bibitem[Griffin et~al.(2011)Griffin, Holodick, and Rothstein]{Griffin11}
-Griffin, D.~O., Holodick, N.~E., and Rothstein, T.~L. (2011).
-\newblock Human {B}1 cells in umbilical cord and adult peripheral blood express
-  the novel phenotype {CD20}+ {CD27}+ {CD43}+ {CD70}-.
-\newblock \emph{The Journal of experimental medicine}, 208\penalty0
-  (1):\penalty0 67--80.
-
-\bibitem[Montecino-Rodriguez and Dorshkind(2012)]{Montecino-Rodriguez12}
-Montecino-Rodriguez, E. and Dorshkind, K. (2012).
-\newblock B-1 {B} cell development in the fetus and adult.
-\newblock \emph{Immunity}, 36\penalty0 (1):\penalty0 13--21.
 
 \bibitem[Saeys et~al.(2016)Saeys, Gassen, and Lambrecht]{Saeys16}
 Saeys, Y., Gassen, S.~V., and Lambrecht, B.~N. (2016).
@@ -272,20 +320,6 @@ Lara-Astiaso, D., Weiner, A., Lorenzo-Vivas, E., Zaretsky, I., Jaitin, D.~A.,
 \newblock Chromatin state dynamics during blood formation.
 \newblock \emph{Science}, 345\penalty0 (6199):\penalty0 943--949.
 
-\bibitem[Zan and Casali(2015)]{Zan15}
-Zan, H. and Casali, P. (2015).
-\newblock Epigenetics of peripheral {B}-cell differentiation and the antibody
-  response.
-\newblock \emph{Frontiers in immunology}, 6:\penalty0 631.
-
-\bibitem[Mercer et~al.(2011)Mercer, Lin, Benner, Jhunjhunwala, Dutkowski,
-  Flores, Sigvardsson, Ideker, Glass, and Murre]{Mercer11}
-Mercer, E.~M., Lin, Y.~C., Benner, C., Jhunjhunwala, S., Dutkowski, J., Flores,
-  M., Sigvardsson, M., Ideker, T., Glass, C.~K., and Murre, C. (2011).
-\newblock Multilineage priming of enhancer repertoires precedes commitment to
-  the {B} and myeloid cell lineages in hematopoietic progenitors.
-\newblock \emph{Immunity}, 35\penalty0 (3):\penalty0 413--25.
-
 \bibitem[B{\'e}gin and Nadeau(2014)]{Begin14}
 B{\'e}gin, P. and Nadeau, K.~C. (2014).
 \newblock Epigenetic regulation of asthma and allergic disease.
@@ -302,14 +336,6 @@ Zeng, W.-p. (2013).
 Ohkura, N., Kitagawa, Y., and Sakaguchi, S. (2013).
 \newblock Development and maintenance of regulatory {T} cells.
 \newblock \emph{Immunity}, 38\penalty0 (3):\penalty0 414--423.
-
-\bibitem[Polansky et~al.(2008)Polansky, Kretschmer, Freyer, Floess, Garbe,
-  Baron, Olek, Hamann, von Boehmer, and Huehn]{Polansky08}
-Polansky, J.~K., Kretschmer, K., Freyer, J., Floess, S., Garbe, A., Baron, U.,
-  Olek, S., Hamann, A., von Boehmer, H., and Huehn, J. (2008).
-\newblock Dna methylation controls {F}oxp3 gene expression.
-\newblock \emph{European journal of immunology}, 38\penalty0 (6):\penalty0
-  1654--63.
 
 \bibitem[Shimazu et~al.(2016)Shimazu, Shimazu, Hishizawa, Hamaguchi, Nagai,
   Sugino, Fujii, Kawahara, Kadowaki, Nishikawa, Sakaguchi, and
@@ -409,28 +435,6 @@ G{\'o}mez-Gallego, C., Frias, R., P{\'e}rez-Mart{\'\i}nez, G., Bernal, M.~J.,
   populations and immune system-related gene expression in a {Balb/cOlaHsd}
   mouse model.
 \newblock \emph{Food Research International}, 59:\penalty0 8--15.
-
-\bibitem[Kulis et~al.(2015)Kulis, Merkel, Heath, Queir{\'o}s, Schuyler,
-  Castellano, Beekman, Raineri, Esteve, Clot, et~al.]{Kulis15}
-Kulis, M., Merkel, A., Heath, S., Queir{\'o}s, A.~C., Schuyler, R.~P.,
-  Castellano, G., Beekman, R., Raineri, E., Esteve, A., Clot, G., et~al.
-  (2015).
-\newblock Whole-genome fingerprint of the {DNA} methylome during human {B} cell
-  differentiation.
-\newblock \emph{Nature genetics}, 47\penalty0 (7):\penalty0 746--756.
-
-\bibitem[Oakes et~al.(2016)Oakes, Seifert, Assenov, Gu, Przekopowitz, Ruppert,
-  Wang, Imbusch, Serva, Koser, Brocks, Lipka, Bogatyrova, Weichenhan, Brors,
-  Rassenti, Kipps, Mertens, Zapatka, Lichter, D{\"o}hner, K{\"u}ppers, Zenz,
-  Stilgenbauer, Byrd, and Plass]{Oakes16}
-Oakes, C.~C., Seifert, M., Assenov, Y., Gu, L., Przekopowitz, M., Ruppert,
-  A.~S., Wang, Q., Imbusch, C.~D., Serva, A., Koser, S.~D., Brocks, D., Lipka,
-  D.~B., Bogatyrova, O., Weichenhan, D., Brors, B., Rassenti, L., Kipps, T.~J.,
-  Mertens, D., Zapatka, M., Lichter, P., D{\"o}hner, H., K{\"u}ppers, R., Zenz,
-  T., Stilgenbauer, S., Byrd, J.~C., and Plass, C. (2016).
-\newblock {DNA} methylation dynamics during {B} cell maturation underlie a
-  continuum of disease phenotypes in chronic lymphocytic leukemia.
-\newblock \emph{Nature genetics}, 48\penalty0 (3):\penalty0 253--64.
 
 \bibitem[Dobin et~al.(2013)Dobin, Davis, Schlesinger, Drenkow, Zaleski, Jha,
   Batut, Chaisson, and Gingeras]{Dobin13}
