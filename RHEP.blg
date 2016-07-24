@@ -6,15 +6,15 @@ Database file #1: ../literature.bib
 Warning--can't use both author and editor fields in Stiemh80
 You've used 63 entries,
             2380 wiz_defined-function locations,
-            1052 strings with 22112 characters,
-and the built_in function-call counts, 28674 in all, are:
+            1052 strings with 21968 characters,
+and the built_in function-call counts, 28518 in all, are:
 = -- 1950
-> -- 2649
+> -- 2613
 < -- 22
-+ -- 952
-- -- 826
-* -- 3076
-:= -- 5257
++ -- 940
+- -- 814
+* -- 3052
+:= -- 5221
 add.period$ -- 189
 call.type$ -- 63
 change.case$ -- 126
@@ -22,8 +22,8 @@ chr.to.int$ -- 63
 cite$ -- 64
 duplicate$ -- 893
 empty$ -- 1752
-format.name$ -- 911
-if$ -- 5537
+format.name$ -- 899
+if$ -- 5513
 int.to.chr$ -- 1
 int.to.str$ -- 64
 missing$ -- 64

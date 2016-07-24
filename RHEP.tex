@@ -13,6 +13,7 @@
 \usepackage{float, subfloat} % For H flag and subfloats
 \usepackage{caption, subcaption} % for ABCD Subcaptions
 \usepackage[framemethod=tikz]{mdframed} % Allows coloured boxes
+\hyphenpenalty 100000
 
 % Longtable settings
 \setlength\LTleft{0pt} % flush left
@@ -58,32 +59,25 @@ innerrightmargin=20pt,innertopmargin=20pt,innerbottommargin=20pt,leftmargin =30,
 	
 	\section{Background}
 		
-		Antibodies are a vital component of the adaptive immune system \citep{Simon15}. 
-		The production of antibodies occurs when \naive B cells are activated in response to foreign antigens (figure \ref{fig:BCellDevelopment}).
-		During gestation, maternal antibodies (mAbs) are passed to the foetus through the placenta \citep{Hasselquist09}.
-		At birth, B cells do not complete maturation and so are unable to produce antibodies \citep{Martin10,Rechavi15}.
-		Hence in normal infants, antibody concentration decreases until reaching its lowest level at 4 to 6 months of age, a point referred to as physiologic agammaglobulinemia. 
-		As the immune system develops, antibody production begins to substantiate normal serum antibody levels \citep{Dressler89}.
-		Transient Hypogammaglobulinemia of infancy (THI) is a disorder where regular hypogammaglobulinemia is prolonged or exacerbated then spontaneously alleviated. \citep{Dressler89,AlHerz14,Gitlin56,AlHerz11,Rosen66,McGeady87,Stiemh80, Dalal98,Tiller78,Buckley83}.
-		The mechanism causing THI is unknown \citep{AlHerz14}. 
+		Antibodies are a vital component of the adaptive immune system. 
+		The production of antibodies occurs when \naive B cells are activated in response to foreign antigens \citep{Simon15}.
+		After birth the maternal antibodies are degraded before infant B cells can mature, leading to a decline in serum antibody levels \citep{Hasselquist09,Martin10,Rechavi15}.
+		Physiological hypogammaglobulinemia refers to the point when serum immunoglobulin reaches its lowest level, commonly at four to six months of age \citep{Dressler89}.
+		THI is a disorder where regular hypogammaglobulinemia is prolonged or exacerbated then spontaneously alleviated. \citep{Dressler89,AlHerz14,Gitlin56,AlHerz11,Rosen66,McGeady87,Stiemh80, Dalal98,Tiller78,Buckley83}.
+		The mechanism causing THI is at present unknown \citep{AlHerz14}. 
 
 			
 		\paragraph{Cause of THI} 
 			~\\
-			Studies investigating THI have found that levels of circulating B cells are normal and subpopulations of B cells are intact \citep{Tiller78,Stiemh80,Siegel81,Buckley83,Fiorilli86,Dressler89}.
-			Furthermore, upon antigenic challenge, most patients can produce a normal antibody response \citep{Tiller78,Stiemh80,Buckley83,McGeady87,Dressler89,Dalal98}.
-			In regards to a genetic inheritance, THI was initially thought to be hereditary \citep{Willenbockel60, Soothill68}, however proceeding studies have not shown supporting evidence \citep{Tiller78,Fiorilli86,Ovadia14}.
-			With apparently normal B cell populations and no genetic basis, the cause of THI has been speculated extensively, but no proposed mechanism has been supported by replicated evidence \citep{Fudenberg64,Rosen66,Nathenson71,Willenbockel60,Soothill68,Tiller78,Fiorilli86,Ovadia14,Siegel81,McGeady87}.
-			The most agreed upon cause in the literature is that there is some kind of delay in B cell maturation or activation \citep{McGeady87,Stiemh80,Walker94,Rosen84}. 
+			Studies investigating THI have not identified any deficiencies in the antibody production pathway.
+			Levels of circulating B cells have been reported as normal with subpopulations of B cells also intact \citep{Tiller78,Stiemh80,Siegel81,Buckley83,Fiorilli86,Dressler89}.
+			Furthermore, upon antigenic challenge, most patients produce a normal antibody response \citep{Tiller78,Stiemh80,Buckley83,McGeady87,Dressler89,Dalal98}.
+			THI was initially thought to be hereditary \citep{Willenbockel60, Soothill68}, however following studies have not shown supporting evidence \citep{Tiller78,Fiorilli86,Ovadia14}.
+			With apparently normal B cell populations and no genetic basis, the cause of THI has been extensively speculated, but no proposed mechanism has been supported by replicated evidence \citep{Fudenberg64,Rosen66,Nathenson71,Willenbockel60,Soothill68,Tiller78,Fiorilli86,Ovadia14,Siegel81,McGeady87}.
+			The most agreed upon cause is a delay in B cell maturation or activation \citep{McGeady87,Stiemh80,Walker94,Rosen84}. 
 			
-		\paragraph{B cell development}
-			~\\
-			Antibody deficiency can result from either lack of production, or aberrant degradation \citep{Fiorilli86}. 
-			All antibodies are produced by mature B cells, developed from haematopoietic stem cells in a pathway shown in figure \ref{fig:BCellDevelopment}.
-			First, the hematopoietic stem cells differentiate into common lymphoid progenitors, which commit to the B cell lineage \citep{Cooper15}.
-			B cells gradually rearrange their immunoglobulin genes and differentiate into mature \naive B cells which leave the bone marrow to enter the periphery. 
-			Resting naive B cells transit through lymph nodes where they encounter specific antigen, activating them and inducing the germinal centre reaction. 
-			Further rearrangement of immunoglobulin genes occurs followed by rapid proliferation and differentiation into plasma and memory cells. 
+			B lymphocytes develop in the bone marrow from hematopoietic precursors \citep{Cooper15}.
+			Development and maturation progress through stages labelled in figure \ref{fig:BCellDevelopment}. 
 			Plasma cells produce the antibodies required for humoral immunity. 
 			The isotype (IgM/G/A/E) of the antibodies is determined by the environmental signals present at the activated B cell stage \citep{Pieper13}. 
 			Failure to proceed at any stage of B cell development can result in a deficiency of plasma cells and thence antibody deficiency.
@@ -96,10 +90,11 @@ innerrightmargin=20pt,innertopmargin=20pt,innerbottommargin=20pt,leftmargin =30,
 				\label{fig:BCellDevelopment}
 			\end{figure}
 			
-			B lymphocyte differentiation is tightly regulated by transcription factors (TFs) functioning in a complex network of auto-regulation, cross regulation, and positive and negative feedback loops (figure \ref{fig:TFBcell}) \citep{Choukrallah14,Polansky08,Oakes16,Zan15,Li13,Mercer11,Kulis15,McManus11}.
+			B lymphocyte differentiation is tightly regulated by transcription factors (TFs).
+			Figure \ref{fig:TFBcell} shows the complex network of auto-regulation, cross regulation, and positive and negative feedback loops \citep{Choukrallah14,Polansky08,Oakes16,Zan15,Li13,Mercer11,Kulis15,McManus11}.
 			TFs prominent in early stages of B cell specification and commitment include Pax5, E2A, Ebf1, Ikaros, PU.1, and FoxO1. 
 			They influence B cell development by promoting changes in chromatin remodelling, facilitating DNA methylation or demethylation and interacting with other factors \citep{Gao09,Maier04,Walter08,Decker09,Lin10,McManus11,Treiber10,Zandi00}. 
-			Loss of function studies involving the aforementioned TFs show some defect in B cell lineage commitment, resulting in a loss of a B cell subset or the entire B cell lineage \citep{Choukrallah14}.
+			Loss of function studies involving these TFs show some defect in B cell lineage commitment, resulting in a loss of a B cell subset or in some cases the entire B cell lineage \citep{Choukrallah14}.
 
 			
 			\begin{figure}
@@ -112,12 +107,12 @@ innerrightmargin=20pt,innertopmargin=20pt,innerbottommargin=20pt,leftmargin =30,
 		
 			\paragraph{Flow Cytometry}
 			~\\
-			Previous investigations into THI have claimed that subpopulations of B cells are the same in THI patients as controls \citep{Tiller78,Stiemh80,Siegel81,Buckley83,Fiorilli86,Dressler89}. 
+			Previous investigations into THI claimed that subpopulations of B cells are the same in THI patients as controls \citep{Tiller78,Stiemh80,Siegel81,Buckley83,Fiorilli86,Dressler89}. 
 			The claim is supported by rosette-formation and single or two-colour membrane immunofluorescence studies. 
 			The immunofluorescence studies distinguished only between mature and immature B cells, using the observed combinations of surface IgM and IgG. 
-			Analysis techniques have improved immensely since the most recent experimental THI study took place.
-			Flow cytometry (FACS) in particular has developed extensively, allowing the measurement of an increasing number of parameters per cell \citep{Saeys16}.
-			18-parameter FACS is now routinely used, 30-parameter flow cytometers are becoming commercially available, and 50-parameter FACS is predicted to be available soon \citep{Saeys16}.
+			Analysis techniques have improved substantially since the most recent experimental THI study took place.
+			In particular flow cytometry (FACS) has developed extensively, increasing the number of measured parameters per cell \citep{Saeys16}.
+			18-parameter FACS is now routinely used \citep{Perfetto04}, 30-parameter flow cytometers are becoming commercially available, and 50-parameter FACS is predicted to be available soon \citep{Saeys16}.
 			Due to the much larger number of parameters measurable per cell now compared to when THI was last studied, we have a much greater capacity to study the distribution of B cell subtypes than has been previously performed.
 			
 			
@@ -316,11 +311,13 @@ innerrightmargin=20pt,innertopmargin=20pt,innerbottommargin=20pt,leftmargin =30,
 		It is feasible that THI is caused by a delay in maturation as a result of aberrant methylation. 
 		Through the use of FACS, WGBS and RNA-Seq, we will test if methylation is causing a block in B lymphopoiesis. 
 		Should the results show that methylation is not involved in THI, the FACS and expression data will provide avenues for further research.
-		
-	\appendix
+
+
 	\section{Appendices}
+	\appendix
+
 	
-	\subsection{Sample information}
+	\section{Sample information}
 
 %					\begin{landscape} % Sample table
 %						\footnotesize

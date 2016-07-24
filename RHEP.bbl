@@ -304,14 +304,11 @@ Saeys, Y., Gassen, S.~V., and Lambrecht, B.~N. (2016).
   high-dimensional immunology data.
 \newblock \emph{Nature reviews. Immunology}, 16\penalty0 (7):\penalty0 449--62.
 
-\bibitem[Aghaeepour et~al.(2013)Aghaeepour, Finak, {FlowCAP Consortium}, {DREAM
-  Consortium}, Hoos, Mosmann, Brinkman, Gottardo, and
-  Scheuermann]{Aghaeepour13}
-Aghaeepour, N., Finak, G., {FlowCAP Consortium}, {DREAM Consortium}, Hoos, H.,
-  Mosmann, T.~R., Brinkman, R., Gottardo, R., and Scheuermann, R.~H. (2013).
-\newblock Critical assessment of automated flow cytometry data analysis
-  techniques.
-\newblock \emph{Nature methods}, 10\penalty0 (3):\penalty0 228--38.
+\bibitem[Perfetto et~al.(2004)Perfetto, Chattopadhyay, and
+  Roederer]{Perfetto04}
+Perfetto, S.~P., Chattopadhyay, P.~K., and Roederer, M. (2004).
+\newblock Seventeen-colour flow cytometry: unravelling the immune system.
+\newblock \emph{Nature reviews. Immunology}, 4\penalty0 (8):\penalty0 648--55.
 
 \bibitem[Lara-Astiaso et~al.(2014)Lara-Astiaso, Weiner, Lorenzo-Vivas,
   Zaretsky, Jaitin, David, Keren-Shaul, Mildner, Winter, Jung, et~al.]{Lara14}
