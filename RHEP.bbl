@@ -1,4 +1,4 @@
-\begin{thebibliography}{63}
+\begin{thebibliography}{65}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -120,7 +120,7 @@ Siegel, R.~L., Issekutz, T., Schwaber, J., Rosen, F.~S., and Geha, R.~S.
   Gaetano, and Aiuti]{Fiorilli86}
 Fiorilli, M., Crescenzi, M., Carbonari, M., Tedesco, L., Russo, G., Gaetano,
   C., and Aiuti, F. (1986).
-\newblock Phenotypically immature igg-bearing b cells in patients with
+\newblock Phenotypically immature {IgG}-bearing {B} cells in patients with
   hypogammaglobulinemia.
 \newblock \emph{Journal of clinical immunology}, 6\penalty0 (1):\penalty0
   21--5.
@@ -385,6 +385,17 @@ Roessler, S., Gy{\"o}ry, I., Imhof, S., Spivakov, M., Williams, R.~R.,
 \newblock \emph{Molecular and cellular biology}, 27\penalty0 (2):\penalty0
   579--94.
 
+\bibitem[Bodak et~al.(2014)Bodak, Yu, and Ciaudo]{Bodak14}
+Bodak, M., Yu, J., and Ciaudo, C. (2014).
+\newblock Regulation of line-1 in mammals.
+\newblock \emph{Biomolecular concepts}, 5\penalty0 (5):\penalty0 409--28.
+
+\bibitem[Eichten et~al.(2014)Eichten, Schmitz, and Springer]{Eichten14}
+Eichten, S.~R., Schmitz, R.~J., and Springer, N.~M. (2014).
+\newblock Epigenetics: Beyond chromatin modifications and complex genetic
+  regulation.
+\newblock \emph{Plant physiology}, 165\penalty0 (3):\penalty0 933--947.
+
 \bibitem[Kowalczyk et~al.(1997)Kowalczyk, Mytar, and Zembala]{Kowalczyk97}
 Kowalczyk, D., Mytar, B., and Zembala, M. (1997).
 \newblock Cytokine production in transient hypogammaglobulinemia and isolated
@@ -450,8 +461,8 @@ Dobin, A., Davis, C.~A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S.,
 Lai, A.~Y., Mav, D., Shah, R., Grimm, S.~A., Phadke, D., Hatzi, K., Melnick,
   A., Geigerman, C., Sobol, S.~E., Jaye, D.~L., et~al. (2013).
 \newblock {DNA} methylation profiling in human {B} cells reveals immune
-  regulatory elements and epigenetic plasticity at alu elements during {B}-cell
-  activation.
+  regulatory elements and epigenetic plasticity at \textit{Alu} elements during
+  {B}-cell activation.
 \newblock \emph{Genome research}, 23\penalty0 (12):\penalty0 2030--2041.
 
 \bibitem[Kulis et~al.(2012)Kulis, Heath, Bibikova, Queir{\'o}s, Navarro, Clot,
