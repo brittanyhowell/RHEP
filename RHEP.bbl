@@ -1,4 +1,4 @@
-\begin{thebibliography}{65}
+\begin{thebibliography}{64}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -172,12 +172,6 @@ Rosen, F.~S., Cooper, M.~D., and Wedgwood, R.~J. (1984).
 Cooper, M.~D. (2015).
 \newblock The early history of {B} cells.
 \newblock \emph{Nature reviews. Immunology}, 15\penalty0 (3):\penalty0 191--7.
-
-\bibitem[Pieper et~al.(2013)Pieper, Grimbacher, and Eibel]{Pieper13}
-Pieper, K., Grimbacher, B., and Eibel, H. (2013).
-\newblock B-cell biology and development.
-\newblock \emph{The Journal of allergy and clinical immunology}, 131\penalty0
-  (4):\penalty0 959--71.
 
 \bibitem[Choukrallah and Matthias(2014)]{Choukrallah14}
 Choukrallah, M.~A. and Matthias, P. (2014).
